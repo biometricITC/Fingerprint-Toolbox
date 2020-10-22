@@ -1,0 +1,176 @@
+= Attack 2D Fingerprint 02-05
+
+== Attack type
+Silicone cast with conductive coating is made from printed circuit board (PCB) mold.
+
+== Total Number of Species
+This attack has *1* species to be tested.
+
+== Overview
+The evaluator captures a target user’s fingerprint with a commercial fingerprint scanner. Using the image from the scanner the evaluator produces a printed circuit board (PCB) mold. A coated silicone PAI is made from the printed circuit board (PCB) mold and is presented to the TOE.
+
+== Input
+The fingers of a cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
+
+== Attack Tools and Materials
+* T.1 Fingerprint scanner
+* T.2 Image processing software
+* T.3 Laser printer
+* C.4 Silicone
+* C.5 Conductive coating
+* M.2 Printed circuit board (PCB)
+
+== Recipe - mold
+[arabic]
+. Obtain a binarized image of the target fingerprint. Make sure the ridge information is life size.
+. Center the ridges in the image canvas. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one PCB blank, make sure to leave adequate working space between the images.
+. Flip the image along the vertical axis producing a mirror image of the fingerprint.
+. Invert the image so that the ridge lines are white and the remaining areas are black.
+. Follow PCB manufacturer instructions for producing a printed circuit board. These instructions will vary depending on manufacturer and method of transferring the image to the PCB blank. The process used should be documented in the test report.
+. Be careful to not leave the PCB in the etching solution longer than needed to achieve clean substrate in the ridge areas. Doing so will cause the copper under the etch-resist material to be etched away.
+
+== Recipe - cast
+[arabic]
+. Use cast recipe from 2D Fingerprint 1-5 attack to make a completed cast.
+. Apply a thin coating of conductive material to the friction ridges of the cast.
+[loweralpha]
+.. Make sure the cast friction ridges are clean and dust free before application of coating.
+.. Make sure to attain complete uniform coating of the ridges and valleys of the cast.
+.. Ensure the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
+. Follow conductive coating manufacturer’s instructions for application and proper drying.
+. Keep the coated friction ridge surface clean and dust free until presented to TOE.
+. PAI may be reused until friction ridges or coating show signs degradation.
+
+== Variations
+N/A
+
+== Prerequisite
+The evaluator shall enroll test users first as described in the Fingerprint Toolbox Overview. If the ST covers multiple configurations for fingerprint unlock, the same test shall be performed for all configurations.
+
+== Presentation
+The evaluator shall present the PAI to the TOE as described in the Fingerprint Toolbox Overview.
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator should consider changing the following factors for penetration testing.
+
+* Configuration of tools and materials
++
+The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different silicone manufactures may be used. The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones if using transparent coatings. Thickness of conductive coating can be varied to adjust PAI conductivity.
+
+Different coating materials can be used.
+
+* Conductive ink/paint can be sprayed or brushed on.
+** Carbon, nickel, silver, silver coated copper, etc. fillers can be used to provide conductivity.
+* Similar to that used to draw or repair printed circuit board traces, provide ground planes, provide EMI/RFI shielding on chassis interiors, etc.
+* Conductive nanoparticle based ink/paint can be sprayed or brushed on.
+** Similar to materials used to make glove fingertips work with modern touch screens.
++
+Copper cladding thickness can be varied to produce differing height ridges in the casts.
+
+* Presentation method
++
+The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The different fingers upon which the PAI is placed may be use when presenting the PAI.
+
+== Attack Potential Rating Suggestion
+The attack potentials that are required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate attack potential.
+
+Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
+
+Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast. Therefore, the Attack Potential of a given mold / cast combination takes on the higher Attack Potential of the pair. This is reflected in the table below.
+
+.Attack Potential 2D Fingerprint attack 02-05
+[cols=".^2,.^2,^.^1,.^2,^.^1,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|
+4.+^.^|*Mold* 
+4.+^.^|*Cast* 
+|
+
+|*Elapsed Time*
+|<= one week 
+|1 
+|<=one day 
+|0 
+|<= one week 
+|1 
+|<=one day 
+|0 
+|1
+
+|*Expertise*
+|Layman
+|0
+|Layman
+|0
+|Layman
+|0
+|Layman
+|0
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+|N/A
+|
+|Public
+|0
+|N/A
+|
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+|Moderate
+|4
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+|Without notice
+|0
+|N/A
+|
+|Without notice
+|0
+|0
+
+|*Equipment*
+|Standard
+|0
+|Standard
+|0
+|Standard
+|0
+|Standard
+|0
+|0
+
+10.+^.^|Total Attack Potential = 5 < Basic Attack Potential
+
+|===
+
+== Pass Criteria
+There is no additional criteria other than what is defined in BIOSD and PAD Toolbox Overview.
