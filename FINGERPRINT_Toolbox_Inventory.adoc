@@ -27,7 +27,7 @@ Some examples:
 
 
 |T.1
-|Cinferprint scanner
+|Commercial fingerprint scanner
 a|Commercial fingerprint scanner
 
 * Scanner shall provide grayscale images in standard image file formats
@@ -75,6 +75,8 @@ a|Microwave oven
 == Materials Inventory
 All materials with expiration dates shall have an expiration date of three months beyond the date of testing.
 
+=== Cast Materials
+
 .Cast Material Requirements
 [cols=".^1,.^1,3",options="header"]
 |===
@@ -112,6 +114,7 @@ a|Gelatin / Glycerin mix
 * Gelatin: unflavored, unsweetened gelatin powder
 * Gelatin shall have a Bloom hardness of approximately 220 – 265
 * Glycerin shall be food grade
+* Tap water filtered through a consumer-grade water filter
 
 |C.4
 |Silicone
@@ -130,13 +133,77 @@ a|Conductive coating
 
 |===
 
+==== Modeling Compound Instructions
+If the modeling compound will be prepared (as opposed to purchased), the compound shall be prepared using this recipe using common household kitchen items.
+
+*Tools:*
+
+* T.5 Consumer water filter
+
+*Ingredients:*
+
+* 1 cup all-purpose flour
+* 1 tablespoon powdered alum
+* 1/2 cup table salt
+* 1 cup water, room temperature, filtered
+* 1 tablespoon vegetable oil, room temperature
+* Food coloring, gel based (optional)
+
+*Recipe:*
+
+. Mix all the dry ingredients.
+. Stir in the oil and water.
+. Cook over medium heat, stirring constantly until it reaches the consistency of mashed potatoes.
+. Remove from heat and let cool to room temperature before use.
+
+==== Gelatin with Glycerin Instructions
+Some gelatins remain tacky when cooled. Gelatins selected should present a surface that does not stick too much to the sensor surface. Gelatins should leave very little if any residue when removed from the sensor surface.
+
+When creating the gelatin with glycerin mixture, this recipe shall be used.
+
+*Tools:*
+
+* T.5 Consumer water filter
+
+*Ingredients:*
+
+* Unflavored, unsweetened gelatin powder with a Bloom hardness of approximately 220 – 265
+* Food grade glycerin
+* Tap water filtered through a consumer-grade water filter
+
+*Recipe:*
+
+. Mix equal parts by volume of gelatin, glycerin and tap water.
+. Carefully heat in microwave or on heating plate until mixture is easily pourable.
+.. Do not allow gelatin to boil. This will degrade the gelatin.
+.. Stir as necessary throughout the heating process to fully mix and distribute the heat.
+.. Be careful to minimize bubbles in the mixture. Some gelatins are more prone to developing bubbles than others.
+
+The mixture should be poured into the mold(s) as soon as possible.
+
+==== Silicone Instructions
+. Obtain two part silicone with the following properties.
+.. Shore A hardness of 10 to 40.
+.. Platinum catalyzed silicones are preferred due to low shrinkage.
+.. Clear to slight milky color when cured.
+.. Sufficient working time to complete mixing, de-gassing as needed, adding fillers as needed, and transferring to mold.
+.. Care should be taken to prevent contamination with cure inhibitors such as sulfur containing materials.
+. Follow manufacturer instructions for mixing parts A and B to achieve advertised properties in the cured silicone.
+.. Stir as necessary to fully mix.
+... Mixing time can be lengthened by cooling the silicone.
+... Curing time can be hastened by heating the mixed silicone in the cast. Follow manufacturer’s recommendation for accelerating curing times.
+.. Be careful to minimize bubbles in the mixture.
+... De-gas as needed.
+
+=== Mold Materials
+
 .Mold Material Requirements
 [cols=".^1,.^1,3",options="header"]
 |===
 
 |ID
 |Category
-|Type 1
+|Requirement
 
 |M.1
 |Transparency material
@@ -153,8 +220,8 @@ a|Printed circuit board
 * Substrate shall be at least 1.6 mm thick
 
 |M.3
-|Eye Mimicry
 |Dental Impression material
+a|Dental Impression material
 
 * Can be either polyvinyl siloxane (PVS) or polyether (PE) based or a hybrid PVS / PE material
 
