@@ -5,11 +5,12 @@
 This shows the set of attacks and applicability based on the sensor type used for Fingerprint modalities.
 
 .Categories
-[%header,cols="2,4,1,1,1"]
+[%header,cols=".^2,.^4,.^1,.^1,.^1"]
 |===
 |No.
 |Attack Description
-|Optical Sensor
+|Optical/
+Ultrasonic Sensor
 |Conductive Sensor
 |Unknown
 
