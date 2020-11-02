@@ -3,7 +3,7 @@
 == Attack type
 A gelatin / glycerin mix cast made from dental impression material mold.
 
-== Total Number of Species
+=== Total Number of Species
 This attack has *1* species to be tested.
 
 == Overview
@@ -19,9 +19,7 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.3 Dental impression material
 
 == Recipe - mold
-[arabic]
 . Prepare a suitable container for the liquid mold material.
-[loweralpha]
 .. The container should be large enough to contain adequate material sufficient to cover the entire ridge area of the target finger from the tip to the first joint crease.
 .. The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
 . Make sure the target finger is clean and dry.
@@ -35,27 +33,11 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 . Keep the mold clean and dust free until use.
 
 == Recipe - cast
-[arabic]
-. Obtain unflavored, unsweetened gelatin powder.
-[loweralpha]
-.. Gelatin should have a Bloom hardness of approximately 220 – 265.
-.. Some gelatins when cool remain tacky. Gelatins selected should present a surface that does not stick too much to the sensor surface.
-.. Gelatins should leave very little if any residue when removed from the sensor surface.
-. Obtain food grade glycerin.
-. Mix equal parts by volume of gelatin, glycerin and tap water filtered through a consumer grade water filter.
-. Carefully heat in microwave or on heating plate until mixture is easily pourable.
-[loweralpha]
-.. Do not allow gelatin to boil. This will degrade the gelatin.
-.. Stir as necessary throughout the heating process to fully mix and distribute the heat.
-.. Be careful to minimize bubbles in the mixture.
-[lowerroman]
-... Some gelatins are more prone to developing bubbles than others.
-. Pour mixture into mold as soon as possible.
-[loweralpha]
+. Prepare a suitable quantity of gelatin mixture to create the PAI.
+. Pour gelatin mixture into mold as soon as possible.
 .. Resulting cast should be thin enough to curve around tester’s finger when presented to TOE.
 .. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
 . Cool mixture thoroughly before removing from mold.
-[loweralpha]
 .. Be careful not to stretch the cast too much causing it to permanently deform or tear when removing from mold.
 . Present to TOE as soon after removal from mold as practical.
 . PAI may be reused until it dries out too much to be effective or the friction ridges show signs degradation. If properly produced and stored, PAI’s should have a shelf life of several months.
@@ -79,7 +61,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Gelatins from different manufactures may be used. Different bloom hardness gelatins may be used. The gelatin / glycerin / water ratio may be varied.
-
++
 Different dental impression materials can be used.
 
 * Presentation method

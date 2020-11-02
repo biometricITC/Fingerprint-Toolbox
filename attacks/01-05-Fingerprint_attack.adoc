@@ -1,23 +1,18 @@
 = Attack 2D Fingerprint 01-05
 
 == Attack type
-
 Silicone cast with conductive coating is made from transparency material mold.
 
-== Total Number of Species
-
+=== Total Number of Species
 This attack has *1* species to be tested.
 
 == Overview
-
 The evaluator captures a target user’s fingerprint with a commercial fingerprint scanner. Using the image from the scanner the evaluator produces a laser printer transparency mold. A coated silicone PAI is made from the laser printer transparency mold and is presented to the TOE.
 
 == Input
-
 The fingers of a cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
 
 == Attack Tools and Materials
-
 * T.1 Fingerprint scanner
 * T.2 Image processing software
 * T.3 Laser printer
@@ -26,21 +21,17 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.1 Transparency material
 
 == Recipe - mold
-[arabic]
 . Obtain a binarized image of the target fingerprint. Make sure the ridge information is life size.
 . Center the ridges in the image canvas of the photo manipulation software. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one transparency, make sure to leave adequate working space between the images.
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
 . Invert the image so that the ridge lines are white and the remaining areas are black.
 . Print the image(s) onto the transparency sheets.
-[loweralpha]
 .. Use the highest quality print mode possible. A minimum of 1000 dpi resolution should be used.
 .. Avoid using duplex mode. The transparency should only make a single pass through the printer.
 
 == Recipe - cast
-[arabic]
-. Use cast recipe from 2D Fingerprint 1-5 attack to make a completed cast.
+. Prepare a suitable quantity of silicone to create the PAI.
 . Apply a thin coating of conductive material to the friction ridges of the cast.
-[loweralpha]
 .. Make sure the cast friction ridges are clean and dust free before application of coating.
 .. Make sure to attain complete uniform coating of the ridges and valleys of the cast.
 .. Ensure the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
@@ -64,7 +55,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different silicone manufactures may be used. The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones if using transparent coatings. Thickness of conductive coating can be varied to adjust PAI conductivity.
-
++
 Different coating materials can be used.
 
 * Conductive ink/paint can be sprayed or brushed on.
