@@ -11,7 +11,7 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |Attack Description
 |Optical Sensor
 |Conductive Sensor
-|Unknown
+|Other
 
 |link:attacks/01-01-Fingerprint-attack.adoc[Fingerprint 01-01]
 |Non-Newtonian fluid cast from Transparency mold
