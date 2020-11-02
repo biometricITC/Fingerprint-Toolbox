@@ -1,6 +1,7 @@
 = Fingerprint Toolbox Overview
 :showtitle:
 :sectnums:
+:sectnumlevels: 5
 :revdate: 2020-10-21
 
 == Overview
@@ -28,7 +29,7 @@ Latent fingerprints on non-porous surfaces can be imaged with digital cameras. T
 
 ====== Scanner image
 
-Commercial fingerprint scanners are a good source of flat friction ridge images. Images from commercial scanners are generally high quality, distortion free, have good detail, can be of high resolution, have good grayscale contrast and are readily available. It is recommended that a commercial scanner be used for image acquisition. The highest resolution images available should be used for PAD testing purposes. The image resolution should be 1000 dpi or higher if the scanner supports it.
+Commercial fingerprint scanners are a good source of flat friction ridge images. Images from commercial scanners are generally high quality, distortion free, have good detail, can be of high resolution, have good grayscale contrast and are readily available. It is recommended that a commercial scanner be used for image acquisition. The highest resolution images available should be used for PAD testing purposes. The image resolution should be 1000 PPI or higher if the scanner supports it.
 
 ===== Image enhancement and preparation
 
@@ -62,7 +63,7 @@ For the purposes of this toolbox, capturing curved fingerprint data means acquir
 
 Dental impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
 
-====== Touchless fingerprint scanning
+====== Touchless fingerprint scanning (included for reference)
 
 Acquiring friction ridge data without touching the finger is possible with stereo optical imaging of the finger, laser scanning, structured light imaging and other methods. Three dimensional information obtained in this way can be processed in 3D modelling software to create molds or PAIs directly through additive manufacturing techniques. This version of the toolbox does not include the use of 3D models of fingers to make PAIs or molds. Future versions of the toolbox may.
 
@@ -135,9 +136,7 @@ A mold is made from the target finger friction ridge pattern using dental impres
 
 ====== Dental Impression Material
 
-[arabic]
 . Prepare a suitable container for the dental impression material.
-[loweralpha]
 .. The container should be large enough to contain adequate material sufficient to cover the entire friction ridge area of the target finger from the tip to the first joint crease.
 .. The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
 . Make sure the target finger is clean and dry.
@@ -156,7 +155,9 @@ All casts (PAIs) are made by preparing the cast material and then placing it int
 
 Depending on the material the PAI must be presented to the TOE soon after removal from the mold or can be stored for later presentation. The lifespan of a given PAI depends on the material used and the storage method. Properly prepared silicone PAIs can remain viable almost indefinitely. Gelatin PAIs can be stored for several weeks to months. In general modeling compound and non-Newtonian fluid PAIs must be used immediately after removal from the mold. Some modeling compound PAIs can be allowed to dry for a short time after being removed from the mold before they are presented to the TOE.
 
-The specific preparation for each material is unique and can be found in the Test Items.
+The specific preparation for each material is unique and can be found in the Toolbox Inventory.
+
+PAIs must be scanned by the same fingerprint scanner to compare the original image with the scanned image and visually check that the PAI has clear and similar friction ridge pattern. For a PAI that can only be used a single time, the first PAI should be compared to the original image.
 
 ===== PAI presentation
 
@@ -164,7 +165,6 @@ Each PAI is presented to the TOE in the same manner. With the subject user enrol
 
 For gelatin and silicone based PAIs:
 
-[arabic]
 . The finished cast should be placed on tester’s preferred finger with friction ridge pattern oriented the same as the tester’s friction ridge pattern. (That is, make sure the PAI is not upside down.)
 [arabic]
 .. Theater adhesive may be used to hold the PAI in place.
@@ -177,7 +177,6 @@ For gelatin and silicone based PAIs:
 
 For non-Newtonian fluid and modeling compound PAIs:
 
-[arabic]
 . Non-Newtonian fluid, once the PAI is removed from the mold
 [arabic]
 .. the cast can be presented immediately to the sensor
@@ -196,7 +195,7 @@ For non-Newtonian fluid and modeling compound PAIs:
 
 The tools used for this toolbox consist of materials and processes which span the range of children’s toys to medical professional applications. Nevertheless, all methods and processes are those with which a layman or hobbyist should be comfortable using. The costs for every material is also low. Evaluator skill and practice at conducting PAD testing is a significant factor in the efficacy of the PAIs.
 
-Most commercial fingerprint scanners are designed to output 500 dpi grayscale images, however there are some that produce 1000 dip images. The native hardware resolution of the scanner is oftentimes higher than the output resolution. This higher resolution is then reduced in software to 500 dpi. If 1000 dpi resolution scanners are not readily available, the evaluator may need to purchase a specialized version of the scanner or scanner driver software that outputs the preferred 1000 dpi images. Some scanner manufactures may be willing to provide the special driver at nominal cost. Alternatively, the evaluator could use a Software Developer’s Kit (SDK) to develop his own driver. Many fingerprint scanner manufactures provide free SDK’s for their devices.
+Most commercial fingerprint scanners are designed to output 500 PPI grayscale images, however there are some that produce 1000 PPI images. The native hardware resolution of the scanner is oftentimes higher than the output resolution. This higher resolution is then reduced in software to 500 PPI. If 1000 PPI resolution scanners are not readily available, the evaluator may need to purchase a specialized version of the scanner or scanner driver software that outputs the preferred 1000 PPI images. Some scanner manufactures may be willing to provide the special driver at nominal cost. Alternatively, the evaluator could use a Software Development Kit (SDK) to develop his own driver. Many fingerprint scanner manufactures provide free SDKs for their devices.
 
 == Test Items
 
