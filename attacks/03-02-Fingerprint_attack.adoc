@@ -3,7 +3,7 @@
 == Attack type
 Modeling compound cast made from dental impression material mold.
 
-== Total Number of Species
+=== Total Number of Species
 This attack has *1* species to be tested.
 
 == Overview
@@ -13,14 +13,12 @@ The evaluator captures a target user’s fingerprint with a commercial fingerpri
 The fingers of a cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
 
 == Attack Tools and Materials
-* T.5 Water filter
+* T.5 Water filter (if self-making modeling compound)
 * C.2 Modeling compound
 * M.3 Dental impression material
 
 == Recipe - mold
-[arabic]
 . Prepare a suitable container for the liquid mold material.
-[loweralpha]
 .. The container should be large enough to contain adequate material sufficient to cover the entire ridge area of the target finger from the tip to the first joint crease.
 .. The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
 . Make sure the target finger is clean and dry.
@@ -34,23 +32,9 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 . Keep the mold clean and dust free until use.
 
 == Recipe - cast
-The molding compound described here is an approximation of a common modeling compound sold as a child’s toy. This recipe or the commercial equivalent may be used. The test report shall specify which version is used.
+Either commercial or self-made (following the recipe in the Fingerprint toolbox inventory) modeling compound may be used. The test report shall specify the modeling compound used. For example, for a commercial product, enough details to purchase the same product, while for a self-made recipe, the ingredients and recipe used to produce the compound.
 
-[arabic]
-. Obtain or prepare sufficient quantities of modeling compound. If preparing the compound follow the below steps, otherwise skip to step 2.
-[loweralpha]
-.. This recipe uses ingredients commonly found in household kitchens. Collect the following ingredients.
-[lowerroman]
-... 1 cup all-purpose flour
-... 1 tablespoon powdered alum
-... 1/2 cup table salt
-... 1 cup water, room temperature
-... 1 tablespoon vegetable oil, room temperature
-... Food coloring, gel based (optional)
-.. Mix all the dry ingredients.
-.. Stir in the oil and water.
-.. Cook over medium heat, stirring constantly until it reaches the consistency of mashed potatoes.
-.. Remove from heat and let cool to room temperature before use.
+. Obtain or prepare sufficient quantities of modeling compound. 
 . Apply a small amount of modeling compound sufficient to cover the friction ridge pattern of the mold.
 . Carefully remove the modeling compound PAI from the mold.
 
@@ -74,7 +58,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different modeling compound manufactures may be used. The PAIs may be allowed to dry for a short time before being presented to the TOE. If commercial compound is used, different colors may be procured. The literature shows different presentation attack performance can be achieved with different colors.
-
++
 Different dental impression materials can be used.
 
 * Presentation method

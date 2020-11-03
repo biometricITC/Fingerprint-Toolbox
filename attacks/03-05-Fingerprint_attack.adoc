@@ -3,7 +3,7 @@
 == Attack type
 Silicone cast with conductive coating is made from dental impression material mold.
 
-== Total Number of Species
+=== Total Number of Species
 This attack has *1* species to be tested.
 
 == Overview
@@ -18,9 +18,7 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.3 Dental impression material
 
 == Recipe - mold
-[arabic]
 . Prepare a suitable container for the liquid mold material.
-[loweralpha]
 .. The container should be large enough to contain adequate material sufficient to cover the entire ridge area of the target finger from the tip to the first joint crease.
 .. The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
 . Make sure the target finger is clean and dry.
@@ -34,10 +32,8 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 . Keep the mold clean and dust free until use.
 
 == Recipe - cast
-[arabic]
-. Use cast recipe from 2D Fingerprint 1-5 attack to make a completed cast.
+. Prepare a suitable quantity of silicone to create the PAI.
 . Apply a thin coating of conductive material to the friction ridges of the cast.
-[loweralpha]
 .. Make sure the cast friction ridges are clean and dust free before application of coating.
 .. Make sure to attain complete uniform coating of the ridges and valleys of the cast.
 .. Ensure the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
@@ -61,7 +57,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different silicone manufactures may be used. The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones if using transparent coatings. Thickness of conductive coating can be varied to adjust PAI conductivity.
-
++
 Different coating materials can be used.
 
 * Conductive ink/paint can be sprayed or brushed on.

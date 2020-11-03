@@ -3,7 +3,7 @@
 == Attack type
 Silicone cast made from printed circuit board (PCB) mold.
 
-== Total Number of Species
+=== Total Number of Species
 This attack has *1* species to be tested.
 
 == Overview
@@ -20,7 +20,6 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.2 Printed circuit board (PCB)
 
 == Recipe - mold
-[arabic]
 . Obtain a binarized image of the target fingerprint. Make sure the ridge information is life size.
 . Center the ridges in the image canvas. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one PCB blank, make sure to leave adequate working space between the images.
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
@@ -29,33 +28,14 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 . Be careful to not leave the PCB in the etching solution longer than needed to achieve clean substrate in the ridge areas. Doing so will cause the copper under the etch-resist material to be etched away.
 
 == Recipe - cast
-[arabic]
-. Obtain two part silicone with the following properties.
-[loweralpha]
-.. Shore A hardness of 10 to 40.
-.. Platinum catalyzed silicones are preferred due to low shrinkage.
-.. Clear to slight milky color when cured.
-.. Sufficient working time to complete mixing, de-gassing as needed, adding fillers as needed, and transferring to mold.
-.. Care should be taken to prevent contamination with cure inhibitors such as sulfur containing materials.
-. Follow manufacturer instructions for mixing parts A and B to achieve advertised properties in the cured silicone.
-[loweralpha]
-.. Stir as necessary to fully mix.
-[lowerroman]
-... Mixing time can be lengthened by cooling the silicone.
-... Curing time can be hastened by heating the mixed silicone in the cast. Follow manufacturer’s recommendation for accelerating curing times.
-.. Be careful to minimize bubbles in the mixture.
-[lowerroman]
-... De-gas as needed.
+. Prepare a suitable quantity of silicone to create the PAI.
 . Pour mixture into clean dust free mold.
-[loweralpha]
 .. A release agent compatible with the mold and cast materials may be used if desired.
-[lowerroman]
 ... Follow manufactures’ recommendations for using mold releases.
 ... If needed, remove mold release residue from cast before presentation to TOE.
 .. Resulting cast should be thin enough to curve around tester’s finger when presented to TOE.
 .. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
 . Allow silicone to thoroughly cure before removing from mold.
-[loweralpha]
 .. Be careful not to stretch the cast too much causing it to permanently deform or tear when removing from mold.
 . Keep the friction ridge surface clean and dust free until presented to TOE.
 . PAI may be reused until friction ridges show signs degradation.

@@ -17,9 +17,7 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.3 Dental impression material
 
 == Recipe - mold
-[arabic]
 . Prepare a suitable container for the liquid mold material.
-[loweralpha]
 .. The container should be large enough to contain adequate material sufficient to cover the entire ridge area of the target finger from the tip to the first joint crease.
 .. The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
 . Make sure the target finger is clean and dry.
@@ -33,17 +31,9 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 . Keep the mold clean and dust free until use.
 
 == Recipe - cast
-[arabic]
-. Obtain sufficient quantities of non-Newtonian fluid with the following approximate composition:
-[loweralpha]
-.. 65% dimethylsiloxane (hydroxyl-terminated polymers with boric acid)
-.. 17% silica (crystalline quartz)
-.. 9% Hydrogenated castor oil based thixotropic agent
-.. 4% polydimethylsiloxane
-.. 1% decamethyl cyclopentasiloxane
-.. 1% glycerin
-.. 1% titanium dioxide
+. Obtain sufficient quantities of non-Newtonian fluid.
 . Apply a small amount sufficient to cover the friction ridge pattern of the mold.
+. Carefully remove the non-Newtonian fluid PAI from the mold.
 
 Each PAI may be used only one time.
 
@@ -65,7 +55,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different non-Newtonian fluid manufactures may be used.
-
++
 Different dental impression materials can be used.
 
 * Presentation method

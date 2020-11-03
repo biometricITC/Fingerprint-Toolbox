@@ -3,7 +3,7 @@
 == Attack type
 Modeling compound cast made from printed circuit board (PCB) mold.
 
-== Total Number of Species
+=== Total Number of Species
 This attack has *1* species to be tested.
 
 == Overview
@@ -16,12 +16,11 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * T.1 Fingerprint scanner
 * T.2 Image processing software
 * T.3 Laser printer
-* T.5 Water filter
+* T.5 Water filter (if self-making modeling compound)
 * C.2 Modeling compound
 * M.2 Printed circuit board (PCB)
 
 == Recipe - mold
-[arabic]
 . Obtain a binarized image of the target fingerprint. Make sure the ridge information is life size.
 . Center the ridges in the image canvas. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one PCB blank, make sure to leave adequate working space between the images.
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
@@ -30,23 +29,9 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 . Be careful to not leave the PCB in the etching solution longer than needed to achieve clean substrate in the ridge areas. Doing so will cause the copper under the etch-resist material to be etched away.
 
 == Recipe - cast
-The molding compound described here is an approximation of a common modeling compound sold as a child’s toy. This recipe or the commercial equivalent may be used. The test report shall specify which version is used.
+Either commercial or self-made (following the recipe in the Fingerprint toolbox inventory) modeling compound may be used. The test report shall specify the modeling compound used. For example, for a commercial product, enough details to purchase the same product, while for a self-made recipe, the ingredients and recipe used to produce the compound.
 
-[arabic]
-. Obtain or prepare sufficient quantities of modeling compound. If preparing the compound follow the below steps, otherwise skip to step 2.
-[loweralpha]
-.. This recipe uses ingredients commonly found in household kitchens. Collect the following ingredients.
-[lowerroman]
-... 1 cup all-purpose flour
-... 1 tablespoon powdered alum
-... 1/2 cup table salt
-... 1 cup water, room temperature
-... 1 tablespoon vegetable oil, room temperature
-... Food coloring, gel based (optional)
-.. Mix all the dry ingredients.
-.. Stir in the oil and water.
-.. Cook over medium heat, stirring constantly until it reaches the consistency of mashed potatoes.
-.. Remove from heat and let cool to room temperature before use.
+. Obtain or prepare sufficient quantities of modeling compound. 
 . Apply a small amount of modeling compound sufficient to cover the friction ridge pattern of the mold.
 . Carefully remove the modeling compound PAI from the mold.
 
