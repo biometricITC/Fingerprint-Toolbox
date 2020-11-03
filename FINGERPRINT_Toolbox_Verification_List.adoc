@@ -5,16 +5,18 @@
 This shows the set of attacks and applicability based on the sensor type used for Fingerprint modalities.
 
 .Categories
-[%header,cols="2,4,1,1,1"]
+[%header,cols=".^2,.^3,.^1,.^1,.^1,.^1"]
 |===
 |No.
 |Attack Description
 |Optical Sensor
 |Conductive Sensor
+|Ultrasonic Sensor
 |Other
 
 |link:attacks/01-01-Fingerprint-attack.adoc[Fingerprint 01-01]
 |Non-Newtonian fluid cast from Transparency mold
+|X
 |X
 |X
 |X
@@ -24,9 +26,11 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |X
 |X
 |X
+|X
 
 |link:attacks/03-01-Fingerprint-attack.adoc[Fingerprint 03-01]
 |Non-Newtonian fluid cast from Dental Impression material mold
+|X
 |X
 |X
 |X
@@ -36,9 +40,11 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |X
 |X
 |X
+|X
 
 |link:attacks/02-02-Fingerprint-attack.adoc[Fingerprint 02-02]
 |Modeling compound cast from Printed Circuit Board mold
+|X
 |X
 |X
 |X
@@ -48,9 +54,11 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |X
 |X
 |X
+|X
 
 |link:attacks/01-03-Fingerprint-attack.adoc[Fingerprint 01-03]
 |Gelatin with glycerin cast from Transparency mold
+|X
 |X
 |X
 |X
@@ -60,9 +68,11 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |X
 |X
 |X
+|X
 
 |link:attacks/03-03-Fingerprint-attack.adoc[Fingerprint 03-03]
 |Gelatin with glycerin cast from Dental Impression material mold
+|X
 |X
 |X
 |X
@@ -72,11 +82,13 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |X
 |
 |X
+|X
 
 |link:attacks/02-04-Fingerprint-attack.adoc[Fingerprint 02-04]
 |Silicone cast from Printed Circuit Board mold
 |X
 |
+|X
 |X
 
 |link:attacks/03-04-Fingerprint-attack.adoc[Fingerprint 03-04]
@@ -84,23 +96,27 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |X
 |
 |X
+|X
 
 |link:attacks/01-05-Fingerprint-attack.adoc[Fingerprint 01-05]
 |Silicone cast with conductive coating from Transparency mold
 |
 |X
+|
 |X
 
 |link:attacks/02-05-Fingerprint-attack.adoc[Fingerprint 02-05]
 |Silicone cast with conductive coating from Printed Circuit Board mold
 |
 |X
+|
 |X
 
 |link:attacks/03-05-Fingerprint-attack.adoc[Fingerprint 03-05]
 |Silicone cast with conductive coating from Dental Impression material mold
 |
 |X
+|
 |X
 
 |===
