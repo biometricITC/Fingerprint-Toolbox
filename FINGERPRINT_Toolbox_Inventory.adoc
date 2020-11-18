@@ -236,7 +236,9 @@ a|
 a|Printed circuit board
 
 * Hobbyist grade is sufficient
-* Copper cladding shall be of “2 oz.” thickness or approximately 2.74 mils thick
+* Epoxy laminates should have copper cladding thicknesses that correspond to one of the following:
+** 35 μm = 1.38 mils = "1 oz" of copper
+** 70 μm = 2.75 mils = "2 oz" of copper
 * Substrate shall be at least 1.6 mm thick
 a|
 
