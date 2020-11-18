@@ -17,13 +17,16 @@ Some examples:
 * The evaluator may procure a vacuum chamber to aid in the degassing of cast materials if desired.
 * The evaluator may apply conductive coatings to a silicone cast to make the PAI conductive.  The coatings may be carbon or metal loaded paints or inks.  The coatings may contain conductive particles or nanoparticles.  Application of the coatings may be by brush or spray.  In all cases, the evaluator shall ensure that the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
 
+Certain commercial equipment, instruments, or materials are identified in this toolbox inventory as representative examples that may be utilized. Such identification is not intended to imply recommendation or endorsement by the BIO-iTC, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose. Examples may not be provided for every category. All trademarks, service marks and company names are the property of their respective owners.
+
 == Tools Inventory
 .Tool Requirements
-[cols=".^1,.^1,3",options="header"]
+[cols=".^1,.^1,.^3,.^2",options="header"]
 |===
 |ID
 |Category
 |Requirement
+|Commercial Examples
 
 
 |T.1
@@ -34,6 +37,7 @@ a|Commercial fingerprint scanner
 * 1000 dpi minimum image resolution
 * Rolled images preferred
 * Touch/slap images acceptable
+a|
 
 |T.2
 |Image processing software
@@ -42,18 +46,23 @@ a|Photograph processing software
 * Can be commercial, open source or bespoke
 * Can be image manipulation software that allows pixel level image processing
 * Can be automatic binarization software
+a|* Adobe Photoshop
+
+* GIMP - GNU Image Manipulation Program
 
 |T.3
 |Laser printer             
 a|Small Office/Home Office Laser printer
 
 * New printer shall be purchasable at the date of testing.
+a|
 
 |T.4
 |Printed Circuit Board (PCB) manufacturing kit            
 a|PCB kit
 
 * Hobbyist level commercial kit with fresh chemicals at the date of testing
+a|
 
 |T.5
 |Water filter           
@@ -61,6 +70,7 @@ a|Consumer grade tap water filter
 
 * Can be faucet or pitcher based filter
 * Must meet NSF/ANSI 42 and 53 contaminant reduction standards
+a|
 
 |T.6
 |Microwave oven            
@@ -68,6 +78,7 @@ a|Microwave oven
 
 * Oven may be consumer grade
 * Oven shall have a rotating turntable
+a|
 
 |===
 
@@ -78,12 +89,13 @@ All materials with expiration dates shall have an expiration date of three month
 === Cast Materials
 
 .Cast Material Requirements
-[cols=".^1,.^1,3",options="header"]
+[cols=".^1,.^1,.^3,.^2",options="header"]
 |===
 
 |ID
 |Category
 |Requirement
+|Commercial Examples
 
 |C.1
 |Non-Newtonian fluid, also known as Dilatant compound
@@ -96,6 +108,8 @@ a|Commercial or custom made compound with a chemical composition approximating:
 * 1% decamethyl cyclopentasiloxane
 * 1% glycerin
 * 1% titanium dioxide  
+a|* DOWSIL 3179 Dilatant Compound
+* Molykote 3179 Dilatant Compound
 
 |C.2
 |Modeling compound              
@@ -106,6 +120,7 @@ a|Commercial or custom made compound with a composition approximating:
 * 20% Table salt
 * 1.6% Cream of tartar
 * 0.8% Vegetable oil
+a|* Play-Doh
 
 |C.3
 |Gelatin with glycerin
@@ -115,6 +130,7 @@ a|Gelatin / Glycerin mix
 * Gelatin shall have a Bloom hardness of approximately 220 – 265
 * Glycerin shall be food grade
 * Tap water filtered through a consumer-grade water filter
+a|
 
 |C.4
 |Silicone
@@ -123,6 +139,7 @@ a|Commercial grade silicone
 * Shall be two part platinum catalyzed
 * Shall have a Shore A hardness of 10 to 40
 * Shall be clear to slight milky color when cured
+a|
 
 |C.5
 |Conductive coating
@@ -130,6 +147,7 @@ a|Conductive coating
 
 * Can be carbon or metal loaded paints or inks
 * Coatings may contain conductive particles or nanoparticles  
+a|
 
 |===
 
@@ -198,18 +216,20 @@ The mixture should be poured into the mold(s) as soon as possible.
 === Mold Materials
 
 .Mold Material Requirements
-[cols=".^1,.^1,3",options="header"]
+[cols=".^1,.^1,.^3,.^2",options="header"]
 |===
 
 |ID
 |Category
 |Requirement
+|Commercial Examples
 
 |M.1
 |Transparency material
 a|Transparency material
 
 * Shall be suitable for use in a laser printer
+a|
 
 |M.2
 |Printed circuit board              
@@ -218,11 +238,13 @@ a|Printed circuit board
 * Hobbyist grade is sufficient
 * Copper cladding shall be of “2 oz.” thickness or approximately 2.74 mils thick
 * Substrate shall be at least 1.6 mm thick
+a|
 
 |M.3
 |Dental Impression material
 a|Dental Impression material
 
 * Can be either polyvinyl siloxane (PVS) or polyether (PE) based or a hybrid PVS / PE material
+a|
 
 |===
