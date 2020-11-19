@@ -56,7 +56,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different silicone manufactures may be used. The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones.
-
++
 Copper cladding thickness can be varied to produce differing height ridges in the casts.
 
 * Presentation method
