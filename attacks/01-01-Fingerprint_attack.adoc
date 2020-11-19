@@ -64,7 +64,7 @@ The attack potentials that are required to build the artefacts are summarized in
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
-Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast.
+Additionally, Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast.  Because of this, in <<calculatedtable>>,the resulting attack potential is based on the highest score for each factor from the mold or cast. The individual attack potential for the mold or cast individually is shown in the tables after. The component column shows where the score comes from.
 
 .Calculated Attack Potential 2D Fingerprint attack 01-01
 [[calculatedtable]]
