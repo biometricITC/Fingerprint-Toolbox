@@ -15,7 +15,6 @@ Some examples:
 
 * A mold release / wetting agent may be applied to the finger of the test subject.  This release / agent shall be compatible with the mold material as specified by the manufacturer of the mold material.
 * The evaluator may procure a vacuum chamber to aid in the degassing of cast materials if desired.
-* The evaluator may apply conductive coatings to a silicone cast to make the PAI conductive.  The coatings may be carbon or metal loaded paints or inks.  The coatings may contain conductive particles or nanoparticles.  Application of the coatings may be by brush or spray.  In all cases, the evaluator shall ensure that the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
 
 == Tools Inventory
 .Tool Requirements
