@@ -60,7 +60,7 @@ The evaluator may vary the pressure, angle of rotation, region of the friction r
 
 *Attack Potential Rating Suggestion*
 
-The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential. The <<calculatedtable>> table shows the resulting attack potential based on the highest score for each factor from the mold or cast. The individual attack potential for the mold or cast individually is shown in the tables after. The component column shows where the score comes from.
+The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
