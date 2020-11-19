@@ -60,36 +60,91 @@ The evaluator may vary the pressure, angle of rotation, region of the friction r
 
 *Attack Potential Rating Suggestion*
 
-The attack potentials that are required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate attack potential.
+The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential. The <<calculatedtable>> table shows the resulting attack potential based on the highest score for each factor from the mold or cast. The individual attack potential for the mold or cast individually is shown in the tables after. The component column shows where the score comes from.
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
-Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast. Therefore, the Attack Potential of a given mold / cast combination takes on the higher Attack Potential of the pair. This is reflected in the table below.
+Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast.
 
-.Attack Potential 2D Fingerprint attack 01-01
-[cols=".^2,.^2,^.^1,.^2,^.^1,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+.Calculated Attack Potential 2D Fingerprint attack 01-01
+[[calculatedtable]]
+[cols=".^2,.^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 |===
 |Factor 
-|Identification Value
-|Score
-|Exploitation Value
-|Score
+|Component
 |Identification Value
 |Score
 |Exploitation Value
 |Score
 |Total
 
-|
-4.+^.^|*Mold* 
-4.+^.^|*Cast* 
-|
-
 |*Elapsed Time*
+|_Mold/Cast_
 |<= one week 
 |1 
 |<=one day 
 |0 
+|1
+
+|*Expertise*
+|_Mold/Cast_
+|Layman
+|0
+|Layman
+|0
+|0
+
+|*Knowledge of TOE*
+|_Mold/Cast_
+|Public
+|0
+|N/A
+|
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|_Mold_
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|_Cast_
+|N/A
+|
+|Non-cooperative
+|2
+|2
+
+|*Equipment*
+|_Mold/Cast_
+|Standard
+|0
+|Standard
+|0
+|0
+
+7.+^.^|Calculated Total Attack Potential = 7 < Basic Attack Potential
+
+|===
+
+.Mold Attack Potential 2D Fingerprint attack 01-01
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
 |<= one week 
 |1 
 |<=one day 
@@ -101,10 +156,6 @@ Attack Potential accounts for the time, expertise, etc. needed to make both the 
 |0
 |Layman
 |0
-|Layman
-|0
-|Layman
-|0
 |0
 
 |*Knowledge of TOE*
@@ -112,6 +163,62 @@ Attack Potential accounts for the time, expertise, etc. needed to make both the 
 |0
 |N/A
 |
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+|N/A
+|
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+|Non-cooperative
+|2
+|2
+
+|*Equipment*
+|Standard
+|0
+|Standard
+|0
+|0
+
+6.+^.^|Mold-only Total Attack Potential = 3 < Basic Attack Potential
+
+|===
+
+.Cast Attack Potential 2D Fingerprint attack 01-01
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= one week 
+|1 
+|<=one day 
+|0 
+|1
+
+|*Expertise*
+|Layman
+|0
+|Layman
+|0
+|0
+
+|*Knowledge of TOE*
 |Public
 |0
 |N/A
@@ -125,10 +232,6 @@ a|*Window of Opportunity*
 |0
 |Moderate
 |4
-|Easy
-|0
-|Moderate
-|4
 |4
 
 a|*Window of Opportunity*
@@ -136,29 +239,20 @@ a|*Window of Opportunity*
 *(Access to Biometric Characteristics)*
 |N/A
 |
-|Without notice
-|0
 |N/A
 |
-|Without notice
-|0
-|0
+|
 
 |*Equipment*
 |Standard
 |0
 |Standard
 |0
-|Standard
-|0
-|Standard
-|0
 |0
 
-10.+^.^|Total Attack Potential = 5 < Basic Attack Potential
+6.+^.^|Cast-only Total Attack Potential = 5 < Basic Attack Potential
 
 |===
 
 == Pass Criteria
-
 There is no additional criteria other than what is defined in BIOSD and PAD Toolbox Overview.
