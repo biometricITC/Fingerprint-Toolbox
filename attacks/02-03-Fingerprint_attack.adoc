@@ -57,7 +57,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Gelatins from different manufactures may be used. Different bloom hardness gelatins may be used. The gelatin / glycerin / water ratio may be varied.
-
++
 Copper cladding thickness can be varied to produce differing height ridges in the casts.
 
 * Presentation method
