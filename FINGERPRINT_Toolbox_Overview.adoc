@@ -21,7 +21,7 @@ The process to produce and use a fingerprint PAI begins with collecting the biom
 
 ===== Fingerprint data – Flat
 
-Fingerprint data is often acquired from a flat surface. This could be from a latent print left on a mobile device body or screen or a piece of paper, etc. Flat fingerprint data can also be imaged on a typical touch fingerprint scanner. For this toolbox, only a subset of possible ways to acquire a flat fingerprint image are considered to reduce testing cost and simplify materials storage and handling requirements. While latent prints are a common source of fingerprint data and can be used to mount attacks, they can contain biometric data that is noisy and incomplete. Latent prints will not be included in this toolbox for PAD testing. Images from commercial fingerprint scanners will be used to acquire all flat friction ridge data for this version of the toolbox.
+Fingerprint data is often acquired from a flat surface. This could be from a latent print left on a mobile device or a piece of paper. Flat fingerprint data can also be imaged on a typical touch fingerprint scanner. For this toolbox, only a subset of possible ways to acquire a flat fingerprint image are considered to reduce testing cost and simplify materials storage and handling requirements. While latent prints are a common source of fingerprint data and can be used to mount attacks, they can contain biometric data that is noisy and incomplete. Latent prints will not be included in this toolbox for PAD testing. Images from commercial fingerprint scanners will be used to acquire all flat friction ridge data for this version of the toolbox.
 
 ====== Latent (Included for reference only)
 
