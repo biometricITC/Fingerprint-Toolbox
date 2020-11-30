@@ -87,6 +87,17 @@ Presentation Attack Detection includes the analysis of information from the regi
 
 Fingerprint PAD testing is a four step process. An image of the target fingerprint must first be acquired and the resultant image processed for mold making. Then the mold is made following the appropriate procedures for the mold type. If the mold is a direct impression of the target finger, the first step is eliminated. Once the mold is ready the cast material is prepared as necessary and applied to the mold. Upon removal from the mold the cast may be used as is or be further processed by applying selected coatings to enhance the physical properties of the PAI. Finally, the PAI is presented to the TOE.
 
+=== Common Testing Hygiene
+As the fingerprint sensors being tested here are all based on touch, several common actions should be taken to ensure the highest quality on the original samples. These actions can be divided into ensuring environmental clarity and minimizing noise. These actions will provide for the creation of better PAI with less need to "process" the samples using image enhancement (beyond what is needed to produce the PAI).
+
+==== Component Cleaning
+Component cleaning is to ensure environmental clarity for the presentation of any fingerprint (live or PAI). To the extent possible, all surfaces should be cleaned for each use (some PAI do not allow for explicit cleaning once created, but can be handled with proper care to ensure cleanliness). When a sample is take, both the finger in use and the material/sensor being used to record the fingerprint must be cleaned. Before a mold is used to create a PAI, it must be cleaned (according to the best practices for the materials in use). When a PAI is to be used, the PAI and the sensor must be cleaned (the PAI shouold be cleaned where possible, or handled in a way to ensure cleanliness when it isn't possible to be cleaned).
+
+By ensuring a clean environment, the samples taken will not have additional dust/debris that can impact the quality of the sample or the presentation of the PAI.
+
+==== Presentation Practice
+Presentation practice is minimize noise in the provided sample. This noise is related to poor presentation of the finger or PAI to the sensor (or mold), generating a poor result. For example sliding your finger on the sensor instead of holding it still, causing the sample to be "smeared". Each type of PAI will have its own unique requirements for producing the highest quality result and should be practiced individually.
+
 === Flat PAI data acquisition and processing
 
 Fingerprint image acquisition for flat PAIs is the same for all attacks. An image of the subject’s finger is captured using a high quality commercial fingerprint scanner. The image can be from a slap or rolled image. If a rolled image is acquired, the evaluator may want to crop the fingerprint image to make a smaller mold containing only the central part of the fingerprint that would usually be in contact with the TOE sensor during normal operation. This region should be large enough to cover as much of the sensor as possible when presenting the PAI to the TOE. This same finger shall be used to enroll the subject into the TOE. Each image shall be acquired under controlled and favorable conditions so as to produce high quality friction ridge information. The image file is preferred to be in bitmap, TIFF, RAW or other uncompressed file format when received from the scanner. High quality JPEG files are acceptable if uncompressed formats are not available.
