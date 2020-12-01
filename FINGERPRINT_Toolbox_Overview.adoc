@@ -111,7 +111,7 @@ The binarized images are printed onto either a sheet of laser printer transparen
 . Obtain transparency material for use in a laser printer.
 . Using a Small Office / Home Office grade laser printer, print the binarized life-sized images of the target fingerprint spaced as mentioned above on the transparency material.
 [loweralpha]
-.. If available, the printer settings should be adjusted for as high a quality output as possible. The goal is to get as thick a coating of toner on the transparency as possible.
+.. If available, the printer settings shall be adjusted for as high a quality output as possible. The goal is to get as thick a coating of toner on the transparency as possible.
 . Make sure the black lines on the transparency correspond to the valleys of the fingerprint.
 
 ====== Printed Circuit Board
