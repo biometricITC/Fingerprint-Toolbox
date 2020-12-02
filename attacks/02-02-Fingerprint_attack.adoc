@@ -55,7 +55,7 @@ The evaluator should consider changing the following factors for penetration tes
 * Configuration of tools and materials
 +
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different modeling compound manufactures may be used. The PAIs may be allowed to dry for a short time before being presented to the TOE. If commercial compound is used, different colors may be procured. The literature shows different presentation attack performance can be achieved with different colors.
-
++
 Copper cladding thickness can be varied to produce differing height ridges in the casts.
 
 * Presentation method
