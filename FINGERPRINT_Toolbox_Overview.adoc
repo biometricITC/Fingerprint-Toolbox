@@ -96,7 +96,7 @@ Component cleaning is to ensure environmental clarity for the presentation of an
 By ensuring a clean environment, the samples taken will not have additional dust/debris that can impact the quality of the sample or the presentation of the PAI.
 
 ==== Presentation Practice
-Presentation practice is minimize noise in the provided sample. This noise is related to poor presentation of the finger or PAI to the sensor (or mold), generating a poor result. For example sliding your finger on the sensor instead of holding it still, causing the sample to be "smeared". Each type of PAI will have its own unique requirements for producing the highest quality result and should be practiced individually.
+Presentation practice will help to minimize noise in the provided sample. This noise is related to poor presentation of the finger or PAI to the sensor (or mold), generating a poor result. For example, sliding your finger on the sensor instead of holding it still will cause the sample to be "smeared". Each type of PAI will have its own unique requirements for producing the highest quality result and should be practiced individually.
 
 === Flat PAI data acquisition and processing
 
