@@ -64,7 +64,7 @@ The attack potentials that are required to build the artefacts are summarized in
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
-Additionally, Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast.  Because of this, in <<calculatedtable>>,the resulting attack potential is based on the highest score for each factor from the mold or cast. The individual attack potential for the mold or cast individually is shown in the tables after. The component column shows where the score comes from.
+Additionally, Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast.  Because of this, in <<calculatedtable>>, the resulting attack potential is based on the highest score for each factor from the mold or cast. The individual attack potential for the mold or cast individually is shown in the tables after. The component column shows where the score comes from.
 
 .Calculated Attack Potential 2D Fingerprint attack 01-01
 [[calculatedtable]]
@@ -79,7 +79,7 @@ Additionally, Attack Potential accounts for the time, expertise, etc. needed to 
 |Total
 
 |*Elapsed Time*
-|_Mold/Cast_
+|_Mold, Cast are same_
 |<= one week 
 |1 
 |<=one day 
@@ -87,7 +87,7 @@ Additionally, Attack Potential accounts for the time, expertise, etc. needed to 
 |1
 
 |*Expertise*
-|_Mold/Cast_
+|_Mold, Cast are same_
 |Layman
 |0
 |Layman
@@ -95,7 +95,7 @@ Additionally, Attack Potential accounts for the time, expertise, etc. needed to 
 |0
 
 |*Knowledge of TOE*
-|_Mold/Cast_
+|_Mold, Cast are same_
 |Public
 |0
 |N/A
@@ -123,7 +123,7 @@ a|*Window of Opportunity*
 |2
 
 |*Equipment*
-|_Mold/Cast_
+|_Mold, Cast are same_
 |Standard
 |0
 |Standard
