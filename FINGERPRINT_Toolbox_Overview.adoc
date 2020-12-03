@@ -135,7 +135,6 @@ The binarized images are printed onto either a sheet of laser printer transparen
 . Follow the PCB fabrication kit manufacturer instructions for completing the PCB fabrication.
 [loweralpha]
 ** The specific process will depend on the manufacturer chosen, but the PCB mold, independent of the manufacturer, should result in a mold with the copper traces corresponding to the valleys of the fingerprint.
-*** Be sure to adjust the process as necessary for the thicker than normal copper cladding.
 
 ==== Curved PAI mold preparation
 
