@@ -36,6 +36,8 @@ a|Commercial fingerprint scanner
 * 1000 dpi minimum image resolution
 * Rolled images preferred
 * Touch/slap images acceptable
+* Ability to enroll/match fingerprints
+* Ability to disable/bypass PAD (if PAD supported)
 a|* HID® Crossmatch L Scan™ (hidglobal.com)
 * HiScan PRO (biometrika.it)
 * https://www.fbibiospecs.cjis.gov/certifications[FBI EBTS Appendix F scanners]
