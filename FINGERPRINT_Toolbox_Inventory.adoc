@@ -44,7 +44,7 @@ a|General requirements:
 
 * Scanner shall provide grayscale images in standard image file formats
 * 1000 dpi minimum image resolution
-* Rolled images preferred, Touch/slap images acceptable
+* Rolled images preferred, flat/slap images acceptable
 * Ability to enroll/match fingerprints
 * Ability to disable/bypass PAD (if PAD supported)
 
