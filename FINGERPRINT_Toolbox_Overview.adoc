@@ -5,7 +5,7 @@
 :revdate: 2020-10-21
 
 == Overview
-This toolbox contains a description of the process, tools and materials needed to construct and use a selection of fingerprint PAIs. Not all PAIs are described as there is an almost unlimited number when considering variations in materials and methods that can be used.
+This toolbox contains a description of the process, tools, and materials needed to construct and use a selection of fingerprint PAIs. Not all PAIs are described as there is an almost unlimited number when considering variations in materials and methods that can be used.
 
 Fingerprint PAD testing is a combination of fingerprint data acquisition, mold making, cast preparation (the PAI) and PAI presentation to the sensor. 
 
@@ -13,7 +13,7 @@ A fingerprint mold is a physical master pattern created from the fingerprint tha
 
 A cast is the PAI, the individual artefact that will be presented to the sensor for PAD testing. The cast is created from the mold, and is usually specific to the type of mold being used.
 
-There are a variety of fingerprint sensors on the market with differing methods of collecting biometric data needed for PAD detection. The selection of which PAI to use when attacking fingerprint sensors is dependent on what technology is used for PAD data collection. It is expected that the inventory of this toolbox will grow as new PAD technologies come to market and as new PAI materials and processes are developed.
+There are a variety of fingerprint sensors on the market with differing methods of collecting biometric data needed for PAD. The selection of which PAI to use when attacking fingerprint sensors is dependent on what sensor technology is used. It is expected that the inventory of this toolbox will grow as new PAD technologies come to market and as new PAI materials and processes are developed.
 
 The process to produce and use a fingerprint PAI begins with collecting the biometric data upon which the PAI will be based. A mold then needs to be made. Depending on the mold type, the biometric data may need to be processed prior to mold construction. This is generally the case when the mold is not formed directly from the target’s finger. For this version of the toolbox, direct manufacturing of the PAI from the PAD data, such as 3D printing, is not considered. Such processes may be included in future versions of the toolbox. Finally, a cast of the fingerprint (PAI) is made and presented to the sensor.
 
@@ -25,11 +25,11 @@ The process to produce and use a fingerprint PAI begins with collecting the biom
 
 ===== Fingerprint data – Flat
 
-Fingerprint data is often acquired from a flat surface. This can be from a latent print left on a smart phone body or screen, a piece of paper, etc. or as imaged on a typical fingerprint touch scanner. For this toolbox, only a subset of possible ways to acquire a flat fingerprint image are considered to reduce testing cost and simplify materials storage and handling requirements. While latent prints are a common source of fingerprint data and can be used to mount attacks, they can contain biometric data that is noisy and incomplete. Latent prints will not be included in this toolbox for PAD testing. Images from commercial fingerprint scanners will be used to acquire all flat friction ridge data for this version of the toolbox.
+Fingerprint data is often acquired from a flat surface. This could be from a latent print left on a mobile device or a piece of paper. Flat fingerprint data can also be imaged on a typical touch fingerprint scanner. For this toolbox, only a subset of possible ways to acquire a flat fingerprint image are considered to reduce testing cost and simplify materials storage and handling requirements. While latent prints are a common source of fingerprint data and can be used to mount attacks, they can contain biometric data that is noisy and incomplete. Latent prints will not be included in this toolbox for PAD testing. Images from commercial fingerprint scanners will be used to acquire all flat friction ridge data for this version of the toolbox.
 
 ====== Latent (Included for reference only)
 
-Latent fingerprints on non-porous surfaces can be imaged with digital cameras. The image is then processed before making a mold. The ideal image has very high contrast between the ridges and valleys. This contrast can be enhanced by varying the angles between the camera, light source(s) and the surface with the latent. Additionally, commercially available fingerprint dusting powders can be applied to increase this contrast and enhance the separation of the friction ridge pattern from the background of the image. Latent fingerprints on porous surfaces such as paper may require chemical treatment to enhance the visibility of the friction ridge pattern. Depending on the surface the process for developing a latent fingerprint image can vary greatly and may require specialized tools, handling hazardous chemicals and using dangerous equipment. For these reasons as well as those cited above, using latent fingerprints is beyond the scope of this toolbox.
+Latent fingerprints on non-porous surfaces can be imaged with digital cameras. The image is then processed before making a mold. The ideal image has very high contrast between the ridges and valleys. This contrast can be enhanced by varying the angles between the camera, light source(s) and the surface with the latent. Additionally, commercially available fingerprint dusting powders can be applied to increase this contrast and enhance the separation of the friction ridge pattern from the background of the image. Latent fingerprints on porous surfaces such as paper may require chemical treatment to enhance the visibility of the friction ridge pattern. Depending on the surface, the process for developing a latent fingerprint image can vary greatly and may require specialized tools, handling hazardous chemicals, and using dangerous equipment. For these reasons as well as those cited above, using latent fingerprints is beyond the scope of this toolbox.
 
 ====== Scanner image
 
@@ -37,23 +37,23 @@ Commercial fingerprint scanners are a good source of flat friction ridge images.
 
 ===== Image enhancement and preparation
 
-Images of fingerprints are usually captured in grayscale. To make a mold, a black and white image is often required. Images can be converted to black and white by applying a threshold filter to the image in photo processing software. Images can be improved by using photo editing software that allows very fine detail image manipulation at the pixel level. Noise, dust and scratches in the image can be removed in this process however, be careful not to remove too much Level 3footnote:[Level 3 details include ridge shape, edge contour, width, local path variation as well pore location and shape, incipient ridges, creases, scars, etc.] information.
+Images of fingerprints are usually captured in grayscale. To make a mold, a black and white image is often required. Images can be converted to black and white by applying a threshold filter to the image in photo processing software. Images can be improved by using photo editing software that allows very fine detail image manipulation at the pixel level. Noise, dust, and scratches in the image can be removed in this process, however, evaluators shall be careful not to remove too much Level 3footnote:[Level 3 details include ridge shape, edge contour, width, local path variation as well pore location and shape, incipient ridges, creases, scars, etc.] information when removing image artifacts.
 
-Another method of converting the grayscale fingerprint image to black and white, is to run the image through so called binarization software. This software, similar to that performed in the MINDTCT algorithm found in NIST Biometric Image Software (NBIS)footnote:[https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis], automatically detects ridges and valleys and converts each to their respective black and white colors. This kind of software, however, can obscure some Level 3 detail.
+Another method of converting the grayscale fingerprint image to black and white is to run the image through so called binarization software. This software, similar to that performed in the MINDTCT algorithm found in NIST Biometric Image Software (NBIS)footnote:[https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis], automatically detects ridges and valleys, and converts each to their respective black and white colors. This kind of software, however, can obscure some Level 3 detail.
 
 ==== Mold making - Flat
 
 ===== Flat
 
-Molds that are flat produce flat PAIs. Genuine fingers are not flat. This does not necessarily pose a problem as most TOE fingerprint sensors have flat platens that require physical contact with the friction ridge of the target finger in order to acquire biometric data. Such contact causes the user’s finger to flatten when acquiring this data.
+Molds that are flat produce flat PAIs. Genuine fingers are not flat. This does not necessarily pose a problem, as most TOE fingerprint sensors have flat platens that require physical contact with the friction ridge of the target finger in order to acquire biometric data. Such contact causes the user’s finger to flatten.
 
 ====== Printed Circuit Board (PCB)
 
-Printed circuit boards come in varying thicknesses of the substrate and copper cladding. The substrate thickness should be thick enough to allow easy handling and prevent noticeable flexing of the PCB. A thickness of 1.6 mm is typical and sufficient for PAD testing applications. A common substrate material used in PCBs is designated FR4 or fiberglass reinforced epoxy. The copper cladding should be 2.74 mils thick, referred to as “2 oz. of copper” in the PCB manufacturing industry. This is twice the standard PCB trace thickness of “1 oz. of copper”. The thicker copper traces provides greater relief between the PAI ridges and valleys.
+Printed circuit boards come in varying substrate and copper cladding thicknesses. The substrate thickness should be thick enough to allow easy handling and prevent noticeable flexing of the PCB. A thickness of 1.6 mm is typical and sufficient for PAD testing applications. A common substrate material used in PCBs is designated FR4 or fiberglass reinforced epoxy. The copper cladding should be 2.74 mils thick, referred to as “2 oz. of copper” in the PCB manufacturing industry. This is twice the standard PCB trace thickness of “1 oz. of copper”. The thicker copper traces provide greater relief between the PAI ridges and valleys.
 
-====== Laser printed transparency
+====== Laser-printed transparency
 
-Molds made from overhead transparency material are similar to PCB molds. They are easier, cheaper and faster to make than PCB molds as long as transparency sheet stock is available that is suitable for use in laser printers. However, the relief between the PAI ridges and valleys will be much smaller than with PCBs.
+Molds made from laser-printed overhead transparency material are similar to PCB molds. They are easier, cheaper, and faster to make than PCB molds. However, the relief between the PAI ridges and valleys will be much smaller than with PCBs.
 
 === Curved Attacks
 
@@ -65,37 +65,48 @@ For the purposes of this toolbox, capturing curved fingerprint data means acquir
 
 ====== Finger impression in mold material
 
-Dental impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
+Dental impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable, and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
 
-====== Touchless fingerprint scanning (included for reference)
+====== Contactless fingerprint scanning (included for reference)
 
-Acquiring friction ridge data without touching the finger is possible with stereo optical imaging of the finger, laser scanning, structured light imaging and other methods. Three dimensional information obtained in this way can be processed in 3D modelling software to create molds or PAIs directly through additive manufacturing techniques. This version of the toolbox does not include the use of 3D models of fingers to make PAIs or molds. Future versions of the toolbox may.
+Acquiring friction ridge data without touching the finger is possible with stereo optical imaging of the finger, laser scanning, structured light imaging, and other methods. Three dimensional information obtained in this way can be processed in 3D modelling software to create molds or PAIs directly through additive manufacturing techniques. This version of the toolbox does not include the use of 3D models of fingers to make PAIs or molds.
 
 ==== Mold making - curved
 
 ===== Curved
 
-Curved molds attempt to reproduce the original shape of the target finger while capturing the friction ridge detail. As mentioned above, when acquiring biometric data, the friction ridge area of the finger, whether genuine or a PAI, is flattened against the sensor. PAIs made from curved molds can either be thin enough to wrap around the attacker’s finger or other object when presented to the TOE or made of materials that allow the friction ridge area of a finger-shaped PAI to be flattened similar to that of a real finger.
+Curved molds attempt to reproduce the original shape of the target finger while capturing the friction ridge detail. As mentioned above, when acquiring biometric data, the friction ridge area of the finger, whether genuine or a PAI, is flattened against the sensor. PAIs made from curved molds can either be thin enough to wrap around the attacker’s finger or other object when presented to the TOE. They may also be made of materials that allow the friction ridge area of a finger-shaped PAI to be flattened similar to a real finger.
 
 ====== Dental molding material
 
 As stated above, dental impression materials make excellent molds. They come in varying set times all of which are on the order of a few minutes.
 
-When using these materials, mold release agents may be needed depending on the subject’s skin and the specific impression material used. Follow impression material manufacturer instructions for the use of mold releases. Test results should specify if, when and how mold release agents are used.
+When using these materials, mold release agents may be needed depending on the subject’s skin and the specific impression material used. Follow impression material manufacturer instructions for the use of mold releases. Test results should specify if, when, and how mold release agents are used.
 
 == Fingerprint Presentation Attack Detection
 
-Presentation Attack Detection includes the analysis of information from the region of the finger that includes the friction ridges and perhaps adjacent areas. Most of the time PAD data and how it is processed is proprietary and not publically known. In some cases, but not all, the same method used to collect biometric data for verification and identification is the same as used for PAD data collection. As a result, PAI construction involves making an exemplar of the target’s friction ridge pattern. The PAI may also attempt to reproduce other physical properties such as skin color, subdermal layering, electrical properties of conductivity, impedance, etc., blood movement, elasticity, and so on.
+Most of the time PAD data and how it is processed is proprietary and not publically known. In some cases, the same method used to collect biometric data for verification and identification is the same as used for PAD data collection. As a result, PAI construction involves making an exemplar of the target’s friction ridge pattern. The PAI may also attempt to reproduce other physical properties such as skin color, subdermal layering, electrical properties of conductivity, impedance, blood movement, and elasticity.
 
 == Common Test Protocol
 
-Fingerprint PAD testing is a four step process. An image of the target fingerprint must first be acquired and the resultant image processed for mold making. Then the mold is made following the appropriate procedures for the mold type. If the mold is a direct impression of the target finger, the first step is eliminated. Once the mold is ready the cast material is prepared as necessary and applied to the mold. Upon removal from the mold the cast may be used as is or be further processed by applying selected coatings to enhance the physical properties of the PAI. Finally, the PAI is presented to the TOE.
+Fingerprint PAD testing is a four step process. An image of the target fingerprint must first be acquired and the resultant image processed for mold making. Then a mold is made following the appropriate procedures for the mold type. If the mold is a direct impression of the target finger, the first step is eliminated. Once the mold is ready, cast material is prepared as necessary and applied to the mold. Upon removal from the mold, the cast may be used as is or be further processed by applying selected coatings to enhance the physical properties of the PAI. Finally, the PAI is presented to the TOE.
+
+=== Common Testing Hygiene
+As the fingerprint sensors being tested here are all based on touch, several common actions should be taken to ensure the highest quality of the original samples. These actions can be divided into ensuring environmental clarity and minimizing noise. These actions will provide for the creation of better PAI with less need to "process" the samples using image enhancement (beyond what is needed to produce the PAI).
+
+==== Component Cleaning
+Component cleaning is to ensure environmental clarity for the presentation of any fingerprint (live or PAI). To the extent possible, all surfaces should be cleaned for each use (some PAI do not allow for explicit cleaning once created, but can be handled with proper care to ensure cleanliness). Sensors/scanners should be cleaned according to the manufacturer's recommendations to ensure proper functionality. When a sample is taken, both the finger in use and the material/sensor being used to record the fingerprint must be cleaned. Before a mold is used to create a PAI, it must be cleaned (according to the best practices for the materials in use). When a PAI is to be used, the PAI and the sensor must be cleaned (the PAI should be cleaned where possible, or handled in a way to ensure cleanliness when it isn't possible to be cleaned).
+
+By ensuring a clean environment, the samples taken will not have additional dust/debris that can impact the quality of the sample or the presentation of the PAI.
+
+==== Presentation Practice
+Presentation practice will help to minimize noise in the provided sample. This noise is related to poor presentation of the finger or PAI to the sensor (or mold), generating a poor result. For example, sliding your finger on the sensor instead of holding it still will cause the sample to be "smeared". Each type of PAI will have its own unique requirements for producing the highest quality result and should be practiced individually.
 
 === Flat PAI data acquisition and processing
 
-Fingerprint image acquisition for flat PAIs is the same for all attacks. An image of the subject’s finger is captured using a high quality commercial fingerprint scanner. The image can be from a slap or rolled image. If a rolled image is acquired, the evaluator may want to crop the fingerprint image to make a smaller mold containing only the central part of the fingerprint that would usually be in contact with the TOE sensor during normal operation. This region should be large enough to cover as much of the sensor as possible when presenting the PAI to the TOE. This same finger shall be used to enroll the subject into the TOE. Each image shall be acquired under controlled and favorable conditions so as to produce high quality friction ridge information. The image file is preferred to be in bitmap, TIFF, RAW or other uncompressed file format when received from the scanner. High quality JPEG files are acceptable if uncompressed formats are not available.
+Fingerprint image acquisition for flat PAIs is the same for all attacks. An image of the subject’s finger is captured using a high quality commercial fingerprint scanner. The image can be from a slap or rolled image. If a rolled image is acquired, the evaluator may want to crop the fingerprint image to make a smaller mold containing only the central part of the fingerprint that would usually be in contact with the TOE sensor during normal operation. This region should be large enough to cover as much of the sensor as possible when presenting the PAI to the TOE. This same finger shall be used to enroll the subject into the TOE. Each image shall be acquired under controlled and favorable conditions so as to produce high quality friction ridge information. The image file is preferred to be in bitmap, TIFF, RAW or other uncompressed file format when received from the scanner.
 
-The image then needs to be processed such that the resultant image contains only black (0,0,0 in the sRGB color space) and white (255,255,255) pixels. This can be done by hand using photo editing software suitable for pixel level adjustments or in an automated fashion using binarization software. The resulting enhanced images should have black ridges and white valleys. Pores and creases are also white. The resultant image should be life size and remain at the highest resolution available. Resizing the image with interpolation should be minimized.
+The image then needs to be processed such that the resultant image contains only black (0 in the 8-bit grayscale color space) and white (255 in the 8-bit grayscale color space) pixels. This can be done by hand using photo editing software suitable for pixel level adjustments or in an automated fashion using binarization software. The resulting enhanced images should have black ridges and white valleys. Pores and creases are also white. The resultant image should be life size and remain at the highest resolution available.
 
 The binarized image should be centered in the image canvas. The entire image canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. Make sure to leave adequate working space between the images if multiple images are placed on one transparency or PCB.
 
@@ -114,8 +125,7 @@ The binarized images are printed onto either a sheet of laser printer transparen
 [arabic]
 . Obtain transparency material for use in a laser printer.
 . Using a Small Office / Home Office grade laser printer, print the binarized life-sized images of the target fingerprint spaced as mentioned above on the transparency material.
-[loweralpha]
-.. If available, the printer settings should be adjusted for as high a quality output as possible. The goal is to get as thick a coating of toner on the transparency as possible.
+** If available, the printer settings shall be adjusted for as high a quality output as possible. The goal is to get as thick a coating of toner on the transparency as possible.
 . Make sure the black lines on the transparency correspond to the valleys of the fingerprint.
 
 ====== Printed Circuit Board
@@ -124,13 +134,11 @@ The binarized images are printed onto either a sheet of laser printer transparen
 . Obtain a PCB fabrication kit.
 . Using a Small Office / Home Office grade laser printer, print the binarized life-sized images of the target fingerprint spaced as mentioned above on the transfer paper of the PCB fabrication kit.
 [loweralpha]
-.. Follow PCB fabrication kit manufacturer recommendations for adjustments to the printing process.
+** Follow PCB fabrication kit manufacturer recommendations for adjustments to the printing process.
 . Make sure the black lines on the transfer paper are the valleys of the fingerprint.
 . Follow the PCB fabrication kit manufacturer instructions for completing the PCB fabrication.
 [loweralpha]
-.. The specific process will depend on the manufacturer chosen.
-.. The PCB mold, independent of the manufacturer, should result in a mold with the copper traces corresponding to the valleys of the fingerprint.
-. Be sure to adjust the process as necessary for the thicker than normal copper cladding.
+** The specific process will depend on the manufacturer chosen, but the PCB mold, independent of the manufacturer, should result in a mold with the copper traces corresponding to the valleys of the fingerprint.
 
 ==== Curved PAI mold preparation
 
@@ -141,25 +149,25 @@ A mold is made from the target finger friction ridge pattern using dental impres
 ====== Dental Impression Material
 
 . Prepare a suitable container for the dental impression material.
-.. The container should be large enough to contain adequate material sufficient to cover the entire friction ridge area of the target finger from the tip to the first joint crease.
-.. The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
+** The container should be large enough to contain adequate material sufficient to cover the entire friction ridge area of the target finger from the tip to the first joint crease.
+** The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
 . Make sure the target finger is clean and dry.
 . If needed apply mold release to the target finger following the manufacturer instructions.
 . Prepare the dental impression material according to manufacturer instructions.
 . Fill the container with sufficient impression material to cover the entire friction ridge area of the target finger from the tip to the first joint crease.
 . Immediately place the target finger into the impression material holding it stationary until the material is completely set up according to manufacturer instructions.
-. Be careful that the target finger does not touch the bottom of the container. The finger should “float” in the impression material.
+** Be careful that the target finger does not touch the bottom of the container. The finger should “float” in the impression material.
 . Carefully remove the finger from the material. Rolling or “peeling” the finger from the mold may help with the release.
-. Allow the mold to sit for 15 minutes before use to ensure curing is complete.
+. Allow the mold to sit for 15 minutes or longer (following the manufacturer instructions) before use to ensure curing is complete
 . Keep the mold clean and dust free until use.
 
 ==== Cast (PAI) preparation
 
-All casts (PAIs) are made by preparing the cast material and then placing it into the mold of choice. After a time appropriate for the cast material the PAI is removed from the mold. All cast materials should be gently removed from the molds by carefully peeling the cast from the mold. Care should be taken to not deform the friction ridges or tear the cast.
+All casts (PAIs) are made by preparing the cast material and then placing it into the mold of choice. After a time appropriate for the cast material to set, the PAI is removed from the mold. All cast materials should be gently removed from the molds by carefully peeling the cast from the mold. Care should be taken to not deform the friction ridges or tear the cast.
 
-Depending on the material the PAI must be presented to the TOE soon after removal from the mold or can be stored for later presentation. The lifespan of a given PAI depends on the material used and the storage method. Properly prepared silicone PAIs can remain viable almost indefinitely. Gelatin PAIs can be stored for several weeks to months. In general modeling compound and non-Newtonian fluid PAIs must be used immediately after removal from the mold. Some modeling compound PAIs can be allowed to dry for a short time after being removed from the mold before they are presented to the TOE.
+The lifespan of a given PAI depends on the material used and the storage method. Properly prepared silicone PAIs can remain viable almost indefinitely. Gelatin PAIs can be stored for several weeks to months. In general modeling compound and non-Newtonian fluid PAIs must be used immediately after removal from the mold. Some modeling compound PAIs can be allowed to dry for a short time after being removed from the mold before they are presented to the TOE.
 
-The specific preparation for each material is unique and can be found in the Toolbox Inventory.
+The specific preparation for each material is unique and can be found in the Toolbox Inventory. While the current toolbox focused on the materials specified in the Toolbox Inventory, there is research showing that other tools may also be used for creating high quality PAIs. The evaluator should be aware of the latest research and utilize tools that will yield good results. The addition of new materials for PAIs must be contributed to the iTC for approval and acceptance/inclusion in the toolbox according to the Toolbox Maintenance document.
 
 PAIs must be scanned by the same fingerprint scanner to compare the original image with the scanned image and visually check that the PAI has clear and similar friction ridge pattern. For a PAI that can only be used a single time, the first PAI should be compared to the original image.
 
@@ -170,29 +178,27 @@ Each PAI is presented to the TOE in the same manner. With the subject user enrol
 For gelatin and silicone based PAIs:
 
 . The finished cast should be placed on tester’s preferred finger with friction ridge pattern oriented the same as the tester’s friction ridge pattern. (That is, make sure the PAI is not upside down.)
-[arabic]
-.. Theater adhesive may be used to hold the PAI in place.
+** Theater adhesive may be used to hold the PAI in place.
 . Gently press the PAI onto the sensor.
-[arabic]
-.. Use enough force to cause the fingertip to slightly flatten against the sensor surface
-.. Care should be taken to not crush the PAI ridges.
-.. For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
+** Use enough force to cause the fingertip to slightly flatten against the sensor surface
+** Care should be taken to not crush the PAI ridges.
+** For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
 . Carefully observe friction ridges between each presentation. Any signs of degradation require replacement of the PAI.
 
 For non-Newtonian fluid and modeling compound PAIs:
 
-. Non-Newtonian fluid, once the PAI is removed from the mold
+. Remove the PAI from the mold.
+.. For non-Newtonian fluid casts:
 [arabic]
-.. the cast can be presented immediately to the sensor
-. Modeling compound
+... The cast can be presented immediately to the sensor.
+.. For modeling compound casts:
 [arabic]
-.. Once the PAI is removed from the mold, the cast should be presented immediately to the sensor.
-.. The cast can also be allowed to air dry for a short time before being presented to the sensor
+... The cast should be presented immediately to the sensor.
+... The cast can also be allowed to air dry for a short time before being presented to the sensor.
 . Gently press the PAI onto the sensor.
-[arabic]
-.. Use enough force to cause the PAI to slightly flatten against the sensor surface.
-.. Care should be taken to not crush the PAI ridges.
-.. For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
+** Use enough force to cause the PAI to slightly flatten against the sensor surface.
+** Care should be taken to not crush the PAI ridges.
+** For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
 . Discard the PAI after each use.
 
 == Requirements for Tools
