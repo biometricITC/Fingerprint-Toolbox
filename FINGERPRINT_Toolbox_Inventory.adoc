@@ -24,19 +24,29 @@ Certain commercial equipment, instruments, or materials are identified in this t
 |===
 |ID
 |Category
-|Requirement
+|Requirements
 |Commercial Examples
 
 
-|T.1
-|Commercial fingerprint scanner
-a|Commercial fingerprint scanner
+.2+|T.1
+.2+|Commercial fingerprint scanner
+a|Scanner must meet one of the following (or equivalent) qualifications:
+
+* https://www.iso.org/standard/50866.html[ISO/IEC 19794-4:2011] Information technology — Biometric data interchange formats — Part 4: Finger image data
+* https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_4_Biometrics_5-1.pdf?__blob=publicationFile&v=2[BSI Technical Guideline TR-03121-3]
+* https://www.fbibiospecs.cjis.gov/Document/Get?fileName=Master%20EBTS%20v10.0.8%2009302017_Final.pdf[FBI EBTS Appendix F]
+
+.2+a|* HID® Crossmatch L Scan™ (hidglobal.com)
+* HiScan PRO (biometrika.it)
+* https://www.fbibiospecs.cjis.gov/certifications[FBI EBTS Appendix F scanners]
+
+a|General requirements:
 
 * Scanner shall provide grayscale images in standard image file formats
 * 1000 dpi minimum image resolution
-* Rolled images preferred
-* Touch/slap images acceptable
-a|
+* Rolled images preferred, flat/slap images acceptable
+* Ability to enroll/match fingerprints
+* Ability to disable/bypass PAD (if PAD supported)
 
 |T.2
 |Image processing software
@@ -45,8 +55,7 @@ a|Photograph processing software
 * Can be commercial, open source or bespoke
 * Can be image manipulation software that allows pixel level image processing
 * Can be automatic binarization software
-a|* Adobe Photoshop
-
+a|* Adobe® Photoshop™
 * GIMP - GNU Image Manipulation Program
 
 |T.3
