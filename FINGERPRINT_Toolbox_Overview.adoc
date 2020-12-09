@@ -7,7 +7,11 @@
 == Overview
 This toolbox contains a description of the process, tools, and materials needed to construct and use a selection of fingerprint PAIs. Not all PAIs are described as there is an almost unlimited number when considering variations in materials and methods that can be used.
 
-Fingerprint PAD testing is a combination of fingerprint data acquisition, mold making, cast preparation (the PAI), and PAI presentation to the sensor.
+Fingerprint PAD testing is a combination of fingerprint data acquisition, mold making, cast preparation (the PAI) and PAI presentation to the sensor. 
+
+A fingerprint mold is a physical master pattern created from the fingerprint that will be attacked. The mold is a physical negative of the source fingerprint, with ridge valleys formed thicker than ridges. There are many ways to create a mold, such as directly from the finger, or from a scanned fingerprint image that is printed on a PCB. A mold should be able to be reused repeatedly for the purposes of this testing.
+
+A cast is the PAI, the individual artefact that will be presented to the sensor for PAD testing. The cast is created from the mold, and is usually specific to the type of mold being used.
 
 There are a variety of fingerprint sensors on the market with differing methods of collecting biometric data needed for PAD. The selection of which PAI to use when attacking fingerprint sensors is dependent on what sensor technology is used. It is expected that the inventory of this toolbox will grow as new PAD technologies come to market and as new PAI materials and processes are developed.
 
