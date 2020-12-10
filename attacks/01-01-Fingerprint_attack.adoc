@@ -64,7 +64,9 @@ The attack potentials that are required to build the artefacts are summarized in
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
-There are three attack potential tables below. Attack Potential tables for Identification account for the time, expertise, etc. required to make the mold (Table 2) and the cast (Table 3) described in this attack. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast. Because of this, in Table 1, the resulting attack potential for Identification is based on the total score of producing the mold (Table 2) and cast (Table 3). Attack potential for Exploitation that corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e. capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold) is defined in Table 1.  This Table 1 shows the final attack potential to rate the vulnerabilities and TOE resistance.
+There are three attack potential tables below. Attack Potential tables for Identification account for the time, expertise, etc. required to make the mold (Table 2) and the cast (Table 3) described in this attack. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast. Because of this, the resulting attack potential for Identification in Table 1 is the sum of the mold (Table 2) and cast (Table 3) score. 
+
+Attack potential for Exploitation that corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e. capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold) is defined in Table 1. This Table 1 shows the final attack potential to rate the vulnerabilities and TOE resistance.
 
 .Calculated Attack Potential 2D Fingerprint attack 01-01
 [[calculatedtable]]
@@ -123,7 +125,7 @@ a|*Window of Opportunity*
 |0
 |0
 
-7.+^.^|Calculated Total Attack Potential = 8 < Basic Attack Potential
+6.+^.^|Calculated Total Attack Potential = 8 < Basic Attack Potential
 
 |===
 
