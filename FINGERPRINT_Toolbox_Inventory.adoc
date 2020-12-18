@@ -116,7 +116,8 @@ a|Commercial or custom made compound with a chemical composition approximating:
 * 1% decamethyl cyclopentasiloxane
 * 1% glycerin
 * 1% titanium dioxide  
-a|* DOWSIL 3179 Dilatant Compound
+a|* Silly Putty
+* DOWSIL 3179 Dilatant Compound
 * Molykote 3179 Dilatant Compound
 
 |C.2
