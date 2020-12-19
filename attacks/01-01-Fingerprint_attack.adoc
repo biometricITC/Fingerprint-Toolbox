@@ -59,8 +59,7 @@ The evaluator may, for example, vary the temperature of the PAIs to change the s
 +
 The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The different fingers upon which the PAI is placed may be use when presenting the PAI.
 
-*Attack Potential Rating Suggestion*
-
+=== Attack Potential Rating Suggestion
 The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
