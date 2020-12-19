@@ -60,48 +60,36 @@ Copper cladding thickness can be varied to produce differing height ridges in th
 +
 The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The different fingers upon which the PAI is placed may be use when presenting the PAI.
 
-== Attack Potential Rating Suggestion
-The attack potentials that are required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate attack potential.
+=== Attack Potential Rating Suggestion
+The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
-Attack Potential accounts for the time, expertise, etc. needed to make both the molds and the casts. When selecting the mold / cast combination consideration must be given to the overall ability to produce the mold separately from that needed for the cast. An attack based on an easy to make, inexpensive mold coupled with a very sophisticated cast process would necessarily be considered at the Attack Potential of the cast. Therefore, the Attack Potential of a given mold / cast combination takes on the higher Attack Potential of the pair. This is reflected in the table below.
+There are three attack potential tables below. Attack Potential tables for Identification account for the time, expertise, etc. required to make the mold (<<moldtable>>) and the cast (<<casttable>>) described in this attack. When selecting the mold / cast combination consideration must be given to the ability to produce the mold separately from that needed for the cast. Because of this, the resulting attack potential for Identification in <<calculatedtable>> is the sum of the mold (<<moldtable>>) and cast (<<casttable>>) score. 
 
-.Attack Potential 2D Fingerprint attack 02-01
-[cols=".^2,.^2,^.^1,.^2,^.^1,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+The sum of the Identification is calculated based on the factor. Elapsed Time is calculated as a simple mathematical sum, the addition of the individual time values for the cast and mold. For example, an Elapsed Time for the mold of <= one week and for the cast of <= one day when added results in a total of <= 8 days which is assigned the Identification Value of <= two weeks. For the other factors, the sum equals the value of the highest score. For example, an Equipment factor of Standard equipment for the mold combined with an Equipment factor of Specialized equipment for the cast would result in the Identification Value of Specialized equipment for that factor.
+
+Attack potential for Exploitation that corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e. capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold) is defined in <<calculatedtable>>. This <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+
+.Calculated Attack Potential 2D Fingerprint attack 02-01
+[[calculatedtable]]
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 |===
 |Factor 
 |Identification Value
 |Score
 |Exploitation Value
 |Score
-|Identification Value
-|Score
-|Exploitation Value
-|Score
 |Total
 
-|
-4.+^.^|*Mold* 
-4.+^.^|*Cast* 
-|
-
 |*Elapsed Time*
-|<= one week 
-|1 
+|<= two weeks 
+|2 
 |<=one day 
 |0 
-|<= one week 
-|1 
-|<=one day 
-|0 
-|1
+|2
 
 |*Expertise*
-|Layman
-|0
-|Layman
-|0
 |Layman
 |0
 |Layman
@@ -109,10 +97,6 @@ Attack Potential accounts for the time, expertise, etc. needed to make both the 
 |0
 
 |*Knowledge of TOE*
-|Public
-|0
-|N/A
-|
 |Public
 |0
 |N/A
@@ -126,10 +110,6 @@ a|*Window of Opportunity*
 |0
 |Moderate
 |4
-|Easy
-|0
-|Moderate
-|4
 |4
 
 a|*Window of Opportunity*
@@ -137,26 +117,97 @@ a|*Window of Opportunity*
 *(Access to Biometric Characteristics)*
 |N/A
 |
-|Without notice
-|0
-|N/A
-|
-|Without notice
-|0
-|0
+|Non-cooperative
+|2
+|2
 
 |*Equipment*
 |Standard
 |0
 |Standard
 |0
-|Standard
-|0
-|Standard
-|0
 |0
 
-10.+^.^|Total Attack Potential = 5 < Basic Attack Potential
+6.+^.^|Calculated Total Attack Potential = 8 < Basic Attack Potential
+
+|===
+
+.Mold Attack Potential 2D Fingerprint attack 02-01
+[[moldtable]]
+[cols=".^2,.^2,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+
+|*Elapsed Time*
+|<= one week 
+|1 
+
+|*Expertise*
+|Layman
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+
+|*Equipment*
+|Standard
+|0
+6.+^.^|Mold-only Total Attack Potential for Identification = 1
+
+|===
+
+.Cast Attack Potential 2D Fingerprint attack 02-01
+[[casttable]]
+[cols=".^2,.^2,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+
+|*Elapsed Time*
+|<= one week 
+|1 
+
+|*Expertise*
+|Layman
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+
+|*Equipment*
+|Standard
+|0
+
+6.+^.^|Cast-only Total Attack Potential = 1
 
 |===
 
