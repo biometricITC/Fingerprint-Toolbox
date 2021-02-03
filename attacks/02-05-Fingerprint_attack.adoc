@@ -21,7 +21,7 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.2 Printed circuit board (PCB)
 
 == Recipe - mold
-. Obtain a binarized image of the target fingerprint. Make sure the ridge information is life size.
+. Obtain a binarized image of the target fingerprint. Make sure the ridge information is life-sized.
 . Center the ridges in the image canvas. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one PCB blank, make sure to leave adequate working space between the images.
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
 . Invert the image so that the ridge lines are white and the remaining areas are black.
