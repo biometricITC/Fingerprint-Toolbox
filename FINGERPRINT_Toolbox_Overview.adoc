@@ -85,7 +85,7 @@ When using these materials, mold release agents may be needed depending on the s
 
 == Fingerprint Presentation Attack Detection
 
-Most of the time PAD data and how it is processed is proprietary and not publically known. In some cases, the same method used to collect biometric data for verification and identification is the same as used for PAD data collection. As a result, PAI construction involves making an exemplar of the target’s friction ridge pattern. The PAI may also attempt to reproduce other physical properties such as skin color, subdermal layering, electrical properties of conductivity, impedance, blood movement, and elasticity.
+Most of the time PAD data and how it is processed is proprietary and not publicly known. In some cases, the same method used to collect biometric data for verification and identification is the same as used for PAD data collection. As a result, PAI construction involves making an exemplar of the target’s friction ridge pattern. The PAI may also attempt to reproduce other physical properties such as skin color, subdermal layering, electrical properties of conductivity, impedance, blood movement, and elasticity.
 
 == Common Test Protocol
 
