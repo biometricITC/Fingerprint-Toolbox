@@ -25,7 +25,7 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
 . Invert the image so that the ridge lines are white and the remaining areas are black.
 . Follow PCB manufacturer instructions for producing a printed circuit board. These instructions will vary depending on manufacturer and method of transferring the image to the PCB blank. The process used should be documented in the test report.
-. Be careful to not leave the PCB in the etching solution longer than needed to achieve clean substrate in the ridge areas. Doing so will cause the copper under the etch-resist material to be etched away.
+. Be careful to not leave the PCB in the etching solution longer than needed to achieve clean substrate in the ridge areas. Doing so will cause the copper under the etch-resistant material to be etched away.
 
 == Recipe - cast
 . Prepare a suitable quantity of silicone to create the PAI.
