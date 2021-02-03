@@ -62,7 +62,7 @@ Copper cladding thickness can be varied to produce differing height ridges in th
 
 * Presentation method
 +
-The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The different fingers upon which the PAI is placed may be use when presenting the PAI.
+The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The evaluator may place the PAI on a different finger for presentation.
 
 === Attack Potential Rating Suggestion
 The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
