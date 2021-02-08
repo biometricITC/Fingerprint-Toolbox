@@ -62,7 +62,7 @@ Different coating materials can be used.
 
 * Conductive ink/paint can be sprayed or brushed on.
 ** Carbon, nickel, silver, silver coated copper, etc. fillers can be used to provide conductivity.
-* Similar to that used to draw or repair printed circuit board traces, provide ground planes, provide EMI/RFI shielding on chassis interiors, etc.
+** Similar to that used to draw or repair printed circuit board traces, provide ground planes, provide EMI/RFI shielding on chassis interiors, etc.
 * Conductive nanoparticle based ink/paint can be sprayed or brushed on.
 ** Similar to materials used to make glove fingertips work with modern touch screens.
 +
