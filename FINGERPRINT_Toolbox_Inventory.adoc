@@ -264,7 +264,7 @@ a|
 
 |===
 
-==== Transparency & Printed Circuid Board Mold Common Instructions
+==== M.1 Transparency Material & M.2 Printed Circuid Board Mold Common Instructions
 . Obtain a binarized image of the target fingerprint. Make sure the ridge information is life-sized.
 . Center the ridges in the image canvas of the photo manipulation software. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one transparency, make sure to leave adequate working space between the images.
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
