@@ -63,7 +63,7 @@ Molds made from laser-printed overhead transparency material are similar to PCB 
 
 For the purposes of this toolbox, capturing curved fingerprint data means acquiring friction ridge data while the finger is not in contact with another object that causes the skin to deform. This can be done in multiple ways. The simplest is to create a mold directly from the finger. The mold material should be soft enough to not alter the shape of the finger. Another way is to image the finger and extract topology information from the image data. This topology data can be used to produce a mold containing friction ridges.
 
-====== Finger impression in mold material
+====== Direct finger impression in mold material
 
 Dental impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable, and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
 
