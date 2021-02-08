@@ -258,4 +258,12 @@ a|Dental Impression material
 * Can be either polyvinyl siloxane (PVS) or polyether (PE) based or a hybrid PVS / PE material
 a|
 
+|M.4
+|Moldable plastic
+a|Moldable plastic material
+
+* Melting point >65C
+* Sheets or pellets are acceptable
+a|* Polly Plastics
+
 |===
