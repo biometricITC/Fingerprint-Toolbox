@@ -144,19 +144,19 @@ The binarized images are printed onto either a sheet of laser printer transparen
 
 ===== Overview
 
-A mold is made from the target finger friction ridge pattern using dental impression material. The friction ridges of the enrolled finger are pressed into impression material to create a curved mold of the fingerprint.
+A mold is made from the target finger friction ridge pattern using a direct impression material (such as a dental impression material). The friction ridges of the enrolled finger are pressed into impression material to create a curved mold of the fingerprint.
 
-====== Dental Impression Material
+====== Direct Impression Material
 
-. Prepare a suitable container for the dental impression material.
+. Prepare a suitable container for the direct impression material.
 ** The container should be large enough to contain adequate material sufficient to cover the entire friction ridge area of the target finger from the tip to the first joint crease.
-** The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
+** The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the direct impression material.
 . Make sure the target finger is clean and dry.
 . If needed apply mold release to the target finger following the manufacturer instructions.
-. Prepare the dental impression material according to manufacturer instructions.
-. Fill the container with sufficient impression material to cover the entire friction ridge area of the target finger from the tip to the first joint crease.
-. Immediately place the target finger into the impression material holding it stationary until the material is completely set up according to manufacturer instructions.
-** Be careful that the target finger does not touch the bottom of the container. The finger should “float” in the impression material.
+. Prepare the direct impression material according to manufacturer instructions.
+. Fill the container with sufficient direct impression material to cover the entire friction ridge area of the target finger from the tip to the first joint crease.
+. Immediately place the target finger into the direct impression material holding it stationary until the material is completely set up according to manufacturer instructions.
+** Be careful that the target finger does not touch the bottom of the container. The finger should “float” in the direct impression material.
 . Carefully remove the finger from the material. Rolling or “peeling” the finger from the mold may help with the release.
 . Allow the mold to sit for 15 minutes or longer (following the manufacturer instructions) before use to ensure curing is complete
 . Keep the mold clean and dust free until use.
