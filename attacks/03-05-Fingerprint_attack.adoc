@@ -7,10 +7,10 @@ Silicone cast with conductive coating is made from dental impression material mo
 This attack has *1* species to be tested.
 
 == Overview
-The evaluator captures a target user’s fingerprint with a commercial fingerprint scanner. Using the image from the scanner the evaluator produces a dental impression mold. A coated silicone PAI is made from the dental impression mold and is presented to the TOE.
+The evaluator makes a mold from dental impression material using the test subject’s finger. A coated silicone PAI is made from the dental impression mold and is presented to the TOE.
 
 == Input
-The fingers of a cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
+The fingers of a cooperative subject for use in making dental impression molds. The molds are made under controlled and favorable conditions so as to acquire high quality friction ridge information.
 
 == Attack Tools and Materials
 * C.4 Silicone
