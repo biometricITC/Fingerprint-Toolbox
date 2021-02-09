@@ -2,18 +2,22 @@
 :xrefstyle: short
 
 == Attack type
-Non-Newtonian fluid cast made from transparency material mold.
+Non-Newtonian fluid cast made from a flat material mold.
 
 === Total Number of Species
-This attack has *1* species to be tested.
+This attack has *2* species to be tested.
 
 == Overview
-The evaluator captures a target user’s fingerprint with a commercial fingerprint scanner. Using the image from the scanner the evaluator produces a laser printer transparency mold. A non-Newtonian fluid PAI is made from the laser printer transparency mold and is presented to the TOE.
+The evaluator captures a target user’s fingerprint with a commercial fingerprint scanner. Using the image from the scanner the evaluator produces a flat mold. A non-Newtonian fluid PAI is made from the mold and is presented to the TOE.
+
+a laser printer transparency mold. A non-Newtonian fluid PAI is made from the laser printer transparency mold and is presented to the TOE.
 
 == Input
 The fingers of a cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
 
 == Attack Tools and Materials
+*Laser transparency mold*
+
 * T.1 Fingerprint scanner
 * T.2 Image processing software
 * T.3 Laser printer
@@ -21,13 +25,7 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.1 Transparency material
 
 == Recipe - mold
-. Obtain a binarized image of the target fingerprint. Make sure the ridge information is life-sized.
-. Center the ridges in the image canvas of the photo manipulation software. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one transparency, make sure to leave adequate working space between the images.
-. Flip the image along the vertical axis producing a mirror image of the fingerprint.
-. Invert the image so that the ridge lines are white and the remaining areas are black.
-. Print the image(s) onto the transparency sheets.
-.. Use the highest quality print mode possible. A minimum of 1000 dpi resolution should be used.
-.. Avoid using duplex mode. The transparency should only make a single pass through the printer.
+Utilize the M.1 transparency material mold instructions from the Fingerprint Toolbox Inventory
 
 == Recipe - cast
 . Obtain sufficient quantities of non-Newtonian fluid.
@@ -39,7 +37,19 @@ Each PAI may be used only one time.
 Store non-Newtonian fluid in an airtight container.
 
 == Variations
-N/A
+=== Variation 1 (2D Fingerprint 02-01)
+==== Attack Tools/Media
+*PCB Board*
+
+* T.1 Fingerprint scanner
+* T.2 Image processing software
+* T.3 Laser printer
+* T.5 Water filter
+* C.1 Non-Newtonian fluid
+* M.2 Printed circuit board (PCB)
+
+=== Recipe - mold
+Utilize the M.2 PCB board mold instructions from the Fingerprint Toolbox Inventory
 
 == Prerequisite
 The evaluator shall enroll test users first as described in the Fingerprint Toolbox Overview. If the ST covers multiple configurations for fingerprint unlock, the same test shall be performed for all configurations.
@@ -64,17 +74,21 @@ The attack potentials that are required to build the artefacts are summarized in
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
-Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the mold and the cast described in this attack. When selecting the mold / cast combination, consideration must be given to the ability to produce the mold separately from that needed for the cast. Because of this, the resulting attack potential for Identification in <<calculatedtable>> is computed by combining mold (<<moldtable>>) and cast (<<casttable>>) values per-Factor, as follows:
+Attack Potential values are shown in <<calculatedtable1-1>> (base attack) and <<calculatedtable2-1>> (variant 1). Attack Potential values for Identification account for the time, expertise, etc. required to make the mold and the cast described in this attack. When selecting the mold / cast combination, consideration must be given to the ability to produce the mold separately from that needed for the cast. 
+
+For example, the resulting attack potential for Identification in <<calculatedtable1-1>> (the same will apply for each variant) is computed by combining mold (<<moldtable1-1>>) and cast (<<casttable1-1>>) values per-Factor, as follows:
 
  * Elapsed Time is calculated as the sum of the individual time values for the cast and mold.
  ** For example, an Elapsed Time for the mold of <= one week and for the cast of <= one day when added results in a total of <= 8 days, which is assigned the Identification Value of <= two weeks. 
  * For all other factors, the Identification Value is the maximum of the cast and mold values.
  ** For example, an Equipment factor of Standard equipment for the mold combined with an Equipment factor of Specialized equipment for the cast would result in the Identification Value of Specialized equipment.
 
-Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold). <<calculatedtable1-1>> and <<calculatedtable2-1>> show the final attack potential to rate the vulnerabilities and TOE resistance.
+
+*Base attack - Transparency material*
 
 .Calculated Attack Potential 2D Fingerprint attack 01-01
-[[calculatedtable]]
+[[calculatedtable1-1]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 |===
 |Factor 
@@ -135,7 +149,7 @@ a|*Window of Opportunity*
 |===
 
 .Mold Attack Potential 2D Fingerprint attack 01-01
-[[moldtable]]
+[[moldtable1-1]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===
 |Factor 
@@ -174,7 +188,7 @@ a|*Window of Opportunity*
 |===
 
 .Cast Attack Potential 2D Fingerprint attack 01-01
-[[casttable]]
+[[casttable1-1]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===
 |Factor 
@@ -212,6 +226,149 @@ a|*Window of Opportunity*
 6.+^.^|Cast-only Total Attack Potential = 1
 
 |===
+
+*Variant 1 - PCB board*
+
+.Calculated Attack Potential 2D Fingerprint attack 02-01
+[[calculatedtable2-1]]
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= two weeks 
+|2 
+|<=one day 
+|0 
+|2
+
+|*Expertise*
+|Layman
+|0
+|Layman
+|0
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+|N/A
+|
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+|Non-cooperative
+|2
+|2
+
+|*Equipment*
+|Standard
+|0
+|Standard
+|0
+|0
+
+6.+^.^|Calculated Total Attack Potential = 8 < Basic Attack Potential
+
+|===
+
+.Mold Attack Potential 2D Fingerprint attack 02-01
+[[moldtable2-1]]
+[cols=".^2,.^2,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+
+|*Elapsed Time*
+|<= one week 
+|1 
+
+|*Expertise*
+|Layman
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+
+|*Equipment*
+|Standard
+|0
+6.+^.^|Mold-only Total Attack Potential for Identification = 1
+
+|===
+
+.Cast Attack Potential 2D Fingerprint attack 02-01
+[[casttable2-1]]
+[cols=".^2,.^2,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+
+|*Elapsed Time*
+|<= one week 
+|1 
+
+|*Expertise*
+|Layman
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+
+|*Equipment*
+|Standard
+|0
+
+6.+^.^|Cast-only Total Attack Potential = 1
+
+|===
+
 
 == Pass Criteria
 There is no additional criteria other than what is defined in BIOSD and PAD Toolbox Overview.
