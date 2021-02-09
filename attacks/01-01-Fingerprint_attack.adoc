@@ -46,7 +46,7 @@ Store non-Newtonian fluid in an airtight container.
 * C.1 Non-Newtonian fluid
 * M.2 Printed circuit board (PCB)
 
-=== Recipe - mold
+==== Recipe - mold
 Utilize the M.2 PCB board mold instructions from the Fingerprint Toolbox Inventory
 
 == Prerequisite
