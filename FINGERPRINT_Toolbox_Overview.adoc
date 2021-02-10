@@ -49,11 +49,11 @@ Molds that are flat produce flat PAIs. Genuine fingers are not flat. This does n
 
 ====== Printed Circuit Board (PCB)
 
-Printed circuit boards come in varying substrate and copper cladding thicknesses. The substrate thickness should be thick enough to allow easy handling and prevent noticeable flexing of the PCB. A thickness of 1.6 mm is typical and sufficient for PAD testing applications. A common substrate material used in PCBs is designated FR4 or fiberglass reinforced epoxy. The copper cladding should be 2.74 mils thick, referred to as “2 oz. of copper” in the PCB manufacturing industry. This is twice the standard PCB trace thickness of “1 oz. of copper”. The thicker copper traces provide greater relief (i.e., a higher degree of depth) between the PAI ridges and valleys.
+Printed circuit boards come in varying substrate and copper cladding thicknesses. The substrate thickness should be thick enough to allow easy handling and prevent noticeable flexing of the PCB. A thickness of 1.6 mm is typical and sufficient for PAD testing applications. A common substrate material used in PCBs is designated FR4 or fiberglass reinforced epoxy. The copper cladding should be 2.74 mils thick, referred to as “2 oz. of copper” in the PCB manufacturing industry. This is twice the standard PCB trace thickness of “1 oz. of copper”. The thicker copper traces provide a greater relief (i.e., a higher degree of depth) between the PAI ridges and valleys.
 
 ====== Laser-printed transparency
 
-Molds made from laser-printed overhead transparency material are similar to PCB molds. They are easier, cheaper, and faster to make than PCB molds. However, a smaller relief (i.e., a lower degree of depth) between the PAI ridges and valleys will generated than with PCBs.
+Molds made from laser-printed overhead transparency material are similar to PCB molds. They are easier, cheaper, and faster to make than PCB molds. However, a smaller relief (i.e., a lower degree of depth) between the PAI ridges and valleys will be generated than with PCBs.
 
 === Curved Attacks
 
