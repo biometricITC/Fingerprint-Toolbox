@@ -65,7 +65,7 @@ For the purposes of this toolbox, capturing curved fingerprint data means acquir
 
 ====== Finger impression in mold material
 
-Dental impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable, and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
+Direct impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable, and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
 
 ====== Contactless fingerprint scanning (included for reference)
 
@@ -77,9 +77,9 @@ Acquiring friction ridge data without touching the finger is possible with stere
 
 Curved molds attempt to reproduce the original shape of the target finger while capturing the friction ridge detail. As mentioned above, when acquiring biometric data, the friction ridge area of the finger, whether genuine or a PAI, is flattened against the sensor. PAIs made from curved molds can either be thin enough to wrap around the attacker’s finger or other object when presented to the TOE. They may also be made of materials that allow the friction ridge area of a finger-shaped PAI to be flattened similar to a real finger.
 
-====== Dental molding material
+====== Direct impression molding material
 
-As stated above, dental impression materials make excellent molds. They come in varying set times all of which are on the order of a few minutes.
+As stated above, direct impression materials make excellent molds. They come in varying set times all of which are on the order of a few minutes.
 
 When using these materials, mold release agents may be needed depending on the subject’s skin and the specific impression material used. Follow impression material manufacturer instructions for the use of mold releases. Test results should specify if, when, and how mold release agents are used.
 
@@ -144,7 +144,7 @@ The binarized images are printed onto either a sheet of laser printer transparen
 
 ===== Overview
 
-A mold is made from the target finger friction ridge pattern using a direct impression material (such as a dental impression material). The friction ridges of the enrolled finger are pressed into impression material to create a curved mold of the fingerprint.
+A mold is made from the target finger friction ridge pattern using a direct impression material (such as a direct impression material). The friction ridges of the enrolled finger are pressed into impression material to create a curved mold of the fingerprint.
 
 ====== Direct Impression Material
 
