@@ -49,7 +49,7 @@ Molds that are flat produce flat PAIs. Genuine fingers are not flat. This does n
 
 ====== Printed Circuit Board (PCB)
 
-Printed circuit boards come in varying substrate and copper cladding thicknesses. The substrate thickness should be thick enough to allow easy handling and prevent noticeable flexing of the PCB. A thickness of 1.6 mm is typical and sufficient for PAD testing applications. A common substrate material used in PCBs is designated FR4 or fiberglass reinforced epoxy. The copper cladding should be 2.74 mils thick, referred to as “2 oz. of copper” in the PCB manufacturing industry. This is twice the standard PCB trace thickness of “1 oz. of copper”. The thicker copper traces provide greater relief (a higher degree of depth) between the PAI ridges and valleys.
+Printed circuit boards come in varying substrate and copper cladding thicknesses. The substrate thickness should be thick enough to allow easy handling and prevent noticeable flexing of the PCB. A thickness of 1.6 mm is typical and sufficient for PAD testing applications. A common substrate material used in PCBs is designated FR4 or fiberglass reinforced epoxy. The copper cladding should be 2.74 mils thick, referred to as “2 oz. of copper” in the PCB manufacturing industry. This is twice the standard PCB trace thickness of “1 oz. of copper”. The thicker copper traces provide greater relief (i.e., a higher degree of depth) between the PAI ridges and valleys.
 
 ====== Laser-printed transparency
 
