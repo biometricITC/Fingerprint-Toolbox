@@ -61,15 +61,17 @@ Molds made from laser-printed overhead transparency material are similar to PCB 
 
 ===== Fingerprint data – Curved
 
-For the purposes of this toolbox, capturing curved fingerprint data means acquiring friction ridge data while the finger is not in contact with another object that causes the skin to deform. This can be done in multiple ways. The simplest is to create a mold directly from the finger. The mold material should be soft enough to not alter the shape of the finger. Another way is to capture an image the finger (any method of capture that can produce the clear image for data extraction is acceptable) and extract friction ridge topology information from the image data. This topology data can then be used to produce a mold containing friction ridges.
+For the purposes of this toolbox, capturing curved fingerprint data means acquiring friction ridge data while the finger is not in contact with another object that causes the skin to deform. This can be done in multiple ways.
 
 ====== Finger impression in mold material
+
+The simplest method of capturing the fingerprint data is to create a mold directly from the finger. The mold material should be soft enough to not alter the shape of the finger.
 
 Dental impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable, and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
 
 ====== Contactless fingerprint scanning (included for reference)
 
-Acquiring friction ridge data without touching the finger is possible with stereo optical imaging of the finger, laser scanning, structured light imaging, and other methods. Three dimensional information obtained in this way can be processed in 3D modelling software to create molds or PAIs directly through additive manufacturing techniques. This version of the toolbox does not include the use of 3D models of fingers to make PAIs or molds.
+Acquiring friction ridge topology data without touching the finger is possible with stereo optical imaging of the finger, laser scanning, structured light imaging, and other methods. The three dimensional (topology) information obtained in this way can be processed in 3D modelling software to create molds or PAIs directly through additive manufacturing techniques. This version of the toolbox does not include the use of 3D models of fingers to make PAIs or molds.
 
 ==== Mold making - curved
 
