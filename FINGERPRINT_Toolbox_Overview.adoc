@@ -144,7 +144,7 @@ The binarized images are printed onto either a sheet of laser printer transparen
 
 ===== Overview
 
-A mold is made from the target finger friction ridge pattern using a direct impression material (such as a direct impression material). The friction ridges of the enrolled finger are pressed into impression material to create a curved mold of the fingerprint.
+A mold is made from the target finger friction ridge pattern using a direct impression material (such as a dental impression material). The friction ridges of the enrolled finger are pressed into impression material to create a curved mold of the fingerprint.
 
 ====== Direct Impression Material
 
