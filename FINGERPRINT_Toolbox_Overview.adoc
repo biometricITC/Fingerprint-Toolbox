@@ -87,12 +87,16 @@ When using these materials, mold release agents may be needed depending on the s
 
 Most of the time PAD data and how it is processed is proprietary and not publicly known. In some cases, the same method used to collect biometric data for verification and identification is the same as used for PAD data collection. As a result, PAI construction involves making an exemplar of the target’s friction ridge pattern. The PAI may also attempt to reproduce other physical properties such as skin color, subdermal layering, electrical properties of conductivity, impedance, blood movement, and elasticity.
 
-== Common Test Protocol
+== Common Fingerprint Test Protocol
 
 Fingerprint PAD testing is a four step process. An image of the target fingerprint must first be acquired and the resultant image processed for mold making. Then a mold is made following the appropriate procedures for the mold type. If the mold is a direct impression of the target finger, the first step is eliminated. Once the mold is ready, cast material is prepared as necessary and applied to the mold. Upon removal from the mold, the cast may be used as is or be further processed by applying selected coatings to enhance the physical properties of the PAI. Finally, the PAI is presented to the TOE.
 
+The Biometric PAD Toolbox Overview document specifies requirements for all PAD testing, including requirements related to the preparations necessary to successfully complete an evaluation.
+
 === Common Testing Hygiene
 As the fingerprint sensors being tested here are all based on touch, several common actions should be taken to ensure the highest quality of the original samples. These actions can be divided into ensuring environmental clarity and minimizing noise. These actions will provide for the creation of better PAI with less need to "process" the samples using image enhancement (beyond what is needed to produce the PAI).
+
+Section 5.1.1 Preparation of the Biometric PAD Toolbox Overview should be reviewed for further details about how to ensure high quality samples.
 
 ==== Component Cleaning
 Component cleaning is to ensure environmental clarity for the presentation of any fingerprint (live or PAI). To the extent possible, all surfaces should be cleaned for each use (some PAI do not allow for explicit cleaning once created, but can be handled with proper care to ensure cleanliness). Sensors/scanners should be cleaned according to the manufacturer's recommendations to ensure proper functionality. When a sample is taken, both the finger in use and the material/sensor being used to record the fingerprint must be cleaned. Before a mold is used to create a PAI, it must be cleaned (according to the best practices for the materials in use). When a PAI is to be used, the PAI and the sensor must be cleaned (the PAI should be cleaned where possible, or handled in a way to ensure cleanliness when it isn't possible to be cleaned).
