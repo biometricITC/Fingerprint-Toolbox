@@ -21,7 +21,7 @@ The fingers of a cooperative subjects for use in capturing images of the subject
 * M.1 Transparency material
 
 == Recipe - mold
-. Obtain a binarized image of the target fingerprint. Make sure the ridge information is life size.
+. Obtain a binarized image of the target fingerprint. Make sure the ridge information is life-sized.
 . Center the ridges in the image canvas of the photo manipulation software. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one transparency, make sure to leave adequate working space between the images.
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
 . Invert the image so that the ridge lines are white and the remaining areas are black.
@@ -60,24 +60,27 @@ Different coating materials can be used.
 
 * Conductive ink/paint can be sprayed or brushed on.
 ** Carbon, nickel, silver, silver coated copper, etc. fillers can be used to provide conductivity.
-* Similar to that used to draw or repair printed circuit board traces, provide ground planes, provide EMI/RFI shielding on chassis interiors, etc.
+** Similar to that used to draw or repair printed circuit board traces, provide ground planes, provide EMI/RFI shielding on chassis interiors, etc.
 * Conductive nanoparticle based ink/paint can be sprayed or brushed on.
 ** Similar to materials used to make glove fingertips work with modern touch screens.
 
 * Presentation method
 +
-The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The different fingers upon which the PAI is placed may be use when presenting the PAI.
+The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The evaluator may place the PAI on a different finger for presentation.
 
 === Attack Potential Rating Suggestion
 The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
 
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
-There are three attack potential tables below. Attack Potential tables for Identification account for the time, expertise, etc. required to make the mold (<<moldtable>>) and the cast (<<casttable>>) described in this attack. When selecting the mold / cast combination consideration must be given to the ability to produce the mold separately from that needed for the cast. Because of this, the resulting attack potential for Identification in <<calculatedtable>> is the sum of the mold (<<moldtable>>) and cast (<<casttable>>) score. 
+Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the mold and the cast described in this attack. When selecting the mold / cast combination, consideration must be given to the ability to produce the mold separately from that needed for the cast. Because of this, the resulting attack potential for Identification in <<calculatedtable>> is computed by combining mold (<<moldtable>>) and cast (<<casttable>>) values per-Factor, as follows:
 
-The sum of the Identification is calculated based on the factor. Elapsed Time is calculated as a simple mathematical sum, the addition of the individual time values for the cast and mold. For example, an Elapsed Time for the mold of <= one week and for the cast of <= one day when added results in a total of <= 8 days which is assigned the Identification Value of <= two weeks. For the other factors, the sum equals the value of the highest score. For example, an Equipment factor of Standard equipment for the mold combined with an Equipment factor of Specialized equipment for the cast would result in the Identification Value of Specialized equipment for that factor.
+ * Elapsed Time is calculated as the sum of the individual time values for the cast and mold.
+ ** For example, an Elapsed Time for the mold of <= one week and for the cast of <= one day when added results in a total of <= 8 days, which is assigned the Identification Value of <= two weeks. 
+ * For all other factors, the Identification Value is the maximum of the cast and mold values.
+ ** For example, an Equipment factor of Standard equipment for the mold combined with an Equipment factor of Specialized equipment for the cast would result in the Identification Value of Specialized equipment.
 
-Attack potential for Exploitation that corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e. capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold) is defined in <<calculatedtable>>. This <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
 
 .Calculated Attack Potential 2D Fingerprint attack 01-05
 [[calculatedtable]]
