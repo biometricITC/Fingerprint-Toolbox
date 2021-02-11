@@ -53,7 +53,7 @@ Printed circuit boards come in varying substrate and copper cladding thicknesses
 
 ====== Laser-printed transparency
 
-Molds made from laser-printed overhead transparency material are similar to PCB molds. They are easier, cheaper, and faster to make than PCB molds. However, a smaller relief (i.e., a lower degree of depth) between the PAI ridges and valleys will be generated than with PCBs.
+Molds made from laser-printed overhead transparency material are similar to PCB molds. They are easier, cheaper, and faster to make than PCB molds. However, a smaller relief (i.e., a lower degree of depth) between the PAI ridges and valleys will be noticed when compared to equivalent PCB molds.
 
 === Curved Attacks
 
