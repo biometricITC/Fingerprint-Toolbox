@@ -61,7 +61,7 @@ Molds made from laser-printed overhead transparency material are similar to PCB 
 
 ===== Fingerprint data – Curved
 
-For the purposes of this toolbox, capturing curved fingerprint data means acquiring friction ridge data while the finger is not in contact with another object that causes the skin to deform. This can be done in multiple ways. The simplest is to create a mold directly from the finger. The mold material should be soft enough to not alter the shape of the finger. Another way is to image the finger and extract topology information from the image data. This topology data can be used to produce a mold containing friction ridges.
+For the purposes of this toolbox, capturing curved fingerprint data means acquiring friction ridge data while the finger is not in contact with another object that causes the skin to deform (as it would on a fingerprint scanner). This can be done in multiple ways. The simplest is to create a mold directly from the finger. The mold material should be soft enough to not alter the shape of the finger. Another way is to image the finger and extract topology information from the image data. This topology data can be used to produce a mold containing friction ridges.
 
 ====== Finger impression in mold material
 
