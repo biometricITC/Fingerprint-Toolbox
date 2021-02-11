@@ -31,7 +31,7 @@ Fingerprint data is often acquired from a flat surface. This could be from a lat
 
 Latent fingerprints on non-porous surfaces can be imaged with digital cameras. The image is then processed before making a mold. The ideal image has very high contrast between the ridges and valleys. This contrast can be enhanced by varying the angles between the camera, light source(s) and the surface with the latent. Additionally, commercially available fingerprint dusting powders can be applied to increase this contrast and enhance the separation of the friction ridge pattern from the background of the image. Latent fingerprints on porous surfaces such as paper may require chemical treatment to enhance the visibility of the friction ridge pattern. Depending on the surface, the process for developing a latent fingerprint image can vary greatly and may require specialized tools, handling hazardous chemicals, and using dangerous equipment. For these reasons as well as those cited above, using latent fingerprints is beyond the scope of this toolbox.
 
-====== Scanner image
+====== Scanned image
 
 Commercial fingerprint scanners are a good source of flat friction ridge images. Images from commercial scanners are generally high quality, distortion free, have good detail, can be of high resolution, have good grayscale contrast and are readily available. It is recommended that a commercial scanner be used for image acquisition. The highest resolution images available should be used for PAD testing purposes. The image resolution should be 1000 PPI or higher if the scanner supports it.
 
