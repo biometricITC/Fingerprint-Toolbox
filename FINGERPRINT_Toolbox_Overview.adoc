@@ -81,7 +81,9 @@ Curved molds attempt to reproduce the original shape of the target finger while 
 
 As stated above, direct impression materials make excellent molds. They come in varying set times all of which are on the order of a few minutes.
 
-When using these materials, mold release agents may be needed depending on the subject’s skin and the specific impression material used. Follow impression material manufacturer instructions for the use of mold releases. Test results should specify if, when, and how mold release agents are used.
+When using these materials, mold release agents may be needed depending on the subject’s skin and the specific impression material used. Follow impression material manufacturer instructions for the use of mold releases. Practice and testing may be needed to determine the best combination for creating high quality molds for any specific subject.
+
+Test results should specify if, when, how and which mold release agents are used.
 
 == Fingerprint Presentation Attack Detection
 
