@@ -67,7 +67,7 @@ For the purposes of this toolbox, capturing curved fingerprint data means acquir
 
 Dental impression materials like vinyl polysiloxane (also called polyvinyl siloxane) and polyethers are well suited to capturing friction ridge detail. They are readily available, easy to work with, are dimensionally stable once set, are reusable, and do an excellent job of capturing fine details from the fingerprint. Once the ridge information is captured in the impression material, no further “processing” of the data is necessary. Care should be taken to keep the finished mold clean prior to use.
 
-====== Contactless fingerprint scanning (included for reference)
+====== Contactless (Indirect) fingerprint scanning (included for reference)
 
 Acquiring friction ridge data without touching the finger is possible with stereo optical imaging of the finger, laser scanning, structured light imaging, and other methods. Three dimensional information obtained in this way can be processed in 3D modelling software to create molds or PAIs directly through additive manufacturing techniques. This version of the toolbox does not include the use of 3D models of fingers to make PAIs or molds.
 
