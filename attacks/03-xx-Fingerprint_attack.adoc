@@ -1,0 +1,325 @@
+= Attack Fingerprint 03-xx
+:xrefstyle: short
+
+== Attack type
+Fingerprint casts made from a dental impression material mold.
+
+=== Total Number of Species
+This attack has *5* species to be tested.
+
+== Overview
+The evaluator makes a mold from dental impression material using the test subject’s finger. A PAI is made from the dental impression mold and is presented to the TOE.
+
+== Input
+The fingers of a cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
+
+== Common Attack Tools and Mold Materials
+* M.3 Dental impression material
+
+== Common Recipe - mold
+. Prepare a suitable container for the liquid mold material.
+** The container should be large enough to contain adequate material sufficient to cover the entire ridge area of the target finger from the tip to the first joint crease.
+** The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
+. Make sure the target finger is clean and dry.
+. If needed apply mold release to the target finger following the manufacturer instructions.
+. Prepare the mold material according to manufacturer instructions.
+. Fill the container with sufficient impression material to cover the entire ridge area of the target finger from the tip to the first joint crease.
+. Immediately place the target finger into the impression material holding it stationary until the material is completely set up following manufacturer instructions.
+** Be careful that the target finger does not touch the bottom of the container. The finger should “float” in the impression material.
+. Carefully remove the finger from the material. Rolling or “peeling” the finger from the mold may help with the release.
+. Allow the mold to sit for 15 minutes before use to ensure curing is complete.
+
+Keep the mold clean and dust free until use.
+
+== Variations
+The attack must be performed with each cast material.
+
+=== Variation 1 (Fingerprint 03-01)
+*Non-Newtonian fluid cast*
+
+==== Materials
+* C.1 Non-Newtonian fluid
+
+==== Recipe - cast
+Utilize a commercial non-Newtonian fluid that meets the requirements from the Fingerprint Toolbox Inventory.
+
+. Obtain sufficient quantities of non-Newtonian fluid.
+. Apply a small amount sufficient to cover the friction ridge pattern of the mold.
+. Carefully remove the non-Newtonian fluid PAI from the mold.
+
+Each PAI may be used only one time.
+
+Store non-Newtonian fluid in an airtight container.
+
+=== Variation 2 (Fingerprint 03-02)
+*Modeling compound cast*
+
+==== Materials
+* T.5 Water filter (if self-making modeling compound)
+* C.2 Modeling compound
+
+==== Recipe - cast
+Utilize either a commercial product or follow the C.2 Modeling Compound Instructions from the Fingerprint Toolbox Inventory to create modeling compound.
+
+. Obtain or prepare sufficient quantities of modeling compound. 
+. Apply a small amount of modeling compound sufficient to cover the friction ridge pattern of the mold.
+. Carefully remove the modeling compound PAI from the mold.
+
+Each PAI may be used only one time.
+
+Store modeling compound in an airtight container.
+
+=== Variation 3 (Fingerprint 03-03)
+*Gelatin/glycerin mix cast*
+
+==== Materials
+* T.5 Water filter
+* T.6 Microwave oven
+* C.3 Gelatin with glycerin
+
+==== Recipe - cast
+Utilize the C.3 Gelatin with Glycerin Instructions from the Fingerprint Toolbox Inventory to prepare the cast material.
+
+. Prepare a suitable quantity of gelatin mixture to create the PAI.
+. Pour gelatin mixture into mold as soon as possible.
+.. Resulting cast should be thin enough to curve around tester’s finger when presented to TOE.
+.. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
+. Cool mixture thoroughly before removing from mold.
+.. Be careful not to stretch the cast too much causing it to permanently deform or tear when removing from mold.
+. Present to TOE as soon after removal from mold as practical.
+
+PAI may be reused until it dries out too much to be effective or the friction ridges show signs degradation. If properly produced and stored, PAI’s should have a shelf life of several months.
+
+Store PAIs in an airtight container.
+
+=== Variation 4 (Fingerprint 03-04)
+*Silicone cast*
+
+==== Materials
+* C.4 Silicone
+
+==== Recipe - cast
+Utilize the C.4 Silicone Instructions from the Fingerprint Toolbox Inventory to prepare the cast material.
+
+. Prepare a suitable quantity of silicone to create the PAI.
+. Pour mixture into clean dust free mold.
+.. A release agent compatible with the mold and cast materials may be used if desired.
+... Follow manufactures’ recommendations for using mold releases.
+... If needed, remove mold release residue from cast before presentation to TOE.
+.. Resulting cast should be thin enough to curve around tester’s finger when presented to TOE.
+.. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
+. Allow silicone to thoroughly cure before removing from mold.
+.. Be careful not to stretch the cast too much causing it to permanently deform or tear when removing from mold.
+. Keep the friction ridge surface clean and dust free until presented to TOE.
+
+PAI may be reused until friction ridges show signs degradation.
+
+=== Variation 5 (Fingerprint 03-05)
+*Silicone cast with conductive coating*
+
+==== Materials
+* C.4 Silicone
+* C.5 Conductive coating
+
+==== Recipe - cast
+Utilize the C.5 Silicone with Conductive Coating Instructions from the Fingerprint Toolbox Inventory to prepare the cast material. These instructions will produce a final PAI.
+
+PAI may be reused until friction ridges or coating show signs degradation.
+
+== Prerequisite
+The evaluator shall enrol test users first as described in the Fingerprint Toolbox Overview. If the ST covers multiple configurations for fingerprint unlock, the same test shall be performed for all configurations.
+
+== Presentation
+The evaluator shall present the PAI to the TOE as described in the Fingerprint Toolbox Overview.
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator should consider changing the following factors for penetration testing.
+
+==== Configuration of Mold Tools and Materials
+The copper cladding thickness can be varied to produce differing height ridges in the casts.
+
+==== Configuration of Cast Tools and Materials
+The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different manufacturers or recipes for the cast materials may be used. 
+
+Suggestions for specific cast materials follow.
+
+===== Modeling Compound Suggestions
+The PAIs may be allowed to dry for a short time before being presented to the TOE. If commercial compound is used, different colors may be procured. The literature shows different presentation attack performance can be achieved with different colors.
+
+===== Gelatin/Glycerin Mix Cast Suggestions
+Different bloom hardness gelatins may be used. The gelatin / glycerin / water ratio may be varied.
+
+===== Silicone Cast Suggestions
+The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones.
+
+===== Silicone Cast with Conductive Coating Suggestions
+Different coating materials can be used.
+
+* Conductive ink/paint can be sprayed or brushed on.
+** Carbon, nickel, silver, silver coated copper, etc. fillers can be used to provide conductivity.
+** Similar to that used to draw or repair printed circuit board traces, provide ground planes, provide EMI/RFI shielding on chassis interiors, etc.
+* Conductive nanoparticle based ink/paint can be sprayed or brushed on.
+** Similar to materials used to make glove fingertips work with modern touch screens.
+
+==== Presentation method
+The evaluator may vary the pressure, angle of rotation, region of the friction ridge pattern used to present the PAI to the TOE. The evaluator may place the PAI on a different finger for presentation.
+
+=== Attack Potential Rating Suggestion
+The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
+
+Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. As PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
+
+Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the mold and the cast described in this attack. When selecting the mold / cast combination, consideration must be given to the ability to produce the mold separately from that needed for the cast. Because of this, the resulting attack potential for Identification in <<calculatedtable>> is computed by combining mold (<<moldtable>>) and cast (<<casttable>>) values per-Factor, as follows:
+
+ * Elapsed Time is calculated as the sum of the individual time values for the cast and the mold.
+ ** For example, an Elapsed Time for the mold of <= one week and for the cast of <= one day when added results in a total of <= 8 days, which is assigned the Identification Value of <= two weeks. 
+ * For all other factors, the Identification Value is the maximum of the cast and mold values.
+ ** For example, an Equipment factor of Standard equipment for the mold combined with an Equipment factor of Specialized equipment for the cast would result in the Identification Value of Specialized equipment.
+
+Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the fingerprint image from the target and attack the TOE using the cast created with the image and mold). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+
+*All Variations*
+
+.Calculated Attack Potential Fingerprint attack 03-xx
+[[calculatedtable]]
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= two weeks 
+|2 
+|<=one day 
+|0 
+|2
+
+|*Expertise*
+|Layman
+|0
+|Layman
+|0
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+|N/A
+|
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+|Non-cooperative
+|2
+|2
+
+|*Equipment*
+|Standard
+|0
+|Standard
+|0
+|0
+
+6.+^.^|Calculated Total Attack Potential = 8 < Basic Attack Potential
+
+|===
+
+.Mold Attack Potential Fingerprint attack 03-xx
+[[moldtable]]
+[cols=".^2,.^2,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+
+|*Elapsed Time*
+|<= one week 
+|1 
+
+|*Expertise*
+|Layman
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+
+|*Equipment*
+|Standard
+|0
+6.+^.^|Mold-only Total Attack Potential for Identification = 1
+
+|===
+
+.Cast Attack Potential Fingerprint attack 03-xx
+[[casttable]]
+[cols=".^2,.^2,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+
+|*Elapsed Time*
+|<= one week 
+|1 
+
+|*Expertise*
+|Layman
+|0
+
+|*Knowledge of TOE*
+|Public
+|0
+
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+
+|*Equipment*
+|Standard
+|0
+
+6.+^.^|Cast-only Total Attack Potential = 1
+
+|===
+
+== Pass Criteria
+There is no additional criteria other than what is defined in BIOSD and PAD Toolbox Overview.
