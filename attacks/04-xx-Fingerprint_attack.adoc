@@ -145,9 +145,6 @@ The evaluator shall present the PAI to the TOE as described in the Fingerprint T
 === Penetration Testing Suggestion
 The evaluator should consider changing the following factors for penetration testing.
 
-==== Configuration of Mold Tools and Materials
-The copper cladding thickness can be varied to produce differing height ridges in the casts.
-
 ==== Configuration of Cast Tools and Materials
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different manufacturers or recipes for the cast materials may be used. 
 
