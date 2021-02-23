@@ -63,7 +63,6 @@ a|* Adobe® Photoshop™
 a|Small Office/Home Office Laser printer
 
 * New printer shall be purchasable at the date of testing.
-* A minimum of 1000 dpi print resolution
 a|
 
 |T.4
@@ -88,6 +87,23 @@ a|Microwave oven
 * Oven may be consumer grade
 * Oven shall have a rotating turntable
 a|
+
+|T.7
+|Electric Kettle
+a|Electric kettle
+
+* Temperature setting preferred (not required)
+|
+
+|T.8
+|Beaker or Mug
+a|Made of glass, ceramic or other material that does not stick to plastic
+|
+
+|T.9
+|Rod, spoon or tongs
+a|Made of glass, metal or other material that does not stick to plastic
+|
 
 |===
 
@@ -223,18 +239,6 @@ The mixture should be poured into the mold(s) as soon as possible.
 .. Be careful to minimize bubbles in the mixture.
 ... De-gas as needed.
 
-==== C.5 Silicone with Conductive Coating Instructions
-. Follow <<C.4 Silicone Instructions>>
-
-Once the PAI has been created:
-
-[start=2]
-. Apply a thin coating of conductive material to the friction ridges of the cast.
-.. Make sure the cast friction ridges are clean and dust free before application of coating.
-.. Make sure to attain complete uniform coating of the ridges and valleys of the cast.
-.. Ensure the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
-. Follow conductive coating manufacturer’s instructions for application and proper drying.
-
 === Mold Materials
 
 .Mold Material Requirements
@@ -270,5 +274,12 @@ a|Dental Impression material
 
 * Can be either polyvinyl siloxane (PVS) or polyether (PE) based or a hybrid PVS / PE material
 a|
+
+|M.4
+|Moldable Plastic
+a|Moldable plastic pellets
+
+* Melting point >65C
+a|* Polly Plastics
 
 |===
