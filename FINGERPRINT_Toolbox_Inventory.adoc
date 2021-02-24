@@ -1,6 +1,6 @@
 = Fingerprint Toolbox Inventory
 :showtitle:
-:revdate: 2020-10-21
+:revdate: 2021-02-24
 
 This document contains the inventory of tools and materials that are used in the context of the toolbox.
 
@@ -208,6 +208,7 @@ When creating the gelatin with glycerin mixture, this recipe shall be used.
 *Tools:*
 
 * T.5 Consumer water filter
+* T.6 Microwave oven
 
 *Ingredients:*
 

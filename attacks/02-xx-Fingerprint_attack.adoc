@@ -51,7 +51,6 @@ Store non-Newtonian fluid in an airtight container.
 *Modeling compound cast*
 
 ==== Materials
-* T.5 Water filter (if self-making modeling compound)
 * C.2 Modeling compound
 
 ==== Recipe - cast
@@ -69,14 +68,13 @@ Store modeling compound in an airtight container.
 *Gelatin/glycerin mix cast*
 
 ==== Materials
-* T.5 Water filter
 * T.6 Microwave oven
 * C.3 Gelatin with glycerin
 
 ==== Recipe - cast
 Utilize the C.3 Gelatin with Glycerin Instructions from the Fingerprint Toolbox Inventory to prepare the cast material.
 
-. Prepare a suitable quantity of gelatin mixture to create the PAI.
+. Prepare (heat) a suitable quantity of gelatin mixture to create the PAI.
 . Pour gelatin mixture into mold as soon as possible.
 .. Resulting cast should be thin enough to curve around tester’s finger when presented to TOE.
 .. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
