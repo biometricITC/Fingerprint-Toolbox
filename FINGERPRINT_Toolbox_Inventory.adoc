@@ -177,7 +177,7 @@ a|
 
 |===
 
-==== Modeling Compound Instructions
+==== C.2 Modeling Compound Instructions
 If the modeling compound will be prepared (as opposed to purchased), the compound shall be prepared using this recipe using common household kitchen items.
 
 *Tools:*
@@ -200,7 +200,7 @@ If the modeling compound will be prepared (as opposed to purchased), the compoun
 . Cook over medium heat, stirring constantly until it reaches the consistency of mashed potatoes.
 . Remove from heat and let cool to room temperature before use.
 
-==== Gelatin with Glycerin Instructions
+==== C.3 Gelatin with Glycerin Instructions
 Some gelatins remain tacky when cooled. Gelatins selected should present a surface that does not stick too much to the sensor surface. Gelatins should leave very little if any residue when removed from the sensor surface.
 
 When creating the gelatin with glycerin mixture, this recipe shall be used.
@@ -226,7 +226,7 @@ When creating the gelatin with glycerin mixture, this recipe shall be used.
 
 The mixture should be poured into the mold(s) as soon as possible.
 
-==== Silicone Instructions
+==== C.4 Silicone Instructions
 . Obtain two part silicone with the following properties.
 .. Shore A hardness of 10 to 40.
 .. Platinum catalyzed silicones are preferred due to low shrinkage.
@@ -239,6 +239,18 @@ The mixture should be poured into the mold(s) as soon as possible.
 ... Curing time can be hastened by heating the mixed silicone in the cast. Follow manufacturer’s recommendation for accelerating curing times.
 .. Be careful to minimize bubbles in the mixture.
 ... De-gas as needed.
+
+==== C.5 Silicone with Conductive Coating Instructions
+. Follow <<C.4 Silicone Instructions>>
+
+Once the PAI has been created:
+
+[start=2]
+. Apply a thin coating of conductive material to the friction ridges of the cast.
+.. Make sure the cast friction ridges are clean and dust free before application of coating.
+.. Make sure to attain complete uniform coating of the ridges and valleys of the cast.
+.. Ensure the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
+. Follow conductive coating manufacturer’s instructions for application and proper drying.
 
 === Mold Materials
 
