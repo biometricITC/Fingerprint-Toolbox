@@ -11,7 +11,7 @@ This attack has *5* species to be tested.
 The evaluator makes a mold from moldable plastic using the test subject’s finger. A PAI is made from the moldable plastic mold and is presented to the TOE.
 
 == Input
-The fingers of a cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
+The fingers of cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
 
 == Common Attack Tools and Mold Materials
 * T.5 Water filter
