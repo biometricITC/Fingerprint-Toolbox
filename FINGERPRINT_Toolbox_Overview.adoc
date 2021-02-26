@@ -221,6 +221,13 @@ The evaluator shall create artefacts defined in all test items listed in the Fin
 
 PAD Toolbox Overview defines required number of attempts for the independent testing and maximum timeframe for both independent and penetration testing.
 
+=== Using the Toolbox Documents for Test Items
+To complete the testing, the evaluator will need to create both molds and casts (artefacts). The instructions for creating the molds and casts are divided between the Fingerprint Toolbox Inventory and the individual attacks as follows.
+
+The Fingerprint Toolbox Inventory lists all the tools and materials that are required for the creation of the molds and casts. While some of the cast materials may be purchased and used directly, others require the evaluator to create the cast material from a recipe. Where the evalautor is creating the cast material, the instructions are included in the Fingerprint Toolbox Inventory. This cast material would then be used to create the casts in the attack documents.
+
+The instructions for casts in the attack documents expect that a cast material is already available. The instructions related to the cast in the attack documents focus on how to create the cast (artefact), and any tools specified are only those needed for the creation of the cast itself, not for the cast material.
+
 == Pass/Fail Criteria
 
 If Pass/Fail Criteria is defined in the test items the evaluator shall follow them, otherwise follow criteria defined in BIOSD and PAD Toolbox Overview.

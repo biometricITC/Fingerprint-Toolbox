@@ -1,6 +1,6 @@
 = Fingerprint Toolbox Inventory
 :showtitle:
-:revdate: 2020-10-21
+:revdate: 2021-02-24
 
 This document contains the inventory of tools and materials that are used in the context of the toolbox.
 
@@ -87,6 +87,23 @@ a|Microwave oven
 * Oven may be consumer grade
 * Oven shall have a rotating turntable
 a|
+
+|T.7
+|Electric Kettle
+a|Electric kettle
+
+* Temperature setting preferred (not required)
+|
+
+|T.8
+|Beaker or Mug
+a|Made of glass, ceramic or other material that does not stick to plastic
+|
+
+|T.9
+|Rod, spoon or tongs
+a|Made of glass, metal or other material that does not stick to plastic
+|
 
 |===
 
@@ -193,6 +210,7 @@ When creating the gelatin with glycerin mixture, this recipe shall be used.
 *Tools:*
 
 * T.5 Consumer water filter
+* T.6 Microwave oven
 
 *Ingredients:*
 
@@ -223,6 +241,18 @@ The mixture should be poured into the mold(s) as soon as possible.
 ... Curing time can be hastened by heating the mixed silicone in the cast. Follow manufacturer’s recommendation for accelerating curing times.
 .. Be careful to minimize bubbles in the mixture.
 ... De-gas as needed.
+
+==== C.5 Silicone with Conductive Coating Instructions
+. Follow <<C.4 Silicone Instructions>>
+
+Once the PAI has been created:
+
+[start=2]
+. Apply a thin coating of conductive material to the friction ridges of the cast.
+.. Make sure the cast friction ridges are clean and dust free before application of coating.
+.. Make sure to attain complete uniform coating of the ridges and valleys of the cast.
+.. Ensure the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
+. Follow conductive coating manufacturer’s instructions for application and proper drying.
 
 === Mold Materials
 Instructions for mold materials are listed after the table.
@@ -261,6 +291,13 @@ a|Dental Impression material
 
 * Can be either polyvinyl siloxane (PVS) or polyether (PE) based or a hybrid PVS / PE material
 a|
+
+|M.4
+|Moldable Plastic
+a|Moldable plastic pellets
+
+* Melting point >65C
+a|* Polly Plastics
 
 |===
 
