@@ -230,7 +230,7 @@ The instructions for casts in the attack documents expect that a cast material i
 
 == Pass/Fail Criteria
 
-If Pass/Fail Criteria is defined in the test items the evaluator shall follow them, otherwise follow criteria defined in BIOSD and PAD Toolbox Overview.
+IAPAR shall be less than the specified value in FIA_MBV_EXT.3.1 in any case. If additional Pass/Fail Criteria is defined in the test items, then the evaluator shall also follow them.
 
 == Reference Information
 
