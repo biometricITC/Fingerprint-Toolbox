@@ -209,6 +209,32 @@ For non-Newtonian fluid and modeling compound PAIs:
 ** For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
 . Discard the PAI after each use.
 
+== Stored Artefact Usage
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing.
+
+The following table specifies the maximum amount of stored artefacts that can be used for each type.
+
+[cols=".^3,.^2",options="header",]
+
+|===
+
+|Artefact type
+|Max stored artefacts allowed
+
+|Non-Newtonian fluid
+|Not allowed
+
+|Modeling compound
+|Not allowed
+
+|Gelatin with glycerin
+|60%
+
+|Silicone
+|80%
+
+|===
+
 == Requirements for Tools
 
 The tools used for this toolbox consist of materials and processes which span the range of children’s toys to medical professional applications. Nevertheless, all methods and processes are those with which a layman or hobbyist should be comfortable using. The costs for every material is also low. Evaluator skill and practice at conducting PAD testing is a significant factor in the efficacy of the PAIs.
