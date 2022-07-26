@@ -210,9 +210,9 @@ For non-Newtonian fluid and modeling compound PAIs:
 . Discard the PAI after each use.
 
 == Stored Artefact Usage
-If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing.
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing. Stored artefacts also have maximum ages based on the date of initial creation (weeks are used for consistent time periods). Stored artefacts can only be used up to the maximum age based on the time difference between the creation date and the use date (use must be completed before the maximum age allowed).
 
-The following table specifies the maximum amount of stored artefacts that can be used for each type.
+The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
 
 [cols=".^3,.^2",options="header",]
 
@@ -220,18 +220,23 @@ The following table specifies the maximum amount of stored artefacts that can be
 
 |Artefact type
 |Max stored artefacts allowed
+|Max age of stored artefacts
 
 |Non-Newtonian fluid
 |Not allowed
+|Not applicable
 
 |Modeling compound
-|Not allowed
+|None allowed
+|Not applicable
 
 |Gelatin with glycerin
-|60%
+|50%
+|13 weeks (3 months)
 
 |Silicone
-|80%
+|50%
+|13 weeks (3 months)
 
 |===
 
