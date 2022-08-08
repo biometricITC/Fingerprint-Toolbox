@@ -214,6 +214,7 @@ If stored artefacts will be used for testing, a number of fresh artefacts are st
 
 The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
 
+.Artefacts storage requirements
 [cols=".^2,.^3,.^3",options="header",]
 |===
 
@@ -234,6 +235,32 @@ The following table specifies the maximum amount of stored artefacts that can be
 |13 weeks (3 months)
 
 |Silicone
+|50%
+|13 weeks (3 months)
+
+|===
+
+.Mold storage requirements
+[cols=".^2,.^3,.^3",options="header",]
+|===
+
+|Mold type
+|Max stored molds allowed
+|Max age of stored molds
+
+|Laser printer transparency
+|50%
+|13 weeks (3 months)
+
+|Printed Circuit Board
+|50%
+|52 weeks (1 year)
+
+|Dental Impression material
+|50%
+|13 weeks (3 months)
+
+|Moldable Plastic
 |50%
 |13 weeks (3 months)
 
