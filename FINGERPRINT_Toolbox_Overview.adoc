@@ -236,7 +236,7 @@ The following table specifies the maximum amount of stored artefacts that can be
 
 |Silicone
 |50%
-|13 weeks (3 months)
+|26 weeks (6 months)
 
 |===
 
@@ -249,19 +249,19 @@ The following table specifies the maximum amount of stored artefacts that can be
 |Max age of stored molds
 
 |Laser printer transparency
-|50%
-|13 weeks (3 months)
+|80%
+|52 weeks (1 year)
 
 |Printed Circuit Board
-|50%
+|80%
 |52 weeks (1 year)
 
 |Dental Impression material
-|50%
-|13 weeks (3 months)
+|80%
+|52 weeks (1 year)
 
 |Moldable Plastic
-|50%
+|80%
 |13 weeks (3 months)
 
 |===
