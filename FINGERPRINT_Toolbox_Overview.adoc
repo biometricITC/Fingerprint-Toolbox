@@ -209,6 +209,63 @@ For non-Newtonian fluid and modeling compound PAIs:
 ** For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
 . Discard the PAI after each use.
 
+== Stored Artefact Usage
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing. Stored artefacts also have maximum ages based on the date of initial creation (weeks are used for consistent time periods). Stored artefacts can only be used up to the maximum age based on the time difference between the creation date and the use date (use must be completed before the maximum age allowed).
+
+The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
+
+.Artefacts storage requirements
+[cols=".^2,.^3,.^3",options="header",]
+|===
+
+|Artefact type
+|Max stored artefacts allowed
+|Max age of stored artefacts
+
+|Non-Newtonian fluid
+|Not allowed
+|Not applicable
+
+|Modeling compound
+|None allowed
+|Not applicable
+
+|Gelatin with glycerin
+|50%
+|13 weeks (3 months)
+
+|Silicone
+|50%
+|26 weeks (6 months)
+
+|===
+
+.Mold storage requirements
+[cols=".^2,.^3,.^3",options="header",]
+|===
+
+|Mold type
+|Max stored molds allowed
+|Max age of stored molds
+
+|Laser printer transparency
+|80%
+|52 weeks (1 year)
+
+|Printed Circuit Board
+|80%
+|52 weeks (1 year)
+
+|Dental Impression material
+|80%
+|52 weeks (1 year)
+
+|Moldable Plastic
+|80%
+|13 weeks (3 months)
+
+|===
+
 == Requirements for Tools
 
 The tools used for this toolbox consist of materials and processes which span the range of children’s toys to medical professional applications. Nevertheless, all methods and processes are those with which a layman or hobbyist should be comfortable using. The costs for every material is also low. Evaluator skill and practice at conducting PAD testing is a significant factor in the efficacy of the PAIs.

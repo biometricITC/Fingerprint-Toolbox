@@ -1,6 +1,6 @@
 = Fingerprint Toolbox Inventory
 :showtitle:
-:revdate: 2021-02-24
+:revdate: 2022-06-27
 
 This document contains the inventory of tools and materials that are used in the context of the toolbox.
 
@@ -331,3 +331,23 @@ a|* Polly Plastics
 . Carefully remove the finger from the material. Rolling or “peeling” the finger from the mold may help with the release.
 . Allow the mold to sit for 15 minutes before use to ensure curing is complete.
 . Keep the mold clean and dust free until use.
+
+==== M.4 Moldable Plastic
+*Safety Warning: Be careful to avoid burns when working with the hot water and hot moldable plastic.*
+
+. Heat water in an electric kettle until desired temperature according to manufacturer instructions.
+** Never heat above recommended temperature as this will damage the polymer.
+. Prepare a bowl of cool water.
+. Place some pellets in the beaker/ mug. 
+. Add the hot water to the pellets.  
+. Leave the pellets to melt in the water until they turn transparent and begin sticking to each other.
+. Remove the pellets from the water with tongs or a spoon and shake off any excess water.
+. With clean hands, form the pellets into a ball. 
+. Immediately place the target finger into the prepared material. 
+** The hot plastic will be harder to work with as it cools within a few minutes.  
+. With the plastic still on the target finger, place the plastic in cool water and until it is white and hard to take a strong, permanent shape. 
+. Carefully remove finger from the mold.  
+
+The plastic can be reused by reheating according to the manufacturers instructions. Wait at least 5 minutes after cooling before reheating.
+
+Keep the mold clean and dust free until use.
