@@ -38,7 +38,7 @@ a|Scanner must meet one of the following (or equivalent) qualifications:
 
 .2+a|* HID® Crossmatch L Scan™ (hidglobal.com)
 * HiScan PRO (biometrika.it)
-* https://www.fbibiospecs.cjis.gov/certifications[FBI EBTS Appendix F scanners]
+* https://fbibiospecs.fbi.gov/certifications-1/cpl[FBI EBTS Appendix F scanners]
 
 a|General requirements:
 
