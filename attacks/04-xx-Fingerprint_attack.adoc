@@ -14,7 +14,6 @@ The evaluator makes a mold from moldable plastic using the test subject’s fing
 The fingers of cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
 
 == Common Attack Tools and Mold Materials
-* T.5 Water filter
 * T.7 Electric Kettle
 * T.8 Beaker or Mug
 * T.9 Rod, spoon or tongs
