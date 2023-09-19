@@ -34,11 +34,11 @@ a|Scanner must meet one of the following (or equivalent) qualifications:
 
 * https://www.iso.org/standard/50866.html[ISO/IEC 19794-4:2011] Information technology — Biometric data interchange formats — Part 4: Finger image data
 * https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_4_Biometrics_5-1.pdf?__blob=publicationFile&v=2[BSI Technical Guideline TR-03121-3]
-* https://www.fbibiospecs.cjis.gov/Document/Get?fileName=Master%20EBTS%20v10.0.8%2009302017_Final.pdf[FBI EBTS Appendix F]
+* https://fbibiospecs.fbi.gov/ebts-1/approved-ebts[FBI EBTS Appendix F]
 
 .2+a|* HID® Crossmatch L Scan™ (hidglobal.com)
 * HiScan PRO (biometrika.it)
-* https://www.fbibiospecs.cjis.gov/certifications[FBI EBTS Appendix F scanners]
+* https://fbibiospecs.fbi.gov/certifications-1/cpl[FBI EBTS Appendix F scanners]
 
 a|General requirements:
 
