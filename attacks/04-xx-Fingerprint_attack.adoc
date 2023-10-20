@@ -1,6 +1,10 @@
 = Attack Fingerprint 04-xx
 :xrefstyle: short
 
+
+== Attack Potential Update
+As of October 17, 2023 it was determined that this attack has an attack potential higher than Basic, and so is out of scope of the current set of requirements. See https://biometricitc.github.io/TD/BIO0004.html[Technical Decision BIO0004] for more details.
+
 == Attack type
 Fingerprint casts made from a moldable plastic mold.
 
