@@ -2,7 +2,7 @@
 :showtitle:
 :sectnums:
 :sectnumlevels: 5
-:revdate: 2020-10-21
+:revdate: 2023-10-17
 
 == Overview
 This toolbox contains a description of the process, tools, and materials needed to construct and use a selection of fingerprint PAIs. Not all PAIs are described as there is an almost unlimited number when considering variations in materials and methods that can be used.
@@ -56,6 +56,9 @@ Printed circuit boards come in varying substrate and copper cladding thicknesses
 Molds made from laser-printed overhead transparency material are similar to PCB molds. They are easier, cheaper, and faster to make than PCB molds. However, a smaller relief (i.e., a lower degree of depth) between the PAI ridges and valleys will be noticed when compared to equivalent PCB molds.
 
 === Curved Attacks
+
+==== Attack Potential Update
+As of October 17, 2023 it was determined that curved attacks have an attack potential higher than Basic, and so are out of scope of the current set of requirements. See https://biometricitc.github.io/TD/BIO0004.html[Technical Decision BIO0004] for more details.
 
 ==== PAD data acquisition
 
