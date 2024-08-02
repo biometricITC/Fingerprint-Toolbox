@@ -1,8 +1,8 @@
-= Fingerprint Toolbox Inventory
+= PAD-L1 Fingerprint Toolbox Inventory
 :showtitle:
-:revdate: 2022-06-27
+:revdate: 2024-08-02
 
-This document contains the inventory of tools and materials that are used in the context of the toolbox.
+This document contains the inventory of tools and materials that are used in the context of the L1-Fingerprint toolbox.
 
 == Overview
 This document specifies requirements for tools and materials that are used to create fingerprint friction ridge artefacts.  The requirements for each tool are specified in the following tables.
@@ -105,6 +105,14 @@ a|Made of glass, ceramic or other material that does not stick to plastic
 a|Made of glass, metal or other material that does not stick to plastic
 |
 
+|T.10
+|Camera
+a|dSLR camera
+
+* New dSLR shall be purchasable at the date of testing and the camera was released within the previous 1 year period starting from the date of testing.
+* Camera's resolution shall be at least 3 times higher than the TOE's sensor used for face biometric verification.
+|
+
 |===
 
 
@@ -155,7 +163,7 @@ a|* Play-Doh
 a|Gelatin / Glycerin mix
 
 * Gelatin: unflavored, unsweetened gelatin powder
-* Gelatin shall have a Bloom hardness of approximately 220 – 265
+* Gelatin shall have a Bloom hardness of approximately 220 - 265
 * Glycerin shall be food grade
 * Tap water filtered through a consumer-grade water filter
 a|
@@ -214,7 +222,7 @@ When creating the gelatin with glycerin mixture, this recipe shall be used.
 
 *Ingredients:*
 
-* Unflavored, unsweetened gelatin powder with a Bloom hardness of approximately 220 – 265
+* Unflavored, unsweetened gelatin powder with a Bloom hardness of approximately 220 - 265
 * Food grade glycerin
 * Tap water filtered through a consumer-grade water filter
 
@@ -238,7 +246,7 @@ The mixture should be poured into the mold(s) as soon as possible.
 . Follow manufacturer instructions for mixing parts A and B to achieve advertised properties in the cured silicone.
 .. Stir as necessary to fully mix.
 ... Mixing time can be lengthened by cooling the silicone.
-... Curing time can be hastened by heating the mixed silicone in the cast. Follow manufacturer’s recommendation for accelerating curing times.
+... Curing time can be hastened by heating the mixed silicone in the cast. Follow manufacturer's recommendation for accelerating curing times.
 .. Be careful to minimize bubbles in the mixture.
 ... De-gas as needed.
 
@@ -252,7 +260,7 @@ Once the PAI has been created:
 .. Make sure the cast friction ridges are clean and dust free before application of coating.
 .. Make sure to attain complete uniform coating of the ridges and valleys of the cast.
 .. Ensure the dried conductive coating does not fill the friction ridge valleys thereby obscuring the fingerprint pattern.
-. Follow conductive coating manufacturer’s instructions for application and proper drying.
+. Follow conductive coating manufacturer's instructions for application and proper drying.
 
 === Mold Materials
 Instructions for mold materials are listed after the table.
@@ -285,20 +293,6 @@ a|Printed circuit board
 * Substrate shall be at least 1.6 mm thick
 a|
 
-|M.3
-|Dental Impression material
-a|Dental Impression material
-
-* Can be either polyvinyl siloxane (PVS) or polyether (PE) based or a hybrid PVS / PE material
-a|
-
-|M.4
-|Moldable Plastic
-a|Moldable plastic pellets
-
-* Melting point >65C
-a|* Polly Plastics
-
 |===
 
 ==== M.1 Transparency Material & M.2 Printed Circuit Board Mold Common Instructions
@@ -317,37 +311,3 @@ a|* Polly Plastics
 [start=5]
 . Follow PCB manufacturer instructions for producing a printed circuit board. These instructions will vary depending on manufacturer and method of transferring the image to the PCB blank. The process used should be documented in the test report.
 . Be careful to not leave the PCB in the etching solution longer than needed to achieve clean substrate in the ridge areas. Doing so will cause the copper under the etch-resistant material to be etched away.
-
-==== M.3 Dental Impression Material
-. Prepare a suitable container for the liquid mold material.
-** The container should be large enough to contain adequate material sufficient to cover the entire ridge area of the target finger from the tip to the first joint crease.
-** The container should be shaped such that the target finger can be laid down at a shallow angle to the surface of the impression material.
-. Make sure the target finger is clean and dry.
-. If needed apply mold release to the target finger following the manufacturer instructions.
-. Prepare the mold material according to manufacturer instructions.
-. Fill the container with sufficient impression material to cover the entire ridge area of the target finger from the tip to the first joint crease.
-. Immediately place the target finger into the impression material holding it stationary until the material is completely set up following manufacturer instructions.
-** Be careful that the target finger does not touch the bottom of the container. The finger should “float” in the impression material.
-. Carefully remove the finger from the material. Rolling or “peeling” the finger from the mold may help with the release.
-. Allow the mold to sit for 15 minutes before use to ensure curing is complete.
-. Keep the mold clean and dust free until use.
-
-==== M.4 Moldable Plastic
-*Safety Warning: Be careful to avoid burns when working with the hot water and hot moldable plastic.*
-
-. Heat water in an electric kettle until desired temperature according to manufacturer instructions.
-** Never heat above recommended temperature as this will damage the polymer.
-. Prepare a bowl of cool water.
-. Place some pellets in the beaker/ mug. 
-. Add the hot water to the pellets.  
-. Leave the pellets to melt in the water until they turn transparent and begin sticking to each other.
-. Remove the pellets from the water with tongs or a spoon and shake off any excess water.
-. With clean hands, form the pellets into a ball. 
-. Immediately place the target finger into the prepared material. 
-** The hot plastic will be harder to work with as it cools within a few minutes.  
-. With the plastic still on the target finger, place the plastic in cool water and until it is white and hard to take a strong, permanent shape. 
-. Carefully remove finger from the mold.  
-
-The plastic can be reused by reheating according to the manufacturers instructions. Wait at least 5 minutes after cooling before reheating.
-
-Keep the mold clean and dust free until use.
