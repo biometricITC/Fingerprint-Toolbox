@@ -26,14 +26,14 @@ https://www.nist.gov/services-resources/software/nist-biometric-image-software-n
 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8698578&tag=1
 
-[7] [Latent Print Guide] Organization of Scientific Area Committees (OSAC) for Forensic Science, Jan 23, 2023. Standard Practice for Latent Print Evidence Imaging Resolution, ASTM E3235-21. ASTM International.
+[7] [Fingermark Visualisation] Fingermark Visualisation Manual Second Edition, 2022. Dstl.
+
+https://assets.publishing.service.gov.uk/media/65d35b9e0f4eb10064a9810d/Fingermark_Visualisation_Manual_2nd_Edition_2022.pdf
+
+[8] [Latent Print Guide] Organization of Scientific Area Committees (OSAC) for Forensic Science, Jan 23, 2023. Standard Practice for Latent Print Evidence Imaging Resolution, ASTM E3235-21. ASTM International.
 
 https://www.astm.org/e3235-21.html
 
-[8] [Developing Latent Prints] Trozzi, T., Schwartz, R., Hollars, M, 2000. Processing Guide for Developing Latent Prints. FBI.
+[9] [Developing Latent Prints] Trozzi, T., Schwartz, R., Hollars, M, 2000. Processing Guide for Developing Latent Prints. FBI.
 
 https://archives.fbi.gov/archives/about-us/lab/forensic-science-communications/fsc/jan2001/lpu.pdf
-
-[9] [Fingermark Visualisation] Fingermark Visualisation Manual Second Edition, 2022. Dstl.
-
-https://assets.publishing.service.gov.uk/media/65d35b9e0f4eb10064a9810d/Fingermark_Visualisation_Manual_2nd_Edition_2022.pdf
