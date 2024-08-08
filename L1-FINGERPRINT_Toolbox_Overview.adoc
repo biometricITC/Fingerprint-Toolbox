@@ -82,11 +82,11 @@ By ensuring a clean environment, the samples taken will not have additional dust
 ==== Presentation Practice
 Presentation practice will help to minimize noise in the provided sample. This noise is related to poor presentation of the finger or PAI to the sensor (or mold), generating a poor result. For example, sliding your finger on the sensor instead of holding it still will cause the sample to be "smeared". Each type of PAI will have its own unique requirements for producing the highest quality result and should be practiced individually.
 
-=== Flat PAI data acquisition and processing
+== Flat PAI data acquisition and processing
 
 Fingerprint image acquisition for flat PAIs is the same for all attacks. An image of the subject's finger is captured from a latent print on a non-porous surface. The image can be from a slap or rolled image. If a rolled image is acquired, the evaluator may want to crop the fingerprint image to make a smaller mold containing only the central part of the fingerprint that would usually be in contact with the TOE sensor during normal operation. This region should be large enough to cover as much of the sensor as possible when presenting the PAI to the TOE. This same finger shall be used to enroll the subject into the TOE. Each image shall be acquired under controlled and favorable conditions so as to produce high quality friction ridge information. 
 
-==== Acquiring the latent print
+=== Acquiring the latent print
 
 To acquire the fingerprint image, the following steps are followed:
 
@@ -97,23 +97,23 @@ To acquire the fingerprint image, the following steps are followed:
 
 Once the print has been sufficiently covered, it can be imaged.
 
-==== Imaging the latent print
+=== Imaging the latent print
 
 There are two methods for acquiring the image of the latent print. Each method is acceptable, and the specific choice depends on the tools being used.
 
-===== Camera capture
+==== Camera capture
 
 A camera may be use to capture the print to be used for the creation of the PAI. The surface used to create the print should have sufficient contrast with the powder used to bring out the print to be readily used by the software tools that will create the PAI.
 
 When supported by the camera, the image file received shall be in bitmap, TIFF, RAW, or other lossless file formats.
 
-===== Latent pull and scan
+==== Latent pull and scan
 
 The other method for capturing the print is to pull the print powder using some sort of adhesive tape and then placing this onto a fingerprint scanner to capture the image. 
 
 When supported by the scanner, the image file received shall be in bitmap, TIFF, RAW, or other lossless file formats. Image files using the WSQ format at a bitrate of 2.25 (≅5:1 compression) are acceptable if lossless file formats are not available from the scanner.
 
-==== Processing of the PAI data
+=== Processing of the PAI data
 
 The image (whether from the scanner or captured from the latent print) then needs to be processed such that the resultant image contains only black (0 in the 8-bit grayscale color space) and white (255 in the 8-bit grayscale color space) pixels. This can be done by hand using photo editing software suitable for pixel level adjustments or in an automated fashion using binarization software. The resulting enhanced images should have black ridges and white valleys. Pores and creases are also white. The resultant image should be life-sized and remain at the highest resolution available. Resizing the image shall not use interpolation without justification approved by the BIT.
 
@@ -123,17 +123,17 @@ If a scanner was used in the process of generating the image, flip the image alo
 
 Invert the image so that the ridge lines are now white and the remaining areas are black.
 
-==== Lab preparation using a scanner
+=== Lab preparation using a scanner
 
 The lab is encouraged to use a scanner to be able to compare the captured print with a direct input as a general measure of quality. Information seen from the direct print shall not be transferred to the captured print (for example seeing that a ridge is broken in the latent when compared to the direct scan shall not be used to correct the latent image).
 
-==== PAI mold preparation
+== PAI mold preparation
 
-===== Overview
+=== Overview
 
 The binarized images are printed onto either a sheet of laser printer transparency material or the appropriate transfer paper used in PCB fabrication. The laser printer transparency serves as the mold in this attack. For the PCB attack, the transfer paper is used in one of the mold preparation steps.
 
-====== Laser printer transparency
+==== Laser printer transparency
 
 [arabic]
 . Obtain transparency material for use in a laser printer.
@@ -141,7 +141,7 @@ The binarized images are printed onto either a sheet of laser printer transparen
 ** If available, the printer settings shall be adjusted for as high a quality output as possible. The goal is to get as thick a coating of toner on the transparency as possible.
 . Make sure the black lines on the transparency correspond to the valleys of the fingerprint.
 
-====== Printed Circuit Board
+==== Printed Circuit Board
 
 [arabic]
 . Obtain a PCB fabrication kit.
@@ -153,7 +153,7 @@ The binarized images are printed onto either a sheet of laser printer transparen
 [loweralpha]
 ** The specific process will depend on the manufacturer chosen, but the PCB mold, independent of the manufacturer, should result in a mold with the copper traces corresponding to the valleys of the fingerprint.
 
-===== PAI presentation
+== PAI presentation
 
 Each PAI is presented to the TOE in the same manner. With the subject user enrolled in the TOE, and the TOE in a state where it is capable of responding to a biometric presentation, the PAI is presented to the TOE biometric sensor in the same manner as a real finger would be.
 
