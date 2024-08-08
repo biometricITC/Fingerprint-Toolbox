@@ -39,7 +39,7 @@ Latent fingerprints on porous surfaces such as paper may require chemical treatm
 
 Commercial fingerprint scanners are a good source of flat friction ridge images. Images from commercial scanners are generally high quality, distortion free, have good detail, can be of high resolution, have good grayscale contrast and are readily available. It is recommended that a commercial scanner be used for image acquisition. The highest resolution images available should be used for PAD testing purposes. The image resolution should be 1000 PPI or higher if the scanner supports it.
 
-The commercial fingerprint scanner shuold be used to check the quality of the latent prints that are acquired, but not as the source of prints for use in the actual tests.
+The commercial fingerprint scanner should be used to check the quality of the latent prints that are acquired, but not as the source of prints for use in the actual tests.
 
 ===== Image enhancement and preparation
 
