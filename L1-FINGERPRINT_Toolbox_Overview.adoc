@@ -201,7 +201,7 @@ The following table specifies the maximum amount of stored artefacts that can be
 |Not applicable
 
 |Modeling compound
-|None allowed
+|Not allowed
 |Not applicable
 
 |Gelatin with glycerin
