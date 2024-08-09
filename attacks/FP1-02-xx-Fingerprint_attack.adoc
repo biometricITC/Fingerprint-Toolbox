@@ -170,7 +170,7 @@ The PAIs may be allowed to dry for a short time before being presented to the TO
 Different bloom hardness gelatins may be used. The gelatin / glycerin / water ratio may be varied.
 
 ===== Silicone Cast Suggestions
-The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones.
+The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones. Silicone compatible pigments may be used.
 
 ===== Conductive Coating with Silicone or Glue Cast Suggestions
 As the coating will be the only part to touch the sensor, the highest quality cast from either Silicone or Glue can be used without the need to test each combination.
