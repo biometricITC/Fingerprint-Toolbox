@@ -212,6 +212,10 @@ The following table specifies the maximum amount of stored artefacts that can be
 |50%
 |26 weeks (6 months)
 
+|Glue
+|50%
+|26 weeks (6 months)
+
 |===
 
 .Mold storage requirements
