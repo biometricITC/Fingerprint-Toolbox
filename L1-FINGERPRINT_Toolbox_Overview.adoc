@@ -128,7 +128,7 @@ Invert the image so that the ridge lines are now white and the remaining areas a
 
 === Lab preparation using a scanner
 
-The lab is encouraged to use a scanner to be able to compare the captured print with a direct input as a general measure of quality. Information seen from the direct print shall not be transferred to the captured print (for example seeing that a ridge is broken in the latent when compared to the direct scan shall not be used to correct the latent image).
+The lab is encouraged to use a scanner to be able to compare the captured print with a direct input as a general measure of quality. Information seen from the direct print shall not be transferred to the captured print (for example seeing that a ridge is broken in the latent when compared to the direct scan shall not be used to correct the latent image). The comparison shall be performed prior to inverting the binarized image.
 
 == PAI mold preparation
 
