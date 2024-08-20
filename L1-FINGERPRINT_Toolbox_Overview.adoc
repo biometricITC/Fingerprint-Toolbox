@@ -113,6 +113,9 @@ The other method for capturing the print is to pull the print powder using some 
 
 When supported by the scanner, the image file received shall be in bitmap, TIFF, RAW, or other lossless file formats. Image files using the WSQ format at a bitrate of 2.25 (≅5:1 compression) are acceptable if lossless file formats are not available from the scanner.
 
+==== Quality of the latent print
+The resulting image shall be a high enough quality representation of the source friction ridge skin as to be suitable for PAI creation. Upon analysis of the fingermark, the examiner shall observe a single non-complex impressionfootnote:[https://www.aafs.org/asb-standard/best-practice-recommendation-analysis-friction-ridge-impressions]. If a low or high complexity fingermark is recovered, the steps for acquiring a latent print shall be repeated.
+
 === Processing of the PAI data
 
 The image (whether from the scanner or captured from the latent print) then needs to be binarized to only black (0 in the 8-bit grayscale color space) and white (255 in the 8-bit grayscale color space) pixels. This can be done by hand using photo editing software suitable for pixel level adjustments or in an automated fashion using binarization software. The resulting enhanced images should have black ridges and white valleys. Pores and creases are also white. The resultant image should be life-sized and remain at the highest resolution available. Resizing the image shall not use interpolation without justification approved by the BIT.
