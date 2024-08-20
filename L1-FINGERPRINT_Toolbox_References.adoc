@@ -37,3 +37,7 @@ https://www.astm.org/e3235-21.html
 [9] [Developing Latent Prints] Trozzi, T., Schwartz, R., Hollars, M, 2000. Processing Guide for Developing Latent Prints. FBI.
 
 https://archives.fbi.gov/archives/about-us/lab/forensic-science-communications/fsc/jan2001/lpu.pdf
+
+[10] [Analysis BPR] ANSI/ASB Best Practice Recommendation 165: Best Practice Recommendation for Analysis of Friction Ridge Impressions. First Edition.
+
+https://www.aafs.org/asb-standard/best-practice-recommendation-analysis-friction-ridge-impressions
