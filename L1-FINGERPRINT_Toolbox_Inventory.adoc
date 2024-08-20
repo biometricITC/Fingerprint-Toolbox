@@ -107,10 +107,12 @@ a|Made of glass, metal or other material that does not stick to plastic
 
 |FP1-T.10
 |Camera
-a|dSLR camera
+a|Digital camera
 
-* New dSLR shall be purchasable at the date of testing and the camera was released within the previous 1 year period starting from the date of testing.
-* Camera's resolution shall be at least 3 times higher than the TOE's sensor used for face biometric verification.
+A digital camera with at least the following specifications:
+
+* 8MP resolution
+* Lossless output format (specific file format is not required, only that it be lossless)
 |
 
 |FP1-T.11
@@ -124,6 +126,8 @@ a|dSLR camera
 a|* Fingerprint black powder (mostly carbon black)
 
 * Metal flake powder (aluminium or brass)
+
+* Other fingerprint power (various colors as may be needed based on the type of surface being used)
 
 |FP1-T.13
 |Brush

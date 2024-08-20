@@ -82,6 +82,9 @@ By ensuring a clean environment, the samples taken will not have additional dust
 ==== Presentation Practice
 Presentation practice will help to minimize noise in the provided sample. This noise is related to poor presentation of the finger or PAI to the sensor (or mold), generating a poor result. For example, sliding your finger on the sensor instead of holding it still will cause the sample to be "smeared". Each type of PAI will have its own unique requirements for producing the highest quality result and should be practiced individually.
 
+==== Seasonal/Weather Conditions
+The clarity (or completeness) of a latent fingerprint can be highly variable depending on the season or weather conditions while the print is being captured. This can be specific to the individuals used as subjects, and should be to be taken into account when performing the capture. 
+
 == Flat PAI data acquisition and processing
 
 Fingerprint image acquisition for flat PAIs is the same for all attacks. An image of the subject's finger is captured from a latent print on a non-porous surface. The image can be from a slap or rolled image. If a rolled image is acquired, the evaluator may want to crop the fingerprint image to make a smaller mold containing only the central part of the fingerprint that would usually be in contact with the TOE sensor during normal operation. This region should be large enough to cover as much of the sensor as possible when presenting the PAI to the TOE. This same finger shall be used to enroll the subject into the TOE. Each image shall be acquired under controlled and favorable conditions so as to produce high quality friction ridge information. 
@@ -91,6 +94,8 @@ Fingerprint image acquisition for flat PAIs is the same for all attacks. An imag
 To acquire the fingerprint image, the following steps are followed:
 
 . The subject's finger is pressed onto the non-porous surface using similar pressure to the system being tested.
+** NOTE: The finger should not be moved during the creation to minimize smudges or other defects.
+** NOTE: Be careful handling the latent print prior to adding power.
 . Carefully dip the brush into the container of powder until the brush is well loaded for the type of powder/brush being used.
 . Tap and swirl the brush away from the print to remove excess powder from the brush and to separate the bristles.
 . Gently and evenly apply the powder to the fingerprint in a way to minimize damage to the fingerprint.
@@ -105,7 +110,9 @@ There are two methods for acquiring the image of the latent print. Each method i
 
 A camera may be use to capture the print to be used for the creation of the PAI. The surface used to create the print should have sufficient contrast with the powder used to bring out the print to be readily used by the software tools that will create the PAI.
 
-When supported by the camera, the image file received shall be in bitmap, TIFF, RAW, or other lossless file formats.
+The picture of the print should fill the image to the extent possible to maximize the resolution used for generating the latent print.
+
+The image file from the camera shall be in bitmap, TIFF, RAW, or other lossless file formats.
 
 ==== Latent pull and scan
 
@@ -126,7 +133,7 @@ The binarized image should be centered in the image canvas. The entire image can
 
 Flip the image along the vertical axis producing a mirror image of the fingerprint.
 
-Invert the image so that the ridge lines are now white and the remaining areas are black.
+The resulting image shall have the ridge lines white and the remaining areas as black. Depending on the tools used for the capture of the latent print, this may require inverting the image colors.
 
 === Lab preparation using a scanner
 
@@ -219,7 +226,7 @@ The following table specifies the maximum amount of stored artefacts that can be
 
 |Glue
 |50%
-|26 weeks (6 months)
+|13 weeks (3 months)
 
 |===
 
