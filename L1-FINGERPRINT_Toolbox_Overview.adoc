@@ -90,7 +90,7 @@ Fingerprint image acquisition for flat PAIs is the same for all attacks. An imag
 
 To acquire the fingerprint image, the following steps are followed:
 
-. The subject's finger is pressed onto the non-porous surface using the similar pressure to the system being tested.
+. The subject's finger is pressed onto the non-porous surface using similar pressure to the system being tested.
 . Carefully dip the brush into the container of powder until the brush is well loaded for the type of powder/brush being used.
 . Test the application away from the print until the right amount of powder is applied (not a heavy deposit).
 . Gently and evenly apply the powder to the fingerprint in a way to minimize damage to the fingerprint.
