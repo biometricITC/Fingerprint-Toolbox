@@ -49,3 +49,7 @@ https://www.diva-portal.org/smash/get/diva2:19729/FULLTEXT01.pdf
 [12] [Evaluation of Presentation Attack] Inés Goicoechea Tellería, 2019. Evaluation of Presentation Attack Detection under the Context of Common Criteria.
 
 https://e-archivo.uc3m.es/rest/api/core/bitstreams/11026d8e-738c-4c6d-8b72-94814c87a83b/content
+
+[13] [Latent Fingerprints] Casula1, Roberto, Orr`u1, Giulia, Angioni1, Daniele, Feng2, Xiaoyi, Marcialis1, Gian Luca and Roli, Fabio, 2020. Are spoofs from latent fingerprints a real threat for the best state-of-art liveness detectors? 25th International Conference on Pattern Recognition (ICPR).
+
+https://iris.unige.it/bitstream/11567/1083652/1/2020ICPR_spoof.pdf
