@@ -41,3 +41,11 @@ https://archives.fbi.gov/archives/about-us/lab/forensic-science-communications/f
 [10] [Analysis BPR] ANSI/ASB Best Practice Recommendation 165: Best Practice Recommendation for Analysis of Friction Ridge Impressions. First Edition.
 
 https://www.aafs.org/asb-standard/best-practice-recommendation-analysis-friction-ridge-impressions
+
+[11] [Liveness Detection] Marie Sandstr¨om, 2004. Liveness Detection in Fingerprint Recognition Systems.
+
+https://www.diva-portal.org/smash/get/diva2:19729/FULLTEXT01.pdf
+
+[12] [Evaluation of Presentation Attack] Inés Goicoechea Tellería, 2019. Evaluation of Presentation Attack Detection under the Context of Common Criteria.
+
+https://e-archivo.uc3m.es/rest/api/core/bitstreams/11026d8e-738c-4c6d-8b72-94814c87a83b/content

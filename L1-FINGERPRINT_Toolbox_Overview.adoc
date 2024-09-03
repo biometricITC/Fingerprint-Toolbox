@@ -65,7 +65,7 @@ Most of the time PAD data and how it is processed is proprietary and not publicl
 
 == Common Fingerprint Test Protocol
 
-Fingerprint PAD testing is a four step process. An image of the target fingerprint must first be acquired and the resultant image processed for mold making. Then a mold is made following the appropriate procedures for the mold type. If the mold is a direct impression of the target finger, the first step is eliminated. Once the mold is ready, cast material is prepared as necessary and applied to the mold. Upon removal from the mold, the cast may be used as is or be further processed by applying selected coatings to enhance the physical properties of the PAI. Finally, the PAI is presented to the TOE.
+Fingerprint PAD testing is a four step process. An image of the target fingerprint must first be acquired and the resultant image processed for mold making. Then a mold is made following the appropriate procedures for the mold type. Once the mold is ready, cast material is prepared as necessary and applied to the mold. Upon removal from the mold, the cast may be used as is or be further processed by applying selected coatings to enhance the physical properties of the PAI. Finally, the PAI is presented to the TOE.
 
 The Biometric PAD Toolbox Overview document specifies requirements for all PAD testing, including requirements related to the preparations necessary to successfully complete an evaluation.
 
@@ -176,7 +176,6 @@ For gelatin and silicone based PAIs:
 . Gently press the PAI onto the sensor.
 ** Use enough force to cause the fingertip to slightly flatten against the sensor surface
 ** Care should be taken to not crush the PAI ridges.
-** For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
 . Carefully observe friction ridges between each presentation. Any signs of degradation require replacement of the PAI.
 
 For non-Newtonian fluid and modeling compound PAIs:
@@ -192,7 +191,6 @@ For non-Newtonian fluid and modeling compound PAIs:
 . Gently press the PAI onto the sensor.
 ** Use enough force to cause the PAI to slightly flatten against the sensor surface.
 ** Care should be taken to not crush the PAI ridges.
-** For curved PAIs, different areas of the PAI friction ridge pattern may be presented to the sensor on consecutive presentations to simulate real world interactions with the TOE.
 . Discard the PAI after each use.
 
 == Stored Artefact Usage
