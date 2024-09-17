@@ -1,0 +1,101 @@
+= PAD-L1 Fingerprint Verification List
+:showtitle:
+:revdate: 2024-08-08
+
+This shows the set of attacks and applicability based on the sensor type used for Fingerprint modalities. Each individual attack is a variation within the main attack file based on the mold type.
+
+.Categories
+[%header,cols=".^2,.^3,.^1,.^1,.^1,.^1"]
+|===
+|No.
+|Attack Description
+|Optical Sensor
+|Conductive Sensor
+|Ultrasonic Sensor
+|Other
+
+|L1-Fingerprint FP1-01-01
+|link:attacks/FP1-01-xx-Fingerprint_attack.adoc[Non-Newtonian fluid cast from Transparency mold]
+|X
+|X
+|X
+|X
+
+|L1-Fingerprint FP1-02-01
+|link:attacks/FP1-02-xx-Fingerprint_attack.adoc[Non-Newtonian fluid cast from Printed Circuit Board mold]
+|X
+|X
+|X
+|X
+
+|L1-Fingerprint FP1-01-02
+|link:attacks/FP1-01-xx-Fingerprint_attack.adoc[Modeling compound cast from Transparency mold]
+|X
+|X
+|X
+|X
+
+|L1-Fingerprint FP1-02-02
+|link:attacks/FP1-02-xx-Fingerprint_attack.adoc[Modeling compound cast from Printed Circuit Board mold]
+|X
+|X
+|X
+|X
+
+|L1-Fingerprint FP1-01-03
+|link:attacks/FP1-01-xx-Fingerprint_attack.adoc[Gelatin with glycerin cast from Transparency mold]
+|X
+|X
+|X
+|X
+
+|L1-Fingerprint FP1-02-03
+|link:attacks/FP1-02-xx-Fingerprint_attack.adoc[Gelatin with glycerin cast from Printed Circuit Board mold]
+|X
+|X
+|X
+|X
+
+|L1-Fingerprint FP1-01-04
+|link:attacks/FP1-01-xx-Fingerprint_attack.adoc[Silicone cast from Transparency mold]
+|X
+|
+|X
+|X
+
+|L1-Fingerprint FP1-02-04
+|link:attacks/FP1-02-xx-Fingerprint_attack.adoc[Silicone cast from Printed Circuit Board mold]
+|X
+|
+|X
+|X
+
+|L1-Fingerprint FP1-01-05
+|link:attacks/FP1-01-xx-Fingerprint_attack.adoc[Glue cast from Transparency mold]
+|X
+|
+|X
+|X
+
+|L1-Fingerprint FP1-02-05
+|link:attacks/FP1-02-xx-Fingerprint_attack.adoc[Glue cast from Printed Circuit Board mold]
+|X
+|
+|X
+|X
+
+|L1-Fingerprint FP1-01-06
+|link:attacks/FP1-01-xx-Fingerprint_attack.adoc[Conductive Coating with Silicone or Glue cast from Transparency mold]
+|
+|X
+|
+|X
+
+|L1-Fingerprint FP1-02-06
+|link:attacks/FP1-02-xx-Fingerprint_attack.adoc[Conductive Coating with Silicone or Glue cast from Printed Circuit Board mold]
+|
+|X
+|
+|X
+
+|===
