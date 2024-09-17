@@ -122,7 +122,9 @@ A digital camera with at least the following specifications:
 
 |FP1-T.12
 |Fingerprint Powder
-|A granular powder containing fine granular particles (5-10 μm). Be aware of safety needs for these powders.
+|A granular powder containing fine granular particles (5-10 μm). 
+
+*NOTE: Review the manufacturer's guidance for safety information about handling these materials.*
 a|* Fingerprint black powder (mostly carbon black)
 
 * Metal flake powder (aluminium or brass)
@@ -202,7 +204,7 @@ a|
 
 |FP1-C.5
 |Glue
-a|It can be:
+a|A liquid glue such as:
 
 * Wood glue
 * School glue
@@ -337,6 +339,8 @@ a|Printed circuit board
 ** 35 μm = 1.38 mils = "1 oz" of copper
 ** 70 μm = 2.75 mils = "2 oz" of copper
 * Substrate shall be at least 1.6 mm thick
+
+*NOTE: Review the manufacturer's guidance for safety information about handling these materials.*
 a|
 
 |===
