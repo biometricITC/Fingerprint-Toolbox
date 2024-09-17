@@ -204,7 +204,7 @@ a|
 
 |FP1-C.5
 |Glue
-a|It can be:
+a|A liquid glue such as:
 
 * Wood glue
 * School glue
