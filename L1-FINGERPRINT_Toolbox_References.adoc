@@ -1,0 +1,55 @@
+= PAD-L1 Fingerprint Toolbox References
+:showtitle:
+:revdate: 2024-08-02
+
+[1] [Security & Stability] David Yambay, Security and Stability of Fingerprint and Iris Biometric Recognition Systems. 2019. Clarkson University, PhD dissertation.
+
+https://search.proquest.com/openview/b35637eea9471d10bca300a64a0d69b6/1?pq-origsite=gscholar&cbl=51922&diss=y (preview)
+
+[2] [LivDet 2009-2015] Ghiani, L., Yambay, D.A., Mura, V., Marcialis, G.L., Roli, F. and Schuckers, S.A., 2017. Review of the fingerprint liveness detection (LivDet) competition series: 2009 to 2015. Image and Vision Computing, 58, pp.110-128
+
+https://arxiv.org/pdf/1609.01648.pdf
+
+[3] [LivDet] LivDet - Liveness Detection Competition Series
+
+http://livdet.org
+
+[4] [Silly Putty] Silly Putty - Wikipedia entry, retrieved 02 March 2020
+
+https://en.wikipedia.org/wiki/Silly_Putty
+
+[5] [NBIS SW] NIST Biometric Image Software (NBIS)
+
+https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis
+
+[6] [LivDet 2017] Yambay, D., Schuckers, S., Denning, S., Sandmann, C., Bachurinski, A. and Hogan, J., 2018, October. LivDet 2017-Fingerprint Systems Liveness Detection Competition. In 2018 IEEE 9th International Conference on Biometrics Theory, Applications and Systems (BTAS) (pp. 1-9). IEEE.
+
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8698578&tag=1
+
+[7] [Fingermark Visualisation] Fingermark Visualisation Manual Second Edition, 2022. Dstl.
+
+https://assets.publishing.service.gov.uk/media/65d35b9e0f4eb10064a9810d/Fingermark_Visualisation_Manual_2nd_Edition_2022.pdf
+
+[8] [Latent Print Guide] Organization of Scientific Area Committees (OSAC) for Forensic Science, Jan 23, 2023. Standard Practice for Latent Print Evidence Imaging Resolution, ASTM E3235-21. ASTM International.
+
+https://www.astm.org/e3235-21.html
+
+[9] [Developing Latent Prints] Trozzi, T., Schwartz, R., Hollars, M, 2000. Processing Guide for Developing Latent Prints. FBI.
+
+https://archives.fbi.gov/archives/about-us/lab/forensic-science-communications/fsc/jan2001/lpu.pdf
+
+[10] [Analysis BPR] ANSI/ASB Best Practice Recommendation 165: Best Practice Recommendation for Analysis of Friction Ridge Impressions. First Edition.
+
+https://www.aafs.org/asb-standard/best-practice-recommendation-analysis-friction-ridge-impressions
+
+[11] [Liveness Detection] Marie Sandstr¨om, 2004. Liveness Detection in Fingerprint Recognition Systems.
+
+https://www.diva-portal.org/smash/get/diva2:19729/FULLTEXT01.pdf
+
+[12] [Evaluation of Presentation Attack] Inés Goicoechea Tellería, 2019. Evaluation of Presentation Attack Detection under the Context of Common Criteria.
+
+https://e-archivo.uc3m.es/rest/api/core/bitstreams/11026d8e-738c-4c6d-8b72-94814c87a83b/content
+
+[13] [Latent Fingerprints] Casula1, Roberto, Orr`u1, Giulia, Angioni1, Daniele, Feng2, Xiaoyi, Marcialis1, Gian Luca and Roli, Fabio, 2020. Are spoofs from latent fingerprints a real threat for the best state-of-art liveness detectors? 25th International Conference on Pattern Recognition (ICPR).
+
+https://iris.unige.it/bitstream/11567/1083652/1/2020ICPR_spoof.pdf

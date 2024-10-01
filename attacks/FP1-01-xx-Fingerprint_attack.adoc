@@ -1,40 +1,41 @@
-= Attack Fingerprint 02-xx
+= Attack L1-Fingerprint FP1-01-xx
 :xrefstyle: short
 
 == Attack type
-Fingerprint casts made from a printed circuit board (PCB) mold.
+Fingerprint casts made from a transparency material mold.
 
 === Total Number of Species
-This attack has *5* species to be tested.
+This attack has *6* species to be tested.
 
 == Overview
-The evaluator captures a target user’s fingerprint with a commercial fingerprint scanner. Using the image from the scanner the evaluator produces a PCB mold. A PAI is made from the PCB mold and is presented to the TOE.
+The evaluator captures a target user's fingerprint following the latent fingerprint capture steps. Using the image from the capture the evaluator produces a laser printer transparency mold. A PAI is made from the laser printer transparency mold and is presented to the TOE.
 
 == Input
-The fingers of cooperative subjects for use in capturing images of the subjects’ friction ridge patterns. Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
+The fingers of uncooperative subjects for use in capturing images of the subjects' friction ridge patterns (latent prints). Images acquired under controlled and favorable conditions so as to acquire high quality friction ridge information.
 
 == Common Attack Tools and Mold Materials
-* T.1 Fingerprint scanner
-* T.2 Image processing software
-* T.3 Laser printer
-* M.2 Printed circuit board (PCB)
+* FP1-T.1 Fingerprint scanner
+* FP1-T.2 Image processing software
+* FP1-T.3 Laser printer
+* FP1-M.1 Transparency material
 
 == Common Recipe - mold
 . Obtain a binarized image of the target fingerprint. Make sure the ridge information is life-sized.
-. Center the ridges in the image canvas. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one PCB blank, make sure to leave adequate working space between the images.
+. Center the ridges in the image canvas of the photo manipulation software. The entire canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. If multiple images are placed on one transparency, make sure to leave adequate working space between the images.
 . Flip the image along the vertical axis producing a mirror image of the fingerprint.
 . Invert the image so that the ridge lines are white and the remaining areas are black.
-. Follow PCB manufacturer instructions for producing a printed circuit board. These instructions will vary depending on manufacturer and method of transferring the image to the PCB blank. The process used should be documented in the test report.
-. Be careful to not leave the PCB in the etching solution longer than needed to achieve clean substrate in the ridge areas. Doing so will cause the copper under the etch-resistant material to be etched away.
+. Print the image(s) onto the transparency sheets.
+.. Use the highest quality print mode possible. A minimum of 1000 dpi resolution should be used.
+.. Avoid using duplex mode. The transparency should only make a single pass through the printer.
 
 == Variations
 The attack must be performed with each cast material.
 
-=== Variation 1 (Fingerprint 02-01)
+=== Variation 1 (L1-Fingerprint FP1-01-01)
 *Non-Newtonian fluid cast*
 
 ==== Materials
-* C.1 Non-Newtonian fluid
+* FP1-C.1 Non-Newtonian fluid
 
 ==== Recipe - cast
 Utilize a commercial non-Newtonian fluid that meets the requirements from the Fingerprint Toolbox Inventory.
@@ -47,14 +48,14 @@ Each PAI may be used only one time.
 
 Store non-Newtonian fluid in an airtight container.
 
-=== Variation 2 (Fingerprint 02-02)
+=== Variation 2 (L1-Fingerprint FP1-01-02)
 *Modeling compound cast*
 
 ==== Materials
-* C.2 Modeling compound
+* FP1-C.2 Modeling compound
 
 ==== Recipe - cast
-Utilize either a commercial product or follow the C.2 Modeling Compound Instructions from the Fingerprint Toolbox Inventory to create modeling compound.
+Utilize either a commercial product or follow the FP1-C.2 Modeling Compound Instructions from the Fingerprint Toolbox Inventory to create modeling compound.
 
 . Obtain or prepare sufficient quantities of modeling compound. 
 . Apply a small amount of modeling compound sufficient to cover the friction ridge pattern of the mold.
@@ -64,43 +65,43 @@ Each PAI may be used only one time.
 
 Store modeling compound in an airtight container.
 
-=== Variation 3 (Fingerprint 02-03)
+=== Variation 3 (L1-Fingerprint FP1-01-03)
 *Gelatin/glycerin mix cast*
 
 ==== Materials
-* T.6 Microwave oven
-* C.3 Gelatin with glycerin
+* FP1-T.6 Microwave oven
+* FP1-C.3 Gelatin with glycerin
 
 ==== Recipe - cast
-Utilize the C.3 Gelatin with Glycerin Instructions from the Fingerprint Toolbox Inventory to prepare the cast material.
+Utilize the FP1-C.3 Gelatin with Glycerin Instructions from the Fingerprint Toolbox Inventory to prepare the cast material.
 
 . Prepare (heat) a suitable quantity of gelatin mixture to create the PAI.
 . Pour gelatin mixture into mold as soon as possible.
-.. Resulting cast should be thin enough to curve around tester’s finger when presented to TOE.
+.. Resulting cast should be thin enough to curve around tester's finger when presented to TOE.
 .. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
 . Cool mixture thoroughly before removing from mold.
 .. Be careful not to stretch the cast too much causing it to permanently deform or tear when removing from mold.
 . Present to TOE as soon after removal from mold as practical.
 
-PAI may be reused until it dries out too much to be effective or the friction ridges show signs degradation. If properly produced and stored, PAI’s should have a shelf life of several months.
+PAI may be reused until it dries out too much to be effective or the friction ridges show signs degradation. If properly produced and stored, PAI's should have a shelf life of several months.
 
 Store PAIs in an airtight container.
 
-=== Variation 4 (Fingerprint 02-04)
+=== Variation 4 (L1-Fingerprint FP1-01-04)
 *Silicone cast*
 
 ==== Materials
-* C.4 Silicone
+* FP1-C.4 Silicone
 
 ==== Recipe - cast
-Utilize the C.4 Silicone Instructions from the Fingerprint Toolbox Inventory to prepare the cast material.
+Utilize the FP1-C.4 Silicone Instructions from the Fingerprint Toolbox Inventory to prepare the cast material.
 
 . Prepare a suitable quantity of silicone to create the PAI.
 . Pour mixture into clean dust free mold.
 .. A release agent compatible with the mold and cast materials may be used if desired.
-... Follow manufactures’ recommendations for using mold releases.
+... Follow manufactures' recommendations for using mold releases.
 ... If needed, remove mold release residue from cast before presentation to TOE.
-.. Resulting cast should be thin enough to curve around tester’s finger when presented to TOE.
+.. Resulting cast should be thin enough to curve around tester's finger when presented to TOE.
 .. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
 . Allow silicone to thoroughly cure before removing from mold.
 .. Be careful not to stretch the cast too much causing it to permanently deform or tear when removing from mold.
@@ -108,15 +109,40 @@ Utilize the C.4 Silicone Instructions from the Fingerprint Toolbox Inventory to 
 
 PAI may be reused until friction ridges show signs degradation.
 
-=== Variation 5 (Fingerprint 02-05)
-*Silicone cast with conductive coating*
+=== Variation 5 (L1-Fingerprint FP1-01-05)
+*Glue*
 
 ==== Materials
-* C.4 Silicone
-* C.5 Conductive coating
+* FP1-C.6 Glue
 
 ==== Recipe - cast
-Utilize the C.5 Silicone with Conductive Coating Instructions from the Fingerprint Toolbox Inventory to prepare the cast material. These instructions will produce a final PAI.
+Utilize the FP1-C.6 Glue Instructions from the L1-Fingerprint Toolbox Inventory to prepare the cast material.
+
+. Prepare a suitable quantity of Glue to create the PAI.
+. Pour mixture into clean dust free mold.
+.. Remove any bubbles that may appear when pouring the mixture in the mold.
+.. A release agent compatible with the mold and cast materials may be used if desired.
+... Follow manufactures' recommendations for using mold releases.
+... If needed, remove mold release residue from cast before presentation to TOE.
+.. Resulting cast should be thin enough to curve around tester's finger when presented to TOE.
+.. Place enough material in the mold to allow extra material to extend beyond the friction ridge area of the mold. This will facilitate handling the cast when removing from the mold and presenting it to the TOE.
+. Allow Glue to thoroughly cure before removing from mold.
+.. Be careful not to stretch the cast too much causing it to permanently deform or tear when removing from mold.
+. Keep the friction ridge surface clean and dust free until presented to TOE.
+
+PAI may be reused until friction ridges show signs degradation.
+
+Store the PAIs in an airtight container.
+
+=== Variation 6 (L1-Fingerprint FP1-01-06)
+*Conductive Coating with Silicone or Glue cast*
+
+==== Materials
+* FP1-C.4 Silicone or FP1-C.5 Glue
+* FP1-C.6 Conductive coating
+
+==== Recipe - cast
+Utilize the FP1-C.6 Conductive Coating with Silicone or Glue cast Instructions from the Fingerprint Toolbox Inventory to prepare the cast material. These instructions will produce a final PAI.
 
 PAI may be reused until friction ridges or coating show signs degradation.
 
@@ -130,9 +156,6 @@ The evaluator shall present the PAI to the TOE as described in the Fingerprint T
 === Penetration Testing Suggestion
 The evaluator should consider changing the following factors for penetration testing.
 
-==== Configuration of Mold Tools and Materials
-The copper cladding thickness can be varied to produce differing height ridges in the casts.
-
 ==== Configuration of Cast Tools and Materials
 The evaluator may, for example, vary the temperature of the PAIs to change the stiffness of the friction ridges. Different manufacturers or recipes for the cast materials may be used. 
 
@@ -145,9 +168,11 @@ The PAIs may be allowed to dry for a short time before being presented to the TO
 Different bloom hardness gelatins may be used. The gelatin / glycerin / water ratio may be varied.
 
 ===== Silicone Cast Suggestions
-The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones.
+The Shore hardness ratings can be varied within the approximate range listed. PAI optical clarity may be varied by using different silicones. Silicone compatible pigments may be used.
 
-===== Silicone Cast with Conductive Coating Suggestions
+===== Conductive Coating with Silicone or Glue Cast Suggestions
+As the coating will be the only part to touch the sensor, the highest quality cast from either Silicone or Glue can be used without the need to test each combination.
+
 Different coating materials can be used.
 
 * Conductive ink/paint can be sprayed or brushed on.
@@ -175,7 +200,7 @@ Attack potential for Exploitation corresponds to the effort to attack the TOE us
 
 *All Variations*
 
-.Calculated Attack Potential Fingerprint attack 02-xx
+.Calculated Attack Potential Fingerprint attack 01-xx
 [[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 |===
@@ -236,7 +261,7 @@ a|*Window of Opportunity*
 
 |===
 
-.Mold Attack Potential Fingerprint attack 02-xx
+.Mold Attack Potential Fingerprint attack 01-xx
 [[moldtable]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===
@@ -275,7 +300,7 @@ a|*Window of Opportunity*
 
 |===
 
-.Cast Attack Potential Fingerprint attack 02-xx
+.Cast Attack Potential Fingerprint attack 01-xx
 [[casttable]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===

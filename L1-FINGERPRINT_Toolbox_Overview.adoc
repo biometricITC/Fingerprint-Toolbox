@@ -1,0 +1,274 @@
+= PAD-L1 Fingerprint Toolbox Overview
+:showtitle:
+:sectnums:
+:sectnumlevels: 5
+:revdate: 2024-08-02
+
+== Overview
+This toolbox contains a description of the process, tools, and materials needed to construct and use a selection of PAD-L1 fingerprint PAIs (see the Toolbox Overview for more information about PAD levels). As there is an almost unlimited number of possible PAIs that can be created at and PAD level, the set of PAIs here are considered a representative set of PAIs, not an exhaustive set.
+
+Fingerprint PAD testing is a combination of fingerprint data acquisition, mold making, cast preparation (the PAI) and PAI presentation to the sensor. 
+
+A fingerprint mold is a physical master pattern created from the fingerprint that will be attacked. The mold is a physical negative of the source fingerprint, with ridge valleys formed thicker than ridges. There are many ways to create a mold, such as directly from the finger, or from a scanned fingerprint image that is printed on a PCB. A mold should be able to be reused repeatedly for the purposes of this testing.
+
+A cast is the PAI, the individual artefact that will be presented to the sensor for PAD testing. The cast is created from the mold, and is usually specific to the type of mold being used.
+
+There are a variety of fingerprint sensors on the market with differing methods of collecting biometric data needed for PAD. The selection of which PAI to use when attacking fingerprint sensors is dependent on what sensor technology is used. It is expected that the inventory of this toolbox will grow as new PAD technologies come to market and as new PAI materials and processes are developed.
+
+The process to produce and use a fingerprint PAI begins with collecting the biometric data upon which the PAI will be based. A mold then needs to be made. Depending on the mold type, the biometric data may need to be processed prior to mold construction. This is generally the case when the mold is not formed directly from the target's finger. Finally, a cast of the fingerprint (PAI) is made and presented to the sensor.
+
+== Fingerprint Presentation Attacks
+
+=== PAD-L1 Fingerprint Attacks
+
+At PAD-L1 all Fingerprint attacks are based on a flat source acquired from a non-cooperative subject (the user does not provide a direct print in a mold or a scanner). 
+
+==== PAD data acquisition
+
+===== Fingerprint data
+
+Fingerprint data is often acquired from a flat surface. This could be from a latent print left on a mobile device or a piece of paper. Flat fingerprint data can also be imaged on a typical touch fingerprint scanner. For this toolbox, only a subset of possible ways to acquire a flat fingerprint image are considered to reduce testing cost and simplify materials storage and handling requirements. While latent prints are a common source of fingerprint data and can be used to mount attacks, they can contain biometric data that is noisy and incomplete. Conditions for latent prints will be set to minimize noise to the extent possible, but will be the method used for acquiring prints.
+
+====== Latent
+
+Latent fingerprints on non-porous surfaces can be imaged with digital cameras. The image is then processed before making a mold. The ideal image has very high contrast between the ridges and valleys. This contrast can be enhanced by varying the angles between the camera, light source(s) and the surface with the latent. Additionally, commercially available fingerprint dusting powders can be applied to increase this contrast and enhance the separation of the friction ridge pattern from the background of the image. This type of print, collected from a non-porours surface will be used for testing.
+
+Latent fingerprints on porous surfaces such as paper may require chemical treatment to enhance the visibility of the friction ridge pattern. Depending on the surface, the process for developing a latent fingerprint image can vary greatly and may require specialized tools, handling hazardous chemicals, and using dangerous equipment. For these reasons as well as those cited above, using latent fingerprints from porous surfaces is beyond the scope of this toolbox.
+
+====== Scanned image (Included for reference and lab preparedness)
+
+Commercial fingerprint scanners are a good source of flat friction ridge images. Images from commercial scanners are generally high quality, distortion free, have good detail, can be of high resolution, have good grayscale contrast and are readily available. It is recommended that a commercial scanner be used for image acquisition. The highest resolution images available should be used for PAD testing purposes. The image resolution should be 1000 PPI or higher if the scanner supports it.
+
+The commercial fingerprint scanner capture of a fingerprint should be used to check the quality of the latent prints that are acquired (by ensuring a positive comparison determination is produced by a COTS fingerprint comparison algorithm), but not as the source of prints for use in the actual tests.
+
+===== Image enhancement and preparation
+
+Images of fingerprints are usually captured in grayscale. To make a mold, a black and white image is often required. Images can be converted to black and white by applying a threshold filter to the image in photo processing software. Images can be improved by using photo editing software that allows very fine detail image manipulation at the pixel level. Noise, dust, and scratches in the image can be removed in this process, however, evaluators shall be careful not to remove too much Level 3footnote:[Level 3 details include ridge shape, edge contour, width, local path variation as well pore location and shape, incipient ridges, creases, scars, etc.] information when removing image artifacts.
+
+Another method of converting the grayscale fingerprint image to black and white is to run the image through so called binarization software. This software, similar to that performed in the MINDTCT algorithm found in NIST Biometric Image Software (NBIS)footnote:[https://www.nist.gov/services-resources/software/nist-biometric-image-software-nbis], automatically detects ridges and valleys, and converts each to their respective black and white colors. This kind of software, however, can obscure some Level 3 detail.
+
+==== Mold making
+
+Molds that are flat produce flat PAIs. Genuine fingers are not flat. This does not necessarily pose a problem, as most TOE fingerprint sensors have flat platens that require physical contact with the friction ridge of the target finger in order to acquire biometric data. Such contact causes the user's finger to flatten.
+
+===== Printed Circuit Board (PCB)
+
+Printed circuit boards come in varying substrate and copper cladding thicknesses. The substrate thickness should be thick enough to allow easy handling and prevent noticeable flexing of the PCB. A thickness of 1.6 mm is typical and sufficient for PAD testing applications. A common substrate material used in PCBs is designated FR4 or fiberglass reinforced epoxy. The copper cladding should be 2.74 mils thick, referred to as “2 oz. of copper” in the PCB manufacturing industry. This is twice the standard PCB trace thickness of “1 oz. of copper”. The thicker copper traces provide a greater relief (i.e., a higher degree of depth) between the PAI ridges and valleys.
+
+===== Laser-printed transparency
+
+Molds made from laser-printed overhead transparency material are similar to PCB molds. They are easier, cheaper, and faster to make than PCB molds. However, a smaller relief (i.e., a lower degree of depth) between the PAI ridges and valleys will be noticed when compared to equivalent PCB molds.
+
+== Fingerprint Presentation Attack Detection
+
+Most of the time PAD data and how it is processed is proprietary and not publicly known. In some cases, the same method used to collect biometric data for verification and identification is the same as used for PAD data collection. As a result, PAI construction involves making an exemplar of the target's friction ridge pattern. The PAI may also attempt to reproduce other physical properties such as skin color, subdermal layering, electrical properties of conductivity, impedance, blood movement, and elasticity.
+
+== Common Fingerprint Test Protocol
+
+Fingerprint PAD testing is a four step process. An image of the target fingerprint must first be acquired and the resultant image processed for mold making. Then a mold is made following the appropriate procedures for the mold type. Once the mold is ready, cast material is prepared as necessary and applied to the mold. Upon removal from the mold, the cast may be used as is or be further processed by applying selected coatings to enhance the physical properties of the PAI. Finally, the PAI is presented to the TOE.
+
+The Biometric PAD Toolbox Overview document specifies requirements for all PAD testing, including requirements related to the preparations necessary to successfully complete an evaluation.
+
+=== Common Testing Hygiene
+As the fingerprint sensors being tested here are all based on touch, several common actions should be taken to ensure the highest quality of the original samples. These actions can be divided into component cleaning to ensure environmental clarity and presentation practice to minimize noise. These actions will provide for the creation of better PAI with less need to "process" the samples using image enhancement (beyond what is needed to produce the PAI).
+
+Section 5.1.1 Preparation of the Biometric PAD Toolbox Overview should be reviewed for further details about how to ensure high quality samples.
+
+==== Component Cleaning
+Component cleaning is to ensure environmental clarity for the presentation of any fingerprint (live or PAI). To the extent possible, all surfaces should be cleaned for each use (some PAI do not allow for explicit cleaning once created, but can be handled with proper care to ensure cleanliness). Sensors/scanners/surfaces should be cleaned according to the manufacturer's recommendations to ensure proper functionality. When a sample is taken, both the finger in use and the material/sensor/surface being used to record the fingerprint must be cleaned. Before a mold is used to create a PAI, it must be cleaned (according to the best practices for the materials in use). When a PAI is to be used, the PAI and the sensor must be cleaned (the PAI should be cleaned where possible, or handled in a way to ensure cleanliness when it isn't possible to be cleaned).
+
+By ensuring a clean environment, the samples taken will not have additional dust/debris that can impact the quality of the sample or the presentation of the PAI.
+
+==== Presentation Practice
+Presentation practice will help to minimize noise in the provided sample. This noise is related to poor presentation of the finger or PAI to the sensor (or mold), generating a poor result. For example, sliding your finger on the sensor instead of holding it still will cause the sample to be "smeared". Each type of PAI will have its own unique requirements for producing the highest quality result and should be practiced individually.
+
+==== Seasonal/Weather Conditions
+The clarity (or completeness) of a latent fingerprint can be highly variable depending on the season or weather conditions while the print is being captured. This can be specific to the individuals used as subjects, and should be to be taken into account when performing the capture. 
+
+== Flat PAI data acquisition and processing
+
+Fingerprint image acquisition for flat PAIs is the same for all attacks. An image of the subject's finger is captured from a latent print on a non-porous surface. The image can be from a slap or rolled image. If a rolled image is acquired, the evaluator may want to crop the fingerprint image to make a smaller mold containing only the central part of the fingerprint that would usually be in contact with the TOE sensor during normal operation. This region should be large enough to cover as much of the sensor as possible when presenting the PAI to the TOE. This same finger shall be used to enroll the subject into the TOE. Each image shall be acquired under controlled and favorable conditions so as to produce high quality friction ridge information. 
+
+=== Acquiring the latent print
+
+To acquire the fingerprint image, the following steps are followed:
+
+. The subject's finger is pressed onto the non-porous surface using similar pressure to the system being tested.
+** NOTE: The finger should not be moved during the creation to minimize smudges or other defects.
+** NOTE: Be careful handling the latent print prior to adding power.
+. Carefully dip the brush into the container of powder until the brush is well loaded for the type of powder/brush being used.
+. Tap and swirl the brush away from the print to remove excess powder from the brush and to separate the bristles.
+. Gently and evenly apply the powder to the fingerprint in a way to minimize damage to the fingerprint.
+
+Once the print has been sufficiently covered, it can be imaged.
+
+=== Imaging the latent print
+
+There are two methods for acquiring the image of the latent print. Each method is acceptable, and the specific choice depends on the tools being used.
+
+==== Camera capture
+
+A camera may be use to capture the print to be used for the creation of the PAI. The surface used to create the print should have sufficient contrast with the powder used to bring out the print to be readily used by the software tools that will create the PAI.
+
+The picture of the print should fill the image to the extent possible to maximize the resolution used for generating the latent print.
+
+The image file from the camera shall be in bitmap, TIFF, RAW, or other lossless file formats.
+
+==== Latent pull and scan
+
+The other method for capturing the print is to pull the print powder using some sort of adhesive tape and then placing this onto a fingerprint scanner to capture the image. 
+
+When supported by the scanner, the image file received shall be in bitmap, TIFF, RAW, or other lossless file formats. Image files using the WSQ format at a bitrate of 2.25 (≅5:1 compression) are acceptable if lossless file formats are not available from the scanner.
+
+==== Quality of the latent print
+The resulting image shall be a high enough quality representation of the source friction ridge skin as to be suitable for PAI creation. Upon analysis of the fingermark, the examiner shall observe a single non-complex impressionfootnote:[https://www.aafs.org/asb-standard/best-practice-recommendation-analysis-friction-ridge-impressions]. If a low or high complexity fingermark is recovered, the steps for acquiring a latent print shall be repeated.
+
+=== Processing of the PAI data
+
+The image (whether from the scanner or captured from the latent print) then needs to be binarized to only black (0 in the 8-bit grayscale color space) and white (255 in the 8-bit grayscale color space) pixels. This can be done by hand using photo editing software suitable for pixel level adjustments or in an automated fashion using binarization software. The resulting enhanced images should have black ridges and white valleys. Pores and creases are also white. The resultant image should be life-sized and remain at the highest resolution available. Resizing the image shall not use interpolation without justification approved by the BIT.
+
+If excessive powder or background artifacts involved in the acquisition of the fingermark create excessive false ridge detail in the resulting binarized image, the steps for acquiring a latent print shall be repeated.
+
+The binarized image should be centered in the image canvas. The entire image canvas should be at least twice the width and height of the area covered by the ridges. In other words, leave adequate space around the fingerprint so that casts made from the mold can be handled without touching the ridges. Make sure to leave adequate working space between the images if multiple images are placed on one transparency or PCB.
+
+Flip the image along the vertical axis producing a mirror image of the fingerprint.
+
+The resulting image shall have the ridge lines white and the remaining areas as black. Depending on the tools used for the capture of the latent print, this may require inverting the image colors.
+
+=== Lab preparation using a scanner
+
+The lab is encouraged to use a scanner to be able to compare the captured print with a direct input as a general measure of quality. Information seen from the direct print shall not be transferred to the captured print (for example seeing that a ridge is broken in the latent when compared to the direct scan shall not be used to correct the latent image). The comparison shall be performed prior to inverting the binarized image.
+
+== PAI mold preparation
+
+=== Overview
+
+The binarized images are printed onto either a sheet of laser printer transparency material or the appropriate transfer paper used in PCB fabrication. The laser printer transparency serves as the mold in this attack. For the PCB attack, the transfer paper is used in one of the mold preparation steps.
+
+==== Laser printer transparency
+
+[arabic]
+. Obtain transparency material for use in a laser printer.
+. Using a Small Office / Home Office grade laser printer, print the binarized life-sized images of the target fingerprint spaced as mentioned above on the transparency material.
+** If available, the printer settings shall be adjusted for as high a quality output as possible. The goal is to get as thick a coating of toner on the transparency as possible.
+. Make sure the black lines on the transparency correspond to the valleys of the fingerprint.
+
+==== Printed Circuit Board
+
+[arabic]
+. Obtain a PCB fabrication kit.
+. Using a Small Office / Home Office grade laser printer, print the binarized life-sized images of the target fingerprint spaced as mentioned above on the transfer paper of the PCB fabrication kit.
+[loweralpha]
+** Follow PCB fabrication kit manufacturer recommendations for adjustments to the printing process.
+. Make sure the black lines on the transfer paper are the valleys of the fingerprint.
+. Follow the PCB fabrication kit manufacturer instructions for completing the PCB fabrication.
+[loweralpha]
+** The specific process will depend on the manufacturer chosen, but the PCB mold, independent of the manufacturer, should result in a mold with the copper traces corresponding to the valleys of the fingerprint.
+
+== PAI presentation
+
+Each PAI is presented to the TOE in the same manner. With the subject user enrolled in the TOE, and the TOE in a state where it is capable of responding to a biometric presentation, the PAI is presented to the TOE biometric sensor in the same manner as a real finger would be.
+
+For gelatin and silicone based PAIs:
+
+. The finished cast should be placed on tester's preferred finger with friction ridge pattern oriented the same as the tester's friction ridge pattern. (That is, make sure the PAI is not upside down.)
+** Theater adhesive may be used to hold the PAI in place.
+. Gently press the PAI onto the sensor.
+** Use enough force to cause the fingertip to slightly flatten against the sensor surface
+** Care should be taken to not crush the PAI ridges.
+. Carefully observe friction ridges between each presentation. Any signs of degradation require replacement of the PAI.
+
+For non-Newtonian fluid and modeling compound PAIs:
+
+. Remove the PAI from the mold.
+.. For non-Newtonian fluid casts:
+[arabic]
+... The cast can be presented immediately to the sensor.
+.. For modeling compound casts:
+[arabic]
+... The cast should be presented immediately to the sensor.
+... The cast can also be allowed to air dry for a short time before being presented to the sensor.
+. Gently press the PAI onto the sensor.
+** Use enough force to cause the PAI to slightly flatten against the sensor surface.
+** Care should be taken to not crush the PAI ridges.
+. Discard the PAI after each use.
+
+== Stored Artefact Usage
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing. Stored artefacts also have maximum ages based on the date of initial creation (weeks are used for consistent time periods). Stored artefacts can only be used up to the maximum age based on the time difference between the creation date and the use date (use must be completed before the maximum age allowed).
+
+The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
+
+.Artefacts storage requirements
+[cols=".^2,.^3,.^3",options="header",]
+|===
+
+|Artefact type
+|Max stored artefacts allowed
+|Max age of stored artefacts
+
+|Non-Newtonian fluid
+|Not allowed
+|Not applicable
+
+|Modeling compound
+|Not allowed
+|Not applicable
+
+|Gelatin with glycerin
+|50%
+|13 weeks (3 months)
+
+|Silicone
+|50%
+|26 weeks (6 months)
+
+|Glue
+|50%
+|13 weeks (3 months)
+
+|===
+
+.Mold storage requirements
+[cols=".^2,.^3,.^3",options="header",]
+|===
+
+|Mold type
+|Max stored molds allowed
+|Max age of stored molds
+
+|Laser printer transparency
+|80%
+|52 weeks (1 year)
+
+|Printed Circuit Board
+|80%
+|52 weeks (1 year)
+
+|===
+
+== Requirements for Tools
+
+The tools used for the PAD-L1 toolbox consist of materials and processes which span the range of children's toys to medical professional applications. Nevertheless, all methods and processes are those with which a layman or hobbyist should be comfortable using. The costs for every material is also low. Evaluator skill and practice at conducting PAD-L1 testing is a significant factor in the efficacy of the PAIs.
+
+Most commercial fingerprint scanners are designed to output 500 PPI grayscale images, however there are some that produce 1000 PPI images. The native hardware resolution of the scanner is oftentimes higher than the output resolution. This higher resolution is then reduced in software to 500 PPI. If 1000 PPI resolution scanners are not readily available, the evaluator may need to purchase a specialized version of the scanner or scanner driver software that outputs the preferred 1000 PPI images. Some scanner manufactures may be willing to provide the special driver at nominal cost. Alternatively, the evaluator could use a Software Development Kit (SDK) to develop his own driver. Many fingerprint scanner manufactures provide free SDKs for their devices.
+
+== Test Items
+
+The evaluator shall create artefacts defined in all test items listed in the PAD-L1 Fingerprint Verification List. The PAD-L1 Fingerprint Verification List specifies the species types that must be created.
+
+The PAD Toolbox Overview defines required number of attempts for the independent testing and maximum timeframe for both independent and penetration testing.
+
+=== Using the Toolbox Documents for Test Items
+To complete the testing, the evaluator will need to create both molds and casts (artefacts). The instructions for creating the molds and casts are divided between the PAD-L1 Fingerprint Toolbox Inventory and the individual attacks as follows.
+
+The PAD-L1 Fingerprint Toolbox Inventory lists all the tools and materials that are required for the creation of the molds and casts. While some of the cast materials may be purchased and used directly, others require the evaluator to create the cast material from a recipe. Where the evalautor is creating the cast material, the instructions are included in the PAD-L1 Fingerprint Toolbox Inventory. This cast material would then be used to create the casts in the attack documents.
+
+The instructions for casts in the attack documents expect that a cast material is already available. The instructions related to the cast in the attack documents focus on how to create the cast (artefact), and any tools specified are only those needed for the creation of the cast itself, not for the cast material.
+
+== Pass/Fail Criteria
+
+IAPAR shall be less than the specified value in FIA_MBV_EXT.3.1 in any case. If additional Pass/Fail Criteria is defined in the test items, then the evaluator shall also follow them.
+
+== Reference Information
+
+The PAD-L1 Fingerprint Toolbox was created based on references listed in PAD-L1 Fingerprint Toolbox References. The evaluator should refer to them before conducting the PAD testing because they include more detailed information about PAD test methods.
