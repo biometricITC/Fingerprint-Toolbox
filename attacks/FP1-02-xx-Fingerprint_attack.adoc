@@ -194,7 +194,7 @@ Some assumptions, based on current technology, are applied to the calculation of
 Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the mold and the cast described in this attack. When selecting the mold / cast combination, consideration must be given to the ability to produce the mold separately from that needed for the cast. Because of this, the resulting attack potential for Identification in <<calculatedtable>> is computed by combining mold (<<moldtable>>) and cast (<<casttable>>) values per-Factor, as follows:
 
  * Elapsed Time is calculated as the sum of the individual time values for the cast and the mold.
- ** For example, an Elapsed Time for the mold of <= one week and for the cast of <= one day when added results in a total of <= 8 days, which is assigned the Identification Value of <= two weeks. 
+ ** For example, an Elapsed Time for the mold of <= three days and for the cast of <= one day when added results in a total of <= four days, which is assigned the Identification Value of <= one week. 
  * For all other factors, the Identification Value is the maximum of the cast and mold values.
  ** For example, an Equipment factor of Standard equipment for the mold combined with an Equipment factor of Specialized equipment for the cast would result in the Identification Value of Specialized equipment.
 
@@ -214,11 +214,11 @@ Attack potential for Exploitation corresponds to the effort to attack the TOE us
 |Total
 
 |*Elapsed Time*
-|<= two weeks 
+|<= three days
 |2 
-|<=one day 
-|0 
-|2
+|<= twelve hours
+|1
+|3
 
 |*Expertise*
 |Layman
@@ -234,6 +234,22 @@ Attack potential for Exploitation corresponds to the effort to attack the TOE us
 |
 |0
 
+|*Equipment*
+|Standard
+|0
+|Standard
+|0
+|0
+
+a|*Window of Opportunity*
+
+*(Access to Biometric Characteristics)*
+|N/A
+|
+|Opportunistic Easy
+|2
+|2
+
 a|*Window of Opportunity*
 
 *(Access to TOE)*
@@ -243,23 +259,14 @@ a|*Window of Opportunity*
 |4
 |4
 
-a|*Window of Opportunity*
-
-*(Access to Biometric Characteristics)*
-|N/A
-|
-|Non-cooperative
-|2
-|2
-
-|*Equipment*
-|Standard
+|*Degree of Scrutiny*
+|None
 |0
-|Standard
+|None
 |0
 |0
 
-6.+^.^|Calculated Total Attack Potential = 8 < Basic Attack Potential
+6.+^.^|Calculated Total Attack Potential = 9 < Basic Attack Potential
 
 |===
 
@@ -272,8 +279,8 @@ a|*Window of Opportunity*
 |Score
 
 |*Elapsed Time*
-|<= one week 
-|1 
+|<= two days (a proportion of the total of less than three days)
+|1
 
 |*Expertise*
 |Layman
@@ -283,10 +290,8 @@ a|*Window of Opportunity*
 |Public
 |0
 
-a|*Window of Opportunity*
-
-*(Access to TOE)*
-|Easy
+|*Equipment*
+|Standard
 |0
 
 a|*Window of Opportunity*
@@ -295,10 +300,17 @@ a|*Window of Opportunity*
 |N/A
 |
 
-|*Equipment*
-|Standard
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
 |0
-6.+^.^|Mold-only Total Attack Potential for Identification = 1
+
+|*Degree of Scrutiny*
+|None
+|0
+
+3.+^.^|Mold-only Total Attack Potential for Identification = 1
 
 |===
 
@@ -311,8 +323,8 @@ a|*Window of Opportunity*
 |Score
 
 |*Elapsed Time*
-|<= one week 
-|1 
+|<= two days (a proportion of the total of less than three days)
+|1
 
 |*Expertise*
 |Layman
@@ -322,10 +334,8 @@ a|*Window of Opportunity*
 |Public
 |0
 
-a|*Window of Opportunity*
-
-*(Access to TOE)*
-|Easy
+|*Equipment*
+|Standard
 |0
 
 a|*Window of Opportunity*
@@ -334,11 +344,17 @@ a|*Window of Opportunity*
 |N/A
 |
 
-|*Equipment*
-|Standard
+a|*Window of Opportunity*
+
+*(Access to TOE)*
+|Easy
 |0
 
-6.+^.^|Cast-only Total Attack Potential = 1
+|*Degree of Scrutiny*
+|None
+|0
+
+3.+^.^|Cast-only Total Attack Potential for Identification = 1
 
 |===
 
