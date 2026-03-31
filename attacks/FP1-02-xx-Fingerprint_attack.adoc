@@ -202,7 +202,7 @@ Attack potential for Exploitation corresponds to the effort to attack the TOE us
 
 *All Variations*
 
-.Calculated Attack Potential Fingerprint attack 02-xx
+.Calculated Attack Potential Fingerprint attack FP1-02-xx
 [[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 |===
@@ -270,7 +270,7 @@ a|*Window of Opportunity*
 
 |===
 
-.Mold Attack Potential Fingerprint attack 02-xx
+.Mold Attack Potential Fingerprint attack FP1-02-xx
 [[moldtable]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===
@@ -314,7 +314,7 @@ a|*Window of Opportunity*
 
 |===
 
-.Cast Attack Potential Fingerprint attack 02-xx
+.Cast Attack Potential Fingerprint attack FP1-02-xx
 [[casttable]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===

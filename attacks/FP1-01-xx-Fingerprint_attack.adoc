@@ -202,7 +202,7 @@ It may be possible for some casts to be completed within an hour utilizing this 
 
 *All Variations*
 
-.Calculated Attack Potential Fingerprint attack 01-xx
+.Calculated Attack Potential Fingerprint attack FP1-01-xx
 [[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 |===
@@ -270,7 +270,7 @@ a|*Window of Opportunity*
 
 |===
 
-.Mold Attack Potential Fingerprint attack 01-xx
+.Mold Attack Potential Fingerprint attack FP1-01-xx
 [[moldtable]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===
@@ -314,7 +314,7 @@ a|*Window of Opportunity*
 
 |===
 
-.Cast Attack Potential Fingerprint attack 01-xx
+.Cast Attack Potential Fingerprint attack FP1-01-xx
 [[casttable]]
 [cols=".^2,.^2,^.^1",options="header",]
 |===
