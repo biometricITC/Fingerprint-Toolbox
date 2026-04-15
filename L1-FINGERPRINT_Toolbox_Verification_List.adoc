@@ -1,6 +1,6 @@
 = PAD-L1 Fingerprint Verification List
 :showtitle:
-:revdate: 2024-08-08
+:revdate: 2026-03-31
 
 This shows the set of attacks and applicability based on the sensor type used for Fingerprint modalities. Each individual attack is a variation within the main attack file based on the mold type.
 
@@ -17,14 +17,14 @@ This shows the set of attacks and applicability based on the sensor type used fo
 |L1-Fingerprint FP1-01-01
 |link:attacks/FP1-01-xx-Fingerprint_attack.adoc[Non-Newtonian fluid cast from Transparency mold]
 |X
-|X
+|
 |X
 |X
 
 |L1-Fingerprint FP1-02-01
 |link:attacks/FP1-02-xx-Fingerprint_attack.adoc[Non-Newtonian fluid cast from Printed Circuit Board mold]
 |X
-|X
+|
 |X
 |X
 
